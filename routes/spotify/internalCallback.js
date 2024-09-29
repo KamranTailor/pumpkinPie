@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import kamran from '../../functions/main.js'
 const router = express.Router();
+import fetch from 'node-fetch';
 
 const CLIENT_ID = 'b75d3435992c4f9dbac38d59e2db62ef';
 const CLIENT_SECRET = '6c61f99a801147d8bf6e88a52edf945e';

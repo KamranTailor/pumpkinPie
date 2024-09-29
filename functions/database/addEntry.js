@@ -2,6 +2,7 @@
 
 import dotenv from 'dotenv';
 dotenv.config();
+import fetch from 'node-fetch';
 export default async function addEntry(databaseId, newEntry) {
     const response = await fetch(`${process.env.MIDAS_URL}/addEntry?api_key=${process.env.MIDAS_API_KEY}`, {
         method: 'POST',

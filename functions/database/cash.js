@@ -1,6 +1,7 @@
 // functions/database/cash.js
 
 import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 dotenv.config();
 export default async function cash(databaseId, newData) {
     const response = await fetch(`${process.env.MIDAS_URL}/dataCaching/setData?api_key=${process.env.MIDAS_API_KEY}`, {

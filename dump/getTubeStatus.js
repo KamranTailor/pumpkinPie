@@ -1,4 +1,5 @@
 import kamran from "../functions/main.js";
+import fetch from 'node-fetch';
 import dotenv from 'dotenv';  
 dotenv.config();
 

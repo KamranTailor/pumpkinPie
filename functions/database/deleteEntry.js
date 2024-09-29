@@ -1,6 +1,7 @@
 // functions/database/deleteEntry.js
 
 import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 dotenv.config();
 export default async function deleteEntry(databaseId, entryId) {
     const response = await fetch(`${process.env.MIDAS_URL}/deleteEntry?api_key=${process.env.MIDAS_API_KEY}`, {

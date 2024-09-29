@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 import https from 'https';
 
 export default async function sendWebhookMessage(webhookUR, content) {

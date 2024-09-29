@@ -1,6 +1,7 @@
 // functions/database/getDatabase.js
 
 import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 dotenv.config();
 
 export default async function getDatabase(databaseId) {

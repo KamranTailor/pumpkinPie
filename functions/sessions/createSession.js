@@ -2,6 +2,7 @@
 
 import dotenv from 'dotenv';
 dotenv.config();
+import fetch from 'node-fetch';
 
 export default async function createSession(clientKey, ip, created, userId) {
     const databaseId = "007383ba-72af-42a1-b8ff-ac2f3f5a03ac";
