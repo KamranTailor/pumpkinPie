@@ -7,9 +7,9 @@ import kamran from "../../functions/main.js";
 const router = express.Router();
 import fetch from 'node-fetch';
 
-const CLIENT_ID = "b75d3435992c4f9dbac38d59e2db62ef";
-const CLIENT_SECRET = "6c61f99a801147d8bf6e88a52edf945e";
-const REDIRECT_URI = "http://localhost:8080/callback/spotify"; // Must match Spotify dashboard
+const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
+const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_ID;
+const REDIRECT_URI = "http://kamrantailor.com/callback/spotify"; // Must match Spotify dashboard
 
 const AUTH_URL = "https://accounts.spotify.com/authorize";
 const TOKEN_URL = "https://accounts.spotify.com/api/token";
