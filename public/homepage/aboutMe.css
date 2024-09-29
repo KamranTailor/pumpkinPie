@@ -1,0 +1,73 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: auto; /* Allow the section to grow with its content */
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.about-me-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%; /* Make header span across the full width */
+    margin-top: 43px;
+}
+
+/* Content layout: image and text side by side */
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; /* Ensure image and text stay side by side */
+    width: 100%;
+    max-width: 1200px; /* Restrict width of content */
+    padding: 20px;
+    gap: 30px; /* Space between image and content */
+}
+
+/* Larger Circular profile image */
+.about-me-image {
+    flex: 0 0 360px; /* Set larger image size */
+    height: 360px;
+    width: 360px;
+    text-align: center;
+}
+
+.about-me-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Text content next to the image */
+.about-me-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6; /* Improve readability */
+    max-width: 600px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon-container {
+        margin-bottom: 10px; /* Space between icon and description on mobile */
+    }
+}

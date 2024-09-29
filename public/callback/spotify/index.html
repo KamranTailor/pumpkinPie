@@ -1,0 +1,31 @@
+<script>
+    async function onStart() {
+        if (localStorage.getItem('email') && localStorage.getItem('session')) {
+            const params = new URLSearchParams(window.location.search);
+            const code = params.get('code');
+
+            const response = await fetch('/spotify/interalCallback', {
+                method: 'POST',
+                headers: {
+                'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: localStorage.getItem('email'),
+                    code: code
+                })
+            });
+            const data = await response.json();
+            console.log(data)
+            if (data.status == false) {
+                alert("There was an error")
+            }
+            window.location = '/privalaged/services/spotifyLink/'
+
+        } else {
+            alert("You need to be logedin to use this!")
+            window.location = '/login';
+        }
+    }
+
+    onStart()
+</script>

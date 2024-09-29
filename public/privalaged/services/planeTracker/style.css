@@ -1,0 +1,36 @@
+/* Set the height of the map to fill the space above the toolbar */
+#map {
+  height: calc(100vh - 120px); /* Subtract the toolbar height (60px) from the total viewport height */
+  width: 100%;
+}
+
+#main {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  height: 60px; /* Set the height for the toolbar */
+}
+
+.toolbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.toolbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}

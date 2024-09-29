@@ -1,0 +1,164 @@
+:root {
+    --background-color: white;
+    --background-color-header: #333;
+    --text-color: #333;
+    --text-color-light: white;
+    --link-hover-color: #777;
+    --button-background-color: #555;
+    --button-hover-color: #777;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, Helvetica;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--background-color-header);
+    color: white;
+    width: 100%;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    font-weight: normal; /* Reset font weight */
+    font-size: inherit; /* Inherit font size from parent */
+    background: none; /* Remove any background */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    border: none; /* Remove any border */
+    outline: none; /* Remove outline */
+}
+
+
+.logo {
+    font-size: 30px;
+    color: white;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar form {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--button-background-color);
+    color: var(--text-color);
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: var(--button-hover-color);
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    flex: 1;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+}
+
+.logo,
+.links {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sitemap,
+.version {
+    margin-right: 20px;
+}
+
+.disclaimer p {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.privacy-terms {
+    margin-top: 10px;
+    margin-left: auto; /* Push to the right */
+}
+
+.privacy-terms a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px; /* Add some space between links */
+}
+
+.privacy-terms a:hover {
+    color: white;
+}

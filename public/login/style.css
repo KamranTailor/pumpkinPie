@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('bg.jpg') no-repeat center bottom;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.login-form {
+    padding: 2em;
+    width: 60%;
+}
+
+.login-form h2 {
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #0056b3;
+}
+
+.divider {
+    width: 1.5px;
+    background: #aaa;
+    height: 80%;
+    margin: 2em 1em; /* Add top and bottom margin */
+}
+
+.social-login-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.spotify-btn {
+    background: #1DB954; /* Spotify Green */
+}
+
+.spotify-btn:hover {
+    background: #1ed760;
+}
+
+.discord-btn {
+    background: #7289DA; /* Discord Blue */
+}
+
+.discord-btn:hover {
+    background: #5b6eae;
+}
+
+.google-btn {
+    background: #4285F4; /* Google Blue */
+}
+
+.google-btn:hover {
+    background: #3567D9;
+}
+
+.social-icon {
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.links {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+.error {
+    color: red;
+    font-size: 14px;
+  }
+  

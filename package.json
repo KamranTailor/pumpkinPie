@@ -11,8 +11,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "fs": "^0.0.1-security"
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "nodemailer": "^6.9.15",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
   }
 }

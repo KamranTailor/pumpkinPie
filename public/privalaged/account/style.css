@@ -1,0 +1,102 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.account-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.account-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-content {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-section, .settings-section {
+    flex: 1;
+}
+
+.profile-section h2, .settings-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-form, .settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-form label, .settings-form label {
+    font-weight: bold;
+}
+
+.profile-form input, .settings-form input, .profile-form textarea, .settings-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profile-form textarea {
+    height: 100px;
+}
+
+.save-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

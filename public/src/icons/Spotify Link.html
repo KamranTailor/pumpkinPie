@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://localhost:8080/privalaged/services/spotifyLink/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Spotify Link</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="./Spotify Link_files/global.css">
+    <link rel="stylesheet" href="./Spotify Link_files/style.css">
+    <link rel="stylesheet" href="./Spotify Link_files/content.css">
+    <link rel="stylesheet" href="./Spotify Link_files/search.css">
+    <link rel="stylesheet" href="./Spotify Link_files/extra.css">
+    <script>const service = "spotifyLink"; const waitingForStart = true; </script>
+    <script src="./Spotify Link_files/spotify-player.js"></script>
+
+</head>
+
+<body><div><header>
+        <a href="http://localhost:8080/" class="logo">Kamran Tailor</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            ☰ 
+        </button>
+        <nav class="menu">
+            <a href="http://localhost:8080/privalaged/landing">Home</a>
+            <a href="http://localhost:8080/privalaged/dashboard">Dashboard</a>
+            <a href="http://localhost:8080/privalaged/docs">Docs</a>
+            <a href="http://localhost:8080/privalaged/messages">Messages</a>
+            <a href="http://localhost:8080/privalaged/account" class="account"><img class="image-b" width="30px" height="30px" src="./Spotify Link_files/account.png"></a>
+        </nav>
+    </header></div>
+    <main id="main" style="background-image: url(&quot;/src/music-backgrounds/mic.jpg&quot;);">
+        <div class="player-container" id="player-container" style="display: flex;">
+            <div class="song-info">
+                <img id="song-cover" src="./Spotify Link_files/ab67616d0000b273fe3a09ccabe5f5e6646f7512" alt="Song Cover">
+                <div class="song-details">
+                    <div id="song-title">Remember</div>
+                    <div id="song-artist">Becky Hill &amp; David Guetta</div>
+                </div>
+            </div>
+        
+            <div class="controls">
+                <img class="icon-control" src="./Spotify Link_files/fast-backward.png">
+        
+                <img class="icon-control" id="repeat-off" src="./Spotify Link_files/replay.png" style="display: block;">
+                <img class="icon-control" id="repeat-on" src="./Spotify Link_files/replay-blue.png" style="display: none;">
+        
+                <img class="icon-control" id="play" src="./Spotify Link_files/play.png" style="display: none;">
+                <img class="icon-control" id="pause" src="./Spotify Link_files/pause.png" style="display: block;">
+        
+                <img class="icon-control" id="shuffle-off" src="./Spotify Link_files/shuffle.png" style="display: none;">
+                <img class="icon-control" id="shuffle-on" src="./Spotify Link_files/shuffle-blue.png" style="display: block;">
+        
+                <img class="icon-control" src="./Spotify Link_files/fast-forward.png">
+            </div>
+        
+            <div class="progress-bar">
+                <div class="progress-container">
+                    <div class="progress" style="width: 43.125%;"></div>
+                </div>
+                <div class="time">
+                    <span id="current-time">01:09</span> / <span id="total-time">02:40</span>
+                </div>
+            </div>
+        
+            <div class="song-navigation" onclick="viewQueue()">
+                <div class="prev-song">
+                    <img id="prev-song" src="./Spotify Link_files/ab67616d00004851d7b2aa3834b82b1cbe899a48" style="display: block;">
+                    <span id="prev-title">Previous Song</span>
+                </div>
+                <div class="next-song">
+                    <img id="next-song" src="./Spotify Link_files/ab67616d00004851bef074de9ca825bddaeb9f46" style="display: block;">
+                    <span id="next-title">Next Song</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="displayContent" style="display: flex;">
+            <div class="content">
+                <input type="text" id="search" placeholder="Search...">
+            </div>
+
+            <div class="content tab-container" id="searchResults" style="display: none;">
+                <div class="tabs">
+                    <button class="tab-btn" onclick="openTab(&#39;overall-search&#39;)">Top</button>
+                    <button class="tab-btn" onclick="openTab(&#39;tracks&#39;)">Tracks</button>
+                    <button class="tab-btn" onclick="openTab(&#39;albums&#39;)">Albums</button>
+                    <button class="tab-btn" onclick="openTab(&#39;artists&#39;)">Artists</button>
+                    <button class="tab-btn" onclick="openTab(&#39;playlists&#39;)">Playlists</button>
+                </div>
+            
+                <!-- Tab Content -->
+                <div id="overall-search" class="tab-content">
+                </div>
+                <div id="albums" class="tab-content" style="display:none;" "="">
+                </div>
+                <div id="playlists" class="tab-content" style="display:none;">
+                </div>
+                <div id="artists" class="tab-content" style="display:none;">
+                </div>
+                <div id="tracks" class="tab-content" style="display:none;">
+                </div>
+            </div>
+
+            <div class="content" id="recomendations">
+                <h1>Recomended Songs</h1>
+                <div class="recomendations-container" id="recomendations-container"><div class="track-item" onclick="openTrack(&#39;0sci7ppTZFm4mjcH3nu8yO&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b2735ef878a782c987d38d82b605">
+            <p class="track-name">nasty</p>
+            <p class="artist-name-rec">Ariana Grande</p>
+        </div><div class="track-item" onclick="openTrack(&#39;2L9N0zZnd37dwF0clgxMGI&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b273d370fdc4dbc47778b9b667c3">
+            <p class="track-name">ceilings</p>
+            <p class="artist-name-rec">Lizzy McAlpine</p>
+        </div><div class="track-item" onclick="openTrack(&#39;4rMNgxEwGWoPHIUcvB5BrB&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b2734c43bd96a211ed67cfe86636">
+            <p class="track-name">It Will Rain</p>
+            <p class="artist-name-rec">Bruno Mars</p>
+        </div><div class="track-item" onclick="openTrack(&#39;1MhXdlCQPnO56T57MfmaRm&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b27341aa6776dc15fbd71a2b4557">
+            <p class="track-name">Ghost Of You</p>
+            <p class="artist-name-rec">5 Seconds of Summer</p>
+        </div><div class="track-item" onclick="openTrack(&#39;3p7XQpdt8Dr6oMXSvRZ9bg&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b273a0aea3805ed6a87aa394c796">
+            <p class="track-name">Eyes Closed</p>
+            <p class="artist-name-rec">Ed Sheeran</p>
+        </div><div class="track-item" onclick="openTrack(&#39;3SexEc7om0q1awRqi8nCd1&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b27320eb4ebe9500b5518776d2d2">
+            <p class="track-name">Choose Your Fighter (From Barbie The Album)</p>
+            <p class="artist-name-rec">Ava Max</p>
+        </div><div class="track-item" onclick="openTrack(&#39;34myXXWxLlojxGilznJpVN&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b273a50a3050365a7baf45e91e3c">
+            <p class="track-name">Turnt</p>
+            <p class="artist-name-rec">The-Dream Beyoncé 2 Chainz</p>
+        </div><div class="track-item" onclick="openTrack(&#39;0lUSd7TCG8srh6HpIAEIWL&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b2733042c53026e29faf3a21c9f9">
+            <p class="track-name">Power</p>
+            <p class="artist-name-rec">Little Mix</p>
+        </div><div class="track-item" onclick="openTrack(&#39;3F9ByoUqu31xU0I3G5xfVg&#39;)">
+            <img class="trackImg" src="./Spotify Link_files/ab67616d0000b2730bd44f5ff9ecc99f7770acc5">
+            <p class="track-name">Meet Me Halfway</p>
+            <p class="artist-name-rec">Black Eyed Peas</p>
+        </div><div class="artist" onclick="viewAllTracks()">
+        <img class="artistImgMore" src="./Spotify Link_files/more-large.png">
+        <p class="artist-name">View More</p>
+    </div></div>
+                <h1 class="headingRec">Artists</h1>
+                <div class="artist-container" id="artist-container"><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5ebe672b5f553298dcdccb0e676">
+            <p class="artist-name">Taylor Swift</p>
+            <p class="artist-genres">Pop</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb247f44069c0bd1781df2f785">
+            <p class="artist-name">Beyoncé</p>
+            <p class="artist-genres">Pop, R&amp;b</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb40b5c07ab77b6b1a9075fdc0">
+            <p class="artist-name">Ariana Grande</p>
+            <p class="artist-genres">Pop</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5ebc75afcd5a9027f60eaebb5e4">
+            <p class="artist-name">JAY-Z</p>
+            <p class="artist-genres">East coast hip hop, Gangster rap</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb0c68f6c95232e716f0abee8d">
+            <p class="artist-name">Dua Lipa</p>
+            <p class="artist-genres">Dance pop, Pop</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5ebcde5a0d57c1b79de5fce6bee">
+            <p class="artist-name">Chappell Roan</p>
+            <p class="artist-genres">Indie pop</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb365984489dac7a79eac204e3">
+            <p class="artist-name">Meghan Trainor</p>
+            <p class="artist-genres">Hip pop, Pop</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb8278b782cbb5a3963db88ada">
+            <p class="artist-name">Tyler, The Creator</p>
+            <p class="artist-genres">Hip hop, Rap</p>
+        </div><div class="artist">
+            <img class="artistImg" src="./Spotify Link_files/ab6761610000e5eb5e5f676a99a81dba06cc3db6">
+            <p class="artist-name">Katy Perry</p>
+            <p class="artist-genres">Pop</p>
+        </div><div class="artist" onclick="viewAllArtists()">
+        <img class="artistImgMore" src="./Spotify Link_files/more-large.png">
+        <p class="artist-name">View More</p>
+    </div></div>
+                <h1 class="headingRec">Playlists</h1>
+                <div class="playlist-container" id="playlist-container"><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e022e8ed79e177ff6011076f5f0ab67616d00001e02bb54dde68cd23e2a268ae0f5ab67616d00001e02bf7d271b8f3051af3cf0bf55ab67616d00001e02ea3ef7697cfd5705b8f47521">
+            <p class="playlist-name">LOP X 8000</p>
+            <p class="playlist-tracks">144 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab676d63000076a0a072916d9503d492d4fdd37b">
+            <p class="playlist-name">Rock Roots Revisited</p>
+            <p class="playlist-tracks">30 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e0215145482a542a9adb282250bab67616d00001e02926f43e7cce571e62720fd46ab67616d00001e02d1c07acf34ebe0ca4aa6cbc1ab67616d00001e02ea3ef7697cfd5705b8f47521">
+            <p class="playlist-name">🎶 CHILL POP 🌊</p>
+            <p class="playlist-tracks">18 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab676d63000076a08b8e44e6b05e50c9e289169a">
+            <p class="playlist-name">Rock Energy Boost</p>
+            <p class="playlist-tracks">30 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e028ecc33f195df6aa257c39eaa">
+            <p class="playlist-name">🪶POETRY  📖</p>
+            <p class="playlist-tracks">68 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e020b04da4f224b51ff86e0a481">
+            <p class="playlist-name">👢Country 🇺🇸</p>
+            <p class="playlist-tracks">2 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e021712e5b12487ce59848a94b8ab67616d00001e02374bbe82f1abe6921b1488faab67616d00001e02ba5d36ff5c46347c5edca0dcab67616d00001e02ba70a3f1cc9aebbbc1fdfee1">
+            <p class="playlist-name">🎬 Sound Tracks 🎥</p>
+            <p class="playlist-tracks">18 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e026b44fa8f5415cc4c945117beab67616d00001e02a47127db3e929f64a2795666ab67616d00001e02c8e97cafeb2acb85b21a777eab67616d00001e02e8dd4db47e7177c63b0b7d53">
+            <p class="playlist-name">🪩 80/90s DISCO 🪩 </p>
+            <p class="playlist-tracks">12 Tracks</p>
+        </div><div class="playlist-item">
+            <img class="playlistImg" src="./Spotify Link_files/ab67616d00001e020b51f8d91f3a21e8426361aeab67616d00001e02814cbc4746358a25c84c62e7ab67616d00001e028399047ff71200928f5b6508ab67616d00001e02a7865e686c36a4adda6c9978">
+            <p class="playlist-name">🥁 Rock N Roll 🎸</p>
+            <p class="playlist-tracks">15 Tracks</p>
+        </div><div class="artist" onclick="viewAllPlaylists()">
+        <img class="artistImgMore" src="./Spotify Link_files/more-large.png">
+        <p class="artist-name">View More</p>
+    </div></div>
+            </div>
+        </div>
+        <br>
+        <div id="loader" class="content" style="display: none;">
+            <div class="loader" id="loader"></div>
+            <p id="loading-content">Transfering Player...</p>
+        </div>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close-button" onclick="closePopUp()">×</span>
+                <h2 id="pop-title">Popup Title</h2>
+                <div class="popup-body" id="pop-body"> <!-- Updated ID here -->
+                    <img src="./Spotify Link_files/150" class="popup-image" id="pop-img">
+                    <div class="popup-text" id="pop-text"> <!-- Added ID for proper content insertion -->
+                        <!-- Content will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./Spotify Link_files/globalPrivilaged.js"></script>
+    <script src="./Spotify Link_files/helper.js"></script>
+    <script src="./Spotify Link_files/getRecomdations.js"></script>
+    <script src="./Spotify Link_files/search.js"></script>
+    <script src="./Spotify Link_files/playerControlls.js"></script>
+    <script src="./Spotify Link_files/progress.js"></script>
+    <script src="./Spotify Link_files/script.js"></script>
+    <script src="./Spotify Link_files/setPlayer.js"></script>
+    <script src="./Spotify Link_files/queue.js"></script>
+    <script src="./Spotify Link_files/popUp.js"></script>
+    <script src="./Spotify Link_files/itemsPopUp.js"></script>
+
+<iframe src="./Spotify Link_files/index.html" alt="Audio Playback Container" tabindex="-1" allow="encrypted-media; autoplay" style="position: absolute !important; left: -1px !important; width: 0px !important; height: 0px !important; border: none !important; outline: none !important;"></iframe></body></html>

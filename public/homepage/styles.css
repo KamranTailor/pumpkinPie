@@ -1,0 +1,70 @@
+header.dark-mode nav a:hover {
+    color: #ccc; /* Lighter shade for hover in dark mode */
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #c6c5c5; /* Light gray background */
+    background-image: url('main.jpg'); /* replace with your image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 60px; /* Space for the fixed header */
+    transition: background-color 0.3s;
+}
+
+.cover .content {
+    text-align: center;
+    color: #fff; /* Dark text color for light mode */
+    position: relative;
+    z-index: 1;
+}
+
+.cover.dark-mode .content {
+    color: #e0e0e0; /* Light text color for dark mode */
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff; /* Button text remains white */
+    background-color: #333; /* Dark button background */
+    border: none;
+    border-radius: 5px; /* Rounded corners for a sleeker look */
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #444; /* Darker hover effect */
+}
+
+.scroll-down {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #333; /* Dark text */
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid #333; /* Dark border */
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Light background */
+}
+
+.scroll-down:hover {
+    background: rgba(255, 255, 255, 1); /* Fully white background on hover */
+}

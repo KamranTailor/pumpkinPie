@@ -1,0 +1,46 @@
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.line-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.line-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.line-status {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+}
+.button-line {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-line:hover {
+  background-color: #0056b3;
+}
+
+#red {
+  color: red;
+}
+
+#orrange {
+  color: orange;
+}
+
+#black {
+  color: black;
+}

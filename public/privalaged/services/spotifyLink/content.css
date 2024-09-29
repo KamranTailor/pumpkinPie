@@ -1,0 +1,60 @@
+.artist-container, .playlist-container, .recomendations-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.artist, .playlist-item, .track-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.artistImg {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artistImgMore {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.2); /* Zoom in the image */
+  transition: transform 0.3s ease-in-out; /* Smooth transition if you change scale */
+}
+
+.trackImg, .playlistImg {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artist-name, .playlist-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 4px 0;
+  color: #333;
+}
+
+.artist-genres, .playlist-tracks, .artist-name-rec {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-top: 2px;
+}
+
+.headingRec {
+  margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+#song-queue {
+    display: none;
+    background-color: #666;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.queue-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.queue-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--queue-item-borde);
+}
+
+.queue-item:last-child {
+    border-bottom: none;
+}
+
+.song-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: 2px solid var(--song-border);
+}
+
+.song-info {
+    flex-grow: 1;
+}
+
+.song-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.song-artist {
+    margin: 0;
+    font-size: 14px;
+}

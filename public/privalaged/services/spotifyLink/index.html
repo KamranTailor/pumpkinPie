@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spotify Link</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="../../../global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="extra.css">
+    <script>const service = "spotifyLink"; const waitingForStart = true; </script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+
+</head>
+
+<body>
+    <main id="main">
+        <div class="player-container" id="player-container">
+            <div class="song-info">
+                <img id="song-cover" src="/src/covers/default-cover.png" alt="Song Cover">
+                <div class="song-details">
+                    <div id="song-title">Song Title</div>
+                    <div id="song-artist">Artist Name</div>
+                </div>
+            </div>
+        
+            <div class="controls">
+                <img class="icon-control" src="/src/icons/fast-backward.png"></img>
+        
+                <img class="icon-control" id="repeat-off" src="/src/icons/replay.png"></img>
+                <img class="icon-control" id="repeat-on" src="/src/icons/replay-blue.png"></img>
+        
+                <img class="icon-control" id="play" src="/src/icons/play.png"></img>
+                <img class="icon-control" id="pause" src="/src/icons/pause.png"></img>
+        
+                <img class="icon-control" id="shuffle-on" src="/src/icons/shuffle.png"></img>
+                <img class="icon-control" id="shuffle-off" src="/src/icons/shuffle-blue.png"></img>
+        
+                <img class="icon-control" src="/src/icons/fast-forward.png"></img>
+            </div>
+        
+            <div class="progress-bar">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+                <div class="time">
+                    <span id="current-time">00:00</span> / <span id="total-time">03:30</span>
+                </div>
+            </div>
+        
+            <div class="song-navigation" onclick="viewQueue()">
+                <div class="prev-song">
+                    <img id="prev-song" src="">
+                    <span id="prev-title">Previous Song</span>
+                </div>
+                <div class="next-song">
+                    <img id="next-song" src="">
+                    <span id="next-title">Next Song</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="displayContent">
+            <div class="content">
+                <input type="text" id="search" placeholder="Search..." />
+            </div>
+
+            <div class="content tab-container" id="searchResults">
+                <div class="tabs">
+                    <button class="tab-btn" onclick="openTab('overall-search')">Top</button>
+                    <button class="tab-btn" onclick="openTab('tracks')">Tracks</button>
+                    <button class="tab-btn" onclick="openTab('albums')">Albums</button>
+                    <button class="tab-btn" onclick="openTab('artists')">Artists</button>
+                    <button class="tab-btn" onclick="openTab('playlists')">Playlists</button>
+                </div>
+            
+                <!-- Tab Content -->
+                <div id="overall-search" class="tab-content">
+                </div>
+                <div id="albums" class="tab-content" style="display:none;"">
+                </div>
+                <div id="playlists" class="tab-content" style="display:none;">
+                </div>
+                <div id="artists" class="tab-content" style="display:none;">
+                </div>
+                <div id="tracks" class="tab-content" style="display:none;">
+                </div>
+            </div>
+
+            <div class="content" id="recomendations">
+                <h1>Recomended Songs</h1>
+                <div class="recomendations-container" id="recomendations-container"></div>
+                <h1 class="headingRec">Artists</h1>
+                <div class='artist-container' id="artist-container"></div>
+                <h1 class="headingRec">Playlists</h1>
+                <div class="playlist-container" id="playlist-container"></div>
+            </div>
+        </div>
+        <br>
+        <div id="loader" class="content">
+            <div class="loader" id="loader"></div>
+            <p id="loading-content">Loading...</p>
+        </div>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close-button" onclick="closePopUp()">&times;</span>
+                <h2 id="pop-title">Popup Title</h2>
+                <div class="popup-body" id="pop-body"> <!-- Updated ID here -->
+                    <img src="https://via.placeholder.com/150" class="popup-image" id="pop-img">
+                    <div class="popup-text" id="pop-text"> <!-- Added ID for proper content insertion -->
+                        <!-- Content will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../../globalPrivilaged.js"></script>
+    <script src="helper.js"></script>
+    <script src="content/getRecomdations.js"></script>
+    <script src="content/search.js"></script>
+    <script src="player/playerControlls.js"></script>
+    <script src="player/progress.js"></script>
+    <script src="player/script.js"></script>
+    <script src="player/setPlayer.js"></script>
+    <script src="player/queue.js"></script>
+    <script src="popUp/popUp.js"></script>
+    <script src="popUp/viewList.js"></script>
+    <script src="popUp/itemsPopUp.js"></script>
+
+</html>

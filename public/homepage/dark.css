@@ -1,0 +1,55 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f;
+    color: #e0e0e0; /* Light text color for header in dark mode */
+}
+
+body.dark-mode .cover {
+    background-color: #2c2c2c;
+}
+
+body.dark-mode .cover .content {
+    color: #e0e0e0; /* Light text color for cover section in dark mode */
+}
+
+body.dark-mode .section {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .section h2, 
+body.dark-mode .section p {
+    color: #e0e0e0;
+}
+
+body.dark-mode .contact-form input, 
+body.dark-mode .contact-form textarea {
+    background-color: #444;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+body.dark-mode .contact-form button {
+    background-color: #555;
+}
+
+body.dark-mode .contact-form button:hover {
+    background-color: #666;
+}
+
+body.dark-mode footer {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode footer button {
+    background-color: #444;
+}
+
+body.dark-mode footer button:hover {
+    background-color: #555;
+}

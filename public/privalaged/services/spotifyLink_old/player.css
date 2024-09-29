@@ -1,0 +1,131 @@
+.player {
+    width: 90%; /* Match the width of the container */
+    margin: 0 auto 20px; /* Center horizontally and add bottom margin for spacing */
+    padding: 20px;
+    border-radius: 12px; /* Keep consistent with other cards */
+    background: var(--item-bg);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .container {
+    width: 90%; /* Keeps the container width consistent */
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .player .song-info {
+    display: flex;
+    align-items: center; /* Vertically center the text with the image */
+    gap: 20px; /* Add spacing between the image and text */
+  }
+  
+  .song-image-player {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: 2px solid var(--song-border);
+  }
+  
+  .song-details {
+    display: flex;
+    flex-direction: column; /* Ensure the title is on top and artist underneath */
+  }
+  
+   .song-title-player {
+    font-size: 2.2em; /* Make the song title bigger */
+    color: var(--song-title); /* Adjust the text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+ .artist-name-player {
+    font-size: 1.2em; /* Smaller font for the artist's name */
+    color: var(---name); /* Lighter color for contrast */
+    margin-top: 5px; /* Add a little space between title and artist */
+  }
+  
+  #nowPlaying{
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 2px solid ;
+    padding-bottom: 10px;
+  }
+
+@media (max-width: 768px) {
+    .song-image-player{
+        width: 100px;
+        height: 100px;
+    }
+    .song-title-player {
+        font-size: 1.2em; 
+    }
+      
+    .artist-name-player {
+        font-size: 0.9em; /* Smaller font for the artist's name */
+        margin-top: 5px; /* Add a little space between title and artist */
+    }
+}
+
+.nowPlayingContent {
+    margin-top: 20px;
+}
+
+.icon-control {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block; /* Fit container to image size */
+}
+
+
+.icon-control:hover::after {
+    opacity: 1; /* Show the glass effect on hover */
+}
+
+.controls {
+    margin-top: 20px;
+    background-color: var(---controlls-bg);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+.progress-container {
+    width: 100%; 
+    background-color: var(--progress-bar-container); 
+    height: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    width: 0%; 
+    background-color: var(--progress-bar); 
+    height: 100%;
+    border-radius: 20px;
+}
+
+.bottem-controls {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: to center items vertically */
+}
+
+.progress-time {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: to center items vertically */
+}
+

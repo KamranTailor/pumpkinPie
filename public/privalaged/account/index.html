@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../global.css">
+</head>
+<body>
+    <main id="main">
+        <div class="account-container content">
+            <div class="account-content">
+                <div class="profile-section">
+                    <h2>Profile</h2>
+                    <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                    <form class="profile-form">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" value="john_doe">
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="john@example.com">
+                        
+                        <label for="bio">Bio</label>
+                        <textarea id="bio" name="bio">Lorem ipsum dolor sit amet.</textarea>
+                        
+                        <button type="submit" class="save-button">Save Changes</button>
+                    </form>
+                </div>
+                <div class="settings-section">
+                    <h2>Settings</h2>
+                    <form class="settings-form">
+                        <label for="theme">Theme</label>
+                        <select id="theme" name="theme">
+                            <option value="light">Light</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                        
+                        <label for="notifications">Notifications</label>
+                        <input type="checkbox" id="notifications" name="notifications" checked>
+                        
+                        <button type="submit" class="save-button">Save Settings</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../globalPrivilaged.js"></script>
+<script src="../setBg.js"></script>
+</html>

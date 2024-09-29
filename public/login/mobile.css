@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .login-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Push to the top */
+        height: 100vh; /* Full viewport height */
+        padding-top: 10px; /* Space from the top */
+        box-sizing: border-box;
+    }
+
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 90%; /* Adjust width */
+        max-width: 500px; /* Max width for larger screens */
+        margin-top: 20px; /* Remove any top margin */
+    }
+
+    .login-form {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .social-login-section {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .social-btn {
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+}

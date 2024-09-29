@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamran Tailor</title>
+    <link rel="stylesheet" href="homepage/styles.css">
+    <link rel="stylesheet" href="homepage/dark.css">
+    <link rel="stylesheet" href="homepage/mobile.css">
+    <link rel="stylesheet" href="homepage/sections.css">
+    <link rel="stylesheet" href="homepage/news.css">
+    <link rel="stylesheet" href="homepage/services.css">
+    <link rel="stylesheet" href="homepage/aboutMe.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+<div class="cover">
+    <div class="content">
+        <h1> Welcome <br> to my Website!</h1>
+        <p>Home to the projects of Kamran Tailor</p>
+        <a href="#about-me" class="button">See More</a>
+        <a href="/login" class="scroll-down">Login</a>
+    </div>
+</div>
+
+<div class="section about-me" id="about-me">
+    <h2 class="about-me-header">About Me</h2>
+    <div class="about-me-content">
+        <div class="about-me-image">
+            <img src="homepage/aboutMe.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-me-text content">
+            <p>👋 Hello and thank you for visiting my website! I'm Kamran, a student in England and on this website are some of my projects.</p> <br>
+            <p>💻 I've used several coding languages such as Python, Node.js, JavaScript, HTML, and CSS to make this website
+                 - as well as Swift for my Apps.</p> <br>
+            <p>   📧 To see my projects you will need to Login. If you have any questions, feel free to Contact Me.</p>
+        </div>
+    </div>
+</div>
+
+
+<div id="news" class="section news">
+    <div class="content">
+        <h2>News</h2>
+        <section class="news">
+            <div class="news-container" id="news-container">
+                <!-- News articles will be dynamically inserted here -->
+            </div>
+            <button id="view-all-button" class="view-all-button">View All</button>
+        </section>        
+    </div>
+</div>
+
+
+<div id="projects" class="section services">
+    <div class="content">
+        <h2>Projects</h2>
+        <p>Explore my diverse portfolio of projects, ranging from innovative apps available on the App Store to real-time data solutions </p>
+        <br>
+        <div class="services-container">
+            <div class="service">
+                <div class="icon-container">
+                    📱
+                </div>
+                <div class="service-description">
+                    <h3>Apps</h3>
+                    <p>Discover two of my notable apps available on the App Store. </p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    🚂
+                </div>
+                <div class="service-description">
+                    <h3>Tube Time</h3>
+                    <p>Tube Time is designed to deliver accurate, real-time information about the London Underground and other TFL Services.</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="icon-container">
+                    ✈️
+                </div>
+                <div class="service-description">
+                    <h3>Aviation & Space</h3>
+                    <p>This project showcases cutting-edge information and real-time data related to space and aviation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="section contact">
+    <div class="content">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to get in touch, please use the form below or
+             reach out to me directly via email or social media.</p>
+            <br>
+        <div class="contact-form">
+            <form action="/homepage/submitContact.html" method="get">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100077230658756" target="_blank" aria-label="Facebook">
+                <img src="homepage/facebook-icon.png" alt="Facebook" width="40px" height="40px">
+            </a>
+            <a href="https://x.com/KamranTailor1" target="_blank" aria-label="Twitter">
+                <img src="homepage/twitter-icon.png" alt="Twitter" width="40px" height="40px">
+            </a>
+            <a href="https://www.instagram.com/kt.kamran.tailor/" target="_blank" aria-label="Instagram">
+                <img src="homepage/instagram-icon.png" alt="Instagram" width="40px" height="40px">
+            </a>
+            <a href="https://www.linkedin.com/in/kamran-tailor-5191022a5/" target="_blank" aria-label="LinkedIn">
+                <img src="homepage/linkedin-icon.png" alt="LinkedIn" width="40px" height="40px">
+            </a>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+<script src="homepage/scripts.js"></script>
+<script src="global.js"></script>
+
+
+</body>
+</html>

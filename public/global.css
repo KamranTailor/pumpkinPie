@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 0px;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff; /* Light background for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Ensure header stays on top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    color: #333; /* Dark text color for header */
+}
+
+
+header.dark-mode {
+    background-color: #1f1f1f;
+    color: #e0e0e0; /* Light text color for dark mode header */
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: inherit; /* Inherit color from header */
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: inherit; /* Inherit color from header */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #555; /* Darker shade for hover in light mode */
+}
+.login-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: #444;
+}
+
+.menu-toggle {
+    display: none;
+}
+/* Mobile styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        position: relative;
+    }
+
+    .logo {
+        margin-right: auto; /* Align logo to the left */
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #333;
+        margin-left: auto; /* Move the menu icon to the right */
+        position: absolute;
+        right: 20px; /* Adjust based on your design */
+        top: 10px; /* Align with the header height */
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .menu a {
+        font-size: 1rem;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text for contrast */
+    flex-wrap: wrap; /* Make it responsive */
+}
+
+.footer-container .left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo Styling */
+.footer-container .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Dark logo color */
+}
+
+/* Sitemap - Horizontal List on Larger Screens */
+.footer-container .sitemap-container {
+    display: flex; /* Makes the list horizontal */
+    gap: 20px; /* Space between links */
+    flex-wrap: wrap; /* Wraps to the next line if needed */
+}
+
+.footer-container .sitemap {
+    margin: 0;
+}
+
+.footer-container .sitemap a {
+    color: #333; /* Dark link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-container .sitemap a:hover {
+    color: #007bff; /* Blue highlight on hover */
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+/* Disclaimer and Copyright */
+.disclaimer, .copyright-terms {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666; /* Softer text color */
+    padding: 10px 0;
+}
+
+.disclaimer p, .copyright-terms p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Stack links vertically on mobile */
+    .footer-container .sitemap-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-container .logo {
+        font-size: 1.2rem;
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+}
+
+.account {
+    width: 35%;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.image-b {
+    margin-top: 0px;
+}

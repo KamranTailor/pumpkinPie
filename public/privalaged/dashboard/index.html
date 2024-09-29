@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="style.css">
+    <script>const waitingForStart = true;</script>
+</head>
+<body>
+    
+    <main id="main">
+        <div class="content search">
+            <input type="text" id="search" placeholder="Search services..." />
+        </div>
+        <br>
+        <div class="content boxes" id="boxesLastUsed">
+            <div class="box" onclick="goTo('../services/avationData')">Aviation Data</div>
+            <div class="box" onclick="goTo('../services/fortnite')">Fortnite</div>
+            <div class="box" onclick="goTo('../services/music')">Music</div>
+            <div class="box" onclick="goTo('../services/planeTracker')">Plane Tracker</div>
+            <div class="box" onclick="goTo('../services/pokemon')">Pokemon</div>
+            <div class="box" onclick="goTo('../services/space')">Space</div>
+            <div class="box" onclick="goTo('../services/spotifyLink')">Spotify Link</div>
+            <div class="box" onclick="goTo('../services/tubeTime')">Tube Time</div>
+            <div class="box" id="admin" onclick="goTo('../admin')">Admin</div>
+        </div>
+    </main>
+</body>
+
+<script src="../globalPrivilaged.js"></script>
+<script src="../setBg.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,12 @@
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .about-me-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-me-text {
+        text-align: center;
+    }
+}

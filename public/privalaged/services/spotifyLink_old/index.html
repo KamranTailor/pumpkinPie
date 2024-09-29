@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Spotify Link</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<link rel="stylesheet" href="../../../global.css">
+	<link rel="stylesheet" href="style.css"">
+	<link rel=" stylesheet" href="player.css"">
+	<link rel=" stylesheet" href="queue.css"">
+	<link rel=" stylesheet" href="theams.css"">
+	<link rel=" stylesheet" href="stats.css"">
+	<link rel="icon" type="image/x-icon" href="">
+	<script>const service = "spotifyLink"; const waitingForStart = true; </script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+	<script src="https://sdk.scdn.co/spotify-player.js"></script>
+
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+	<main id="main">
+		<h1>
+			Spotify Link
+		</h1>
+		<div id="playerDisplay">
+			<div class="player" id="playerContainer">
+				<h2 id="nowPlaying">Now Playing</h2>
+				<div id="nowPlayingContent" class="nowPlayingContent">
+					<div class="song-info" id="song-info">
+						<img id="song-playing" src="" alt="Song Image" class="song-image-player">
+						<div class="song-details">
+							<p class="song-title-player" id="songName">${item.item.name}</p>
+							<p class="artist-name-player" id="songBy">By ${artits}</p>
+						</div>
+					</div>
+
+					<div class="controls">
+						<center>
+							<img class="icon-control" onclick="previousTrack()"
+								src="/src/icons/fast-backward.png"></img>
+
+							<img class="icon-control" id="repeat-off" src="/src/icons/replay.png"></img>
+							<img class="icon-control" id="repeat-track" src="/src/icons/replay-blue.png"></img>
+
+							<img class="icon-control" id="play" onclick="play()" src="/src/icons/play.png"></img>
+							<img class="icon-control" id="pause" onclick="pause()" src="/src/icons/pause.png"></img>
+
+							<img class="icon-control" id="shuffle-off" src="/src/icons/shuffle.png"></img>
+							<img class="icon-control" id="shuffle-on" src="/src/icons/shuffle-blue.png"></img>
+							<img class="icon-control" id="shuffle-smart" src="/src/icons/shuffle-red.png"></img>
+
+							<img class="icon-control" onclick="nextTrack()" src="/src/icons/fast-forward.png"></img>
+						</center>
+
+						<div class="progress-time">
+							<div id="time-played"></div>
+							<div id="total-length"></div>
+						</div>
+						<div id="progress-container" class="progress-container">
+							<div id="progress-bar" class="progress-bar"></div>
+						</div>
+
+						<div class="bottem-controls">
+							<div id="device"></div>
+							<div class="right">
+								<img class="icon-control" onclick="addToPlaylist()" src="/src/icons/plus.png">
+								<img class="icon-control" onclick="toggleQueue()" src="/src/icons/menu.png">
+								<img class="icon-control" onclick="seeMoreOptions()" src="/src/icons/more.png">
+							</div>
+						</div>
+
+					</div>
+					<section id="song-queue">
+						<h2 id="h2">Song Queue</h2>
+						<ul class="queue-list" id="queue-list"> </ul>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="discovery-display">
+			<div class="section-container">
+				<h1 class="section-header">Find something to listen to!!</h1>
+				<a onclick="viewStats()" class="switch-display">View Stats</a>
+			</div>
+		</div>
+		<div id="statsDisplay">
+			<div class="section-container">
+				<h1 class="section-header">Have a look at your stats!!</h1>
+				<a onclick="viewDiscovery()" class="switch-display">Discover Songs</a>
+			</div>
+
+
+			<div class="container" id="stats">
+				<div class="profile-card" id="profile-card">
+				</div>
+
+				<div class="stats-card">
+					<h2>Top Artists</h2>
+					<div class="stats-card-content" id="topArtists"></div>
+					<a href="#" class="view-more">View More</a>
+				</div>
+
+				<div class="stats-card">
+					<h2>Top Tracks</h2>
+					<div class="stats-card-content" id="topTracks"></div>
+					<a href="#" class="view-more">View More</a>
+				</div>
+
+				<div class="chart" style="height: 400px;">
+					<h3>Listening Trends</h3>
+					<canvas id="listeningTrendsChart"></canvas>
+				</div>
+
+				<div class="chart" style="height: 400px;">
+					<h3>Genre Distribution</h3>
+					<canvas id="genresChart"></canvas>
+				</div>
+
+				<div class="stats-card">
+					<h2>Recent Tracks</h2>
+					<div class="stats-card-content"></div>
+					<a href="#" class="view-more">View More</a>
+				</div>
+
+				<div class="stats-card">
+					<h2>Monthly Summary</h2>
+					<p>Total Plays: 500</p>
+					<p>New Artists: 10</p>
+					<p>New Albums: 8</p>
+					<p>Top Genre: Rock</p>
+				</div>
+
+				<div class="stats-card">
+					<h2>Playlist Stats</h2>
+					<p>Playlist 1: 150 tracks</p>
+					<p>Playlist 2: 120 tracks</p>
+					<p>Playlist 3: 100 tracks</p>
+				</div>
+			</div>
+		</div>
+		<center>
+			<div id="loader">
+				<div class="loader" id="loader"></div>
+			</div>
+		</center>
+
+	</main>
+
+	</div>
+	<script src="../../globalPrivilaged.js"></script>
+	<script src="scripts/script.js"></script>
+	<script src="scripts/setGraphs.js"></script>
+	<script src="scripts/setData.js"></script>
+	<script src="scripts/player/playback.js"></script>
+	<script src="scripts/player/newPlayer.js"></script>
+	<script src="scripts/player/getTrackDetails.js"></script>
+	<script src="scripts/player/setPlayerControls.js"></script>
+	<script src="scripts/player/sockets.js"></script>
+	<script src="scripts/player/setQueue.js"></script>
+	<script src="scripts/player/setCurrentState.js"></script>
+	<script src="scripts/player/progressBar.js"></script>
+
+</body>
+
+</html>

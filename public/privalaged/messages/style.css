@@ -1,0 +1,122 @@
+/* Ensure the main content starts below the fixed header */
+main {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar styles */
+#sideBar {
+    width: 20%; /* Adjust the width of the sidebar */
+    background-color: #555;
+    padding-top: 70px; /* Padding to account for fixed header */
+    color: #fff; /* Text color for better visibility */
+    padding-left: 20px;
+}
+
+/* Content styles */
+#content {
+    width: 80%; /* Adjust the width of the content panel */
+    padding-top: 70px; /* Padding to account for fixed header */
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+/* Message form styling */
+#form {
+    margin-top: auto; /* Push the form to the bottom */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#form input {
+    margin-right: 10px;
+    flex-grow: 1; /* Allow input to take up available space */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#form button {
+    flex-shrink: 0; /* Ensure button does not shrink */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Ensure the message list is styled properly */
+#messages {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    overflow-y: auto; /* Allow scrolling if messages overflow */
+    max-height: 80vh; /* Adjust to fit your design */
+    background-color: #f5f5f5; /* Light background for better contrast */
+}
+
+/* Individual message styling */
+.message {
+    padding: 15px;
+    margin-bottom: 10px; /* Space between messages */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    background-color: #ffffff; /* White background for messages */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Align items within the message */
+    align-items: flex-start; /* Align items at the top */
+}
+
+/* Styling for the sender's name */
+.sender {
+    font-weight: bold; /* Make sender's name bold */
+    color: #007bff; /* Blue color for sender's name */
+    margin-right: 10px; /* Space between sender's name and message text */
+}
+
+/* Styling for the message text */
+.message-text {
+    color: #333; /* Dark text color for readability */
+    line-height: 1.5; /* Improve readability with line height */
+}
+
+/* Optional: Add a different style for the user's own messages */
+.message.user-message {
+    background-color: #e0f7fa; /* Light cyan background for user messages */
+    align-self: flex-end; /* Align user messages to the right */
+}
+
+/* Optional: Remove border from the last message */
+.message:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last message */
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1.5s linear infinite;
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

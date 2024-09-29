@@ -1,0 +1,36 @@
+:root {
+    --bg: #2e2e2e;
+    --text-color: #f0f0f0;
+    --header-bg: rgba(0, 0, 0, 0.7);
+    --header-border: #333;
+
+    --item-bg: #444;
+    --item-shadow: rgba(0, 0, 0, 0.5);
+    --song-border: #00bcd4;
+    --song-title: #f0f0f0;
+    --name: #b0bec5;
+    --controlls-bg: #666;
+    --progress-bar-container: #e0e0e0;
+    --progress-bar: #76c7c0;
+
+    --queue-item-border: #ddd; 
+    --button-background: linear-gradient(135deg, #00bcd4, #00796b);
+}
+
+/* Light mode variables */
+.light-mode {
+    --bg: #f9f9f9;
+    --text-color: #2e2e2e;
+
+    --item-bg: #ffffff;
+    --item-shadow: rgba(0, 0, 0, 0.1);
+    --song-border: #00796b;
+    --song-title: #2e2e2e;
+    --name: #455a64;
+    --controlls-bg: #e0e0e0;
+    --progress-bar-container: #cfd8dc;
+    --progress-bar: #00796b;
+
+    --queue-item-border: #bdbdbd;
+    --button-background: linear-gradient(135deg, #00796b, #004d40);
+}

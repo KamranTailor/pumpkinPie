@@ -1,47 +1,36 @@
 // index.js
 
-const version = "V1";
-
 import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
-//import localUtils from './utils/main.js';
-import fs from 'fs/promises';
+import { createServer } from 'http'; // ESM-compatible import for http
+import { Server as socketIo } from 'socket.io'; // ESM import for socket.io
 
-//dotenv.config();
-//const port =  8080;
-//import app from './main.js';
+dotenv.config();
 
-async function addArray(databaseId, newArray) {
-    const response = await fetch('http://localhost:9090/addEntry', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ databaseId: databaseId, newArray: newArray }) // Use newArray instead of array
-    });
-    const data = await response.json();
-    console.log(data);
-}
+const port = 8080;
+import app from './routes/main.js'; // Your API routes are here
+import kamran from './functions/main.js';
 
-async function deleteEntry(databaseId, entryId) {
-    const response = await fetch('http://localhost:9090/deleteEntry', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ databaseId: databaseId, entryId: entryId }) // Use newArray instead of array
-    });
-    const data = await response.json();
-    console.log(data);
-}
+import { initializePeriodicTasks } from './dump/main.js'; 
+initializePeriodicTasks();
 
-//addArray("test", { value: "test" }); // This should now work with the updated key
-deleteEntry("test", "3c325226-bbb4-460c-b5f5-1345aef75520"); // This should now work with the updated key
+import initializeSocket from './sockets/spotifySockets.js'; 
+const server = createServer(app);
+const io = new socketIo(server);
+initializeSocket(io);
+import initializeFlightSocket from './sockets/flights.js';
+initializeFlightSocket(io); // Initialize the new flight WebSocket
 
 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
-//app.get('/version', (request, response) => {response.json({version: version})});
-//app.use(bodyParser.urlencoded({ extended: true }));
-//app.use(express.static('public'));
-//app.listen(port, () => console.log(`Listening at port ${port}`));
+app.get('/version', (req, res) => {
+    res.json({ version: "V1" });
+});
+
+// Start the server with `server.listen` to handle both Express and Socket.IO
+server.listen(port, () => {
+    console.log(`Listening on port ${port}`);
+});
