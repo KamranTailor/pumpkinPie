@@ -20,7 +20,7 @@ const server = createServer(app);
 const io = new socketIo(server);
 initializeSocket(io);
 import initializeFlightSocket from './sockets/flights.js';
-initializeFlightSocket(io); // Initialize the new flight WebSocket
+initializeFlightSocket(io); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -30,7 +30,6 @@ app.get('/version', (req, res) => {
     res.json({ version: "V1" });
 });
 
-// Start the server with `server.listen` to handle both Express and Socket.IO
 server.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });

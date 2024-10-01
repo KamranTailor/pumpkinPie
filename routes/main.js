@@ -40,6 +40,11 @@ app.use('/spotify/actionChange', actionChangeRouter);
 
 //ADMIN
 import adminGetUsersRouter from './admin/getUsers.js';
-app.use('/admin/adminGetUsers',  kamran.authentication.checkHeaders, adminGetUsersRouter);
-
+app.use('/admin/adminGetUsers',  kamran.authentication.checkHeadersAdmin, adminGetUsersRouter);
+import adminGetSpotifyAccount from './admin/spotifyAdmin.js';
+app.use('/admin/spotify',  kamran.authentication.checkHeadersAdmin, adminGetSpotifyAccount);
+import adminDeleteAccount from './admin/deleteUser.js';
+app.use('/admin/user/delete',  kamran.authentication.checkHeadersAdmin, adminDeleteAccount);
+import adminEditAccount from './admin/editUser.js';
+app.use('/admin/user/edit',  kamran.authentication.checkHeadersAdmin, adminEditAccount);
 export default app;

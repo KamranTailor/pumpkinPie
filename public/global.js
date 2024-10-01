@@ -25,7 +25,15 @@ async function insertHeader() {
             <a href="/#contact">Contact</a>
             <a href="/login" class="login-button">Login</a>
         </nav>
-    </header>`
+    </header>
+     <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="closePopup" class="close-button" onclick="closePopUp()">&times;</span>
+                    <div id="pop-text">
+                    dd
+                    </div>
+                </div>
+            </div>`
     var header = document.createElement("div");
     header.innerHTML = data;
     var body = document.body;
@@ -71,6 +79,23 @@ async function insertFooter() {
     // Insert the new element at the beginning of the body
     body.appendChild(footer);
 }
+
+function openPopUp(content) {
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("pop-text").innerHTML = content; // This should fill in the content
+};
+
+function closePopUp() {
+    document.getElementById("popup").style.display = "none";
+};
+
+// Close the popup if the user clicks anywhere outside of it
+window.onclick = function (event) {
+    const popup = document.getElementById("popup");
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+};
 
 insertHeader()
 insertFooter()

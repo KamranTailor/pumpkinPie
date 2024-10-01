@@ -1,3 +1,5 @@
+let data;
+
 async function startProgramPage() {
     // Load program page code here
     console.log('Program page started');
@@ -9,7 +11,7 @@ async function startProgramPage() {
             session: localStorage.getItem('session')
         }
     });
-    const data = await response.json();
+    data = await response.json();
     console.log(data);
 
 
@@ -21,10 +23,9 @@ async function startProgramPage() {
 
         let linkedAccounts = ""; 
         for (let j in data.user[i].linkedAccounts) {
-            console.log(data.user[i].linkedAccounts[j].spotify); 
-
+            console.log(data.user[i])
             if (typeof data.user[i].linkedAccounts[j].spotify !== 'undefined' && data.user[i].linkedAccounts[j].spotify) {
-                linkedAccounts += "<div id='spotify'>Spotify</div>"; 
+                linkedAccounts += `<div id='spotify' onclick='spotifyData("${data.user[i].id}")'>Spotify</div>`; 
             }
         }
         document.getElementById("tableBody").innerHTML += `<tr>
@@ -36,9 +37,11 @@ async function startProgramPage() {
         <td>${day} ${time}</td>
         <td>${linkedAccounts}</td>
         <td>
-            <button onclick="goTo('./editUser?${data.user[i].id}')">Edit</button>
-            <button onclick="delte('${data.user[i].id}')">Delete</button>
+            <button class="blue-button" onclick="editUser('${data.user[i].id}')">Edit</button>
+            <button class="red-button" onclick="deleteAccount('${data.user[i].id}')">Delete</button>
         </td>
       </tr>`
     }
 }
+
+

@@ -9,7 +9,7 @@ import fetch from 'node-fetch';
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_ID;
-const REDIRECT_URI = "http://kamrantailor.com/callback/spotify"; // Must match Spotify dashboard
+const REDIRECT_URI = "https://kamrantailor.com/callback/spotify"; // Must match Spotify dashboard
 
 const AUTH_URL = "https://accounts.spotify.com/authorize";
 const TOKEN_URL = "https://accounts.spotify.com/api/token";

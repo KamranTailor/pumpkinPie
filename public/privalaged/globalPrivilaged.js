@@ -27,7 +27,15 @@ async function insertHeader() {
             <a href="/privalaged/messages">Messages</a>
             <a href="/privalaged/account" class="account"><img class="image-b" width="30px" height="30px" src="/src/account.png" /></a>
         </nav>
-    </header>`
+    </header>
+     <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span id="closePopup" class="close-button" onclick="closePopUp()">&times;</span>
+                    <div id="pop-text">
+                        
+                    </div>
+                </div>
+            </div>`
     var header = document.createElement("div");
     header.innerHTML = data;
     var body = document.body;
@@ -128,6 +136,23 @@ async function onStartMain() {
         window.location = '/login';
     }
 }
+
+function openPopUp(content) {
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("pop-text").innerHTML = content; // This should fill in the content
+};
+
+function closePopUp() {
+    document.getElementById("popup").style.display = "none";
+};
+
+// Close the popup if the user clicks anywhere outside of it
+window.onclick = function (event) {
+    const popup = document.getElementById("popup");
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+};
 
 onStartMain()
 insertHeader()
