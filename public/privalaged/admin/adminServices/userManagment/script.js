@@ -23,7 +23,6 @@ async function startProgramPage() {
 
         let linkedAccounts = ""; 
         for (let j in data.user[i].linkedAccounts) {
-            console.log(data.user[i])
             if (typeof data.user[i].linkedAccounts[j].spotify !== 'undefined' && data.user[i].linkedAccounts[j].spotify) {
                 linkedAccounts += `<div id='spotify' onclick='spotifyData("${data.user[i].id}")'>Spotify</div>`; 
             }
