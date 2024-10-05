@@ -47,4 +47,14 @@ import adminDeleteAccount from './admin/deleteUser.js';
 app.use('/admin/user/delete',  kamran.authentication.checkHeadersAdmin, adminDeleteAccount);
 import adminEditAccount from './admin/editUser.js';
 app.use('/admin/user/edit',  kamran.authentication.checkHeadersAdmin, adminEditAccount);
+
+//USER ACCOUNT
+import editUserRouter from './user/editUser.js';
+app.use('/user/editUser',  kamran.authentication.checkHeaders, editUserRouter);
+import unlinkSpotifyRouter from './user/unlinkSpotify.js';
+app.use('/user/unlinkSpotify',  kamran.authentication.checkHeaders, unlinkSpotifyRouter);
+import changePassword from './user/changePassword.js';
+app.use('/user/changePassword',  kamran.authentication.checkHeaders, changePassword);
+import logoutRouter from './user/logout.js';
+app.use('/user/logout',  kamran.authentication.checkHeaders, logoutRouter);
 export default app;

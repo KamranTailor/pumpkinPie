@@ -1,16 +1,82 @@
+/* Container for the settings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the labels */
+.label-view {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Styling for the values next to the labels */
+.label-value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Layout: Align the labels and values in a grid-like structure */
+h1,
+.label-view,
+.label-value {
+    max-width: 600px;
+    margin: auto;
+}
+
+.label-view {
+    display: inline-block;
+    width: 40%;
+}
+
+.label-value {
+    display: inline-block;
+    width: 58%;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+
+    .label-view,
+    .label-value {
+        width: 100%;
+        display: block;
+    }
+
+    .label-value {
+        margin-bottom: 15px;
+    }
+}
+
+
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed */
     font-family: Arial, sans-serif;
+    overflow: auto; /* Allows scrolling within the main section */
 }
 
 .content {
+    margin-top: 20px;
     width: 95%;
+    max-height: 90vh; /* Limit the content height for scrolling */
+    overflow-y: auto; /* Make content scrollable if it exceeds the height */
     background-color: rgba(255, 255, 255, 0.80);
     color: black;
     padding: 20px;
@@ -18,85 +84,70 @@ main {
     text-align: center;
 }
 
-.account-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.social-btn-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em; /* Adds space between the buttons */
 }
 
-.account-header {
+.social-btn {
+    width: 300px;
+    height: 50px;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: 0; /* Remove margin to prevent breaking to the next line */
 }
 
-.account-header h1 {
-    margin: 0;
-    font-size: 24px;
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .social-btn-container {
+        flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+        justify-content: center; /* Center the buttons on mobile */
+    }
+    .social-btn {
+        width: 100%; /* Make each button take full width on mobile */
+        margin-bottom: 1em; /* Add space between buttons on mobile */
+    }
 }
 
-.logout-button {
-    background-color: #e74c3c;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+
+.spotify-btn {
+    background: #1DB954;
+    /* Spotify Green */
 }
 
-.account-content {
-    display: flex;
-    gap: 20px;
+.spotify-btn:hover {
+    background: #1ed760;
 }
 
-.profile-section, .settings-section {
-    flex: 1;
+.discord-btn {
+    background: #7289DA;
+    /* Discord Blue */
 }
 
-.profile-section h2, .settings-section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+.discord-btn:hover {
+    background: #5b6eae;
 }
 
-.profile-pic {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.google-btn {
+    background: #4285F4;
+    /* Google Blue */
 }
 
-.profile-form, .settings-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.google-btn:hover {
+    background: #3567D9;
 }
 
-.profile-form label, .settings-form label {
-    font-weight: bold;
-}
-
-.profile-form input, .settings-form input, .profile-form textarea, .settings-form select {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.profile-form textarea {
-    height: 100px;
-}
-
-.save-button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+.social-icon {
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
 }

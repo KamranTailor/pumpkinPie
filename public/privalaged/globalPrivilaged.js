@@ -124,14 +124,19 @@ async function onStartMain() {
         userData = data.user;
         dataLoaded = true;
 
+        if (response.ok) {
+            console.log(data);
+            if (data.status === false) {
+                window.location = '/login';
+            }
+        } else {
+            window.location = '/login';
+        }
+
         if (typeof waitingForStart !== 'undefined' && waitingForStart && waitingForStart == true) {
             onStart()
         }
 
-        console.log(data);
-        if (data.status === false) {
-            window.location = '/login';
-        }
     } else {
         window.location = '/login';
     }

@@ -1,121 +1,83 @@
-html, body {
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-
-  label {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    display: block;
-    color: #333;
-}
-
-select {
-    width: 90%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color: #333;
-    transition: border-color 0.3s;
-}
-
-select:focus {
-    border-color: #007bff;
-    outline: none;
-}
-
-option {
-    padding: 10px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-#allTrains {
-  display: none;
-}
-
-.train-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
-}
-
-.train {
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 5px;
-}
-.search-container {
-  margin: 20px 0;
-  text-align: center;
-}
-
-#searchInput {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-}
-
-.train .vehicleId,
-.train .currentLocation,
-.train .destinationName,
-.train .timeToStation {
-  margin: 5px 0;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed */
+    background-image: url("/src/tube-time/bg.jpg");
+    font-family: Arial, sans-serif;
+    overflow: auto; /* Allows scrolling within the main section */
 }
 
 
+.content {
+    margin-top: 20px;
+    width: 95%;
+    max-height: 90vh; /* Limit the content height for scrolling */
+    overflow-y: auto; /* Make content scrollable if it exceeds the height */
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Line name styling with gradient text */
+
+/* Status and description sections */
+#line-status, #line-description {
+    font-size: 1.4rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #2c3e50;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 700px;
+}
+
+#line-description {
+    display: none;
+}
+
+/* Hover effects for interaction */
+#line-status:hover, #line-description:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Notification message for 'Live Tracker not available' */
 #na {
-  display: none;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  color: white;
-  background-color: #ff4c4c;
-  padding: 15px;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  width: 300px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff4757;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.2);
+    letter-spacing: 0.5px;
 }
 
-.status-box {
-  font-family: Arial, sans-serif;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
-.status-description {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.detailed-description {
-  font-size: 16px;
-  color: #666;
+/* Apply fade-in to line-status and line-description */
+#line-status, #line-description, #na {
+    animation: fadeIn 1s ease-in-out;
 }

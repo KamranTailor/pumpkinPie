@@ -10,7 +10,7 @@ async function getLines() {
     const dataRes = await response.json();
     const data = dataRes.data[0];
 
-    console.log(data)
+    console.log(data.tubeData)
     let toDisplay = "<h2>Tube Lines</h2> <hr>";
     for (i in data.tubeData) {
         const r = data.tubeData[i];
