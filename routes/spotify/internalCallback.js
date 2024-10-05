@@ -47,29 +47,19 @@ router.post('/', async (request, res) => {
                     if (!Array.isArray(users.data[user].linkedAccounts)) {
                         users.data[user].linkedAccounts = []; // Initialize linkedAccounts as an array if not present
                     }
-            
-                    // Find the object in linkedAccounts that has a 'spotify' property
-                    let spotifyAccountObject = users.data[user].linkedAccounts.find(account => account.spotify);
-            
-                    if (spotifyAccountObject) {
-                        // If the object with 'spotify' property exists, update its data
-                        spotifyAccountObject.spotify.accessToken = access_token;
-                        spotifyAccountObject.spotify.refreshToken = refresh_token;
-                        spotifyAccountObject.spotify.accessTokenExpiration = Date.now() + (expires_in * 1000);
-                    } else {
-                        // If no object with 'spotify' property exists, create a new one
-                        users.data[user].linkedAccounts.push({
-                            spotify: {
-                                accessToken: access_token,
-                                refreshToken: refresh_token,
-                                accessTokenExpiration: Date.now() + (expires_in * 1000)
-                            }
-                        });
-                    }
-            
+
+                    // Always store the Spotify account at index 0
+                    users.data[user].linkedAccounts[0] = {
+                        spotify: {
+                            accessToken: access_token,
+                            refreshToken: refresh_token,
+                            accessTokenExpiration: Date.now() + (expires_in * 1000)
+                        }
+                    };
+
                     // Update the database entry
                     const add = await kamran.database.editEntry("b59b7631-f435-4189-b2ab-0c26a27def85", users.data[user].id, users.data[user]);
-            
+
                     if (add.status == true) {
                         return res.json({ status: true, message: 'Logged in successfully' });
                     } else {
@@ -88,4 +78,4 @@ router.post('/', async (request, res) => {
     }
 });
 
-export default router
+export default router;
