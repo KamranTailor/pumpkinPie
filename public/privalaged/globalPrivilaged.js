@@ -25,7 +25,8 @@ async function insertHeader() {
             <a href="/privalaged/dashboard">Dashboard</a>
             <a href="/privalaged/docs">Docs</a>
             <a href="/privalaged/messages">Messages</a>
-            <a href="/privalaged/account" class="account"><img class="image-b" width="30px" height="30px" src="/src/account.png" /></a>
+            <a href="/privalaged/account" id="account-mobile" class="login-button">Account</a>
+            <a href="/privalaged/account" id="account-desktop" class="account"><img class="image-b" width="30px" height="30px" src="/src/account.png" /></a>
         </nav>
     </header>
      <div id="popup" class="popup">

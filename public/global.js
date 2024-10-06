@@ -59,6 +59,9 @@ async function insertFooter() {
                 <span class="sitemap">
                     <a href="/info/termsOfUse">Terms Of Use</a>
                 </span>
+                <span class="sitemap">
+                    <a href="https://github.com/KamranTailor/pumpkinPie">Open Source</a>
+                </span>
             </div>
         </div>
     </div>

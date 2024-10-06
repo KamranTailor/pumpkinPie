@@ -10,22 +10,22 @@
     --blue-button-active-color: #1565c0;
 }
 
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body,
-html {
+/* Body and HTML */
+body, html {
     height: 100%;
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
-    /* Smooth scrolling effect */
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Main Content */
 main {
     margin-top: 60px;
 }
@@ -36,39 +36,35 @@ main {
     }
 }
 
+/* Header Styles */
 header {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #ffffff;
-    /* Light background for the header */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
     z-index: 1000;
-    /* Ensure header stays on top */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     transition: background-color 0.3s;
     color: #333;
-    /* Dark text color for header */
 }
-
 
 header.dark-mode {
     background-color: #1f1f1f;
     color: #e0e0e0;
-    /* Light text color for dark mode header */
 }
 
+/* Logo Styles */
 .logo {
     font-size: 1.5rem;
     color: inherit;
-    /* Inherit color from header */
     text-decoration: none;
 }
 
+/* Navigation Styles */
 nav {
     display: flex;
     gap: 20px;
@@ -76,7 +72,6 @@ nav {
 
 nav a {
     color: inherit;
-    /* Inherit color from header */
     text-decoration: none;
     font-size: 1.1rem;
     padding: 10px;
@@ -85,9 +80,9 @@ nav a {
 
 nav a:hover {
     color: #555;
-    /* Darker shade for hover in light mode */
 }
 
+/* Login Button */
 .login-button {
     padding: 10px 20px;
     font-size: 1.1rem;
@@ -103,11 +98,11 @@ nav a:hover {
     background-color: #444;
 }
 
+/* Menu Toggle (Mobile) */
 .menu-toggle {
     display: none;
 }
 
-/* Mobile styles */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -118,7 +113,6 @@ nav a:hover {
 
     .logo {
         margin-right: auto;
-        /* Align logo to the left */
     }
 
     .menu-toggle {
@@ -129,12 +123,9 @@ nav a:hover {
         cursor: pointer;
         color: #333;
         margin-left: auto;
-        /* Move the menu icon to the right */
         position: absolute;
         right: 20px;
-        /* Adjust based on your design */
         top: 10px;
-        /* Align with the header height */
     }
 
     .menu {
@@ -154,6 +145,27 @@ nav a:hover {
     .menu.active {
         display: flex;
     }
+
+    #account-desktop {
+        display: none;
+        padding: 0px;
+    }
+
+    #account-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #account-desktop {
+        display: flex;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    #account-mobile {
+        display: none;
+    }
 }
 
 /* Footer Container */
@@ -162,11 +174,8 @@ nav a:hover {
     justify-content: space-between;
     padding: 20px;
     background-color: #f9f9f9;
-    /* Light background */
     color: #333;
-    /* Dark text for contrast */
     flex-wrap: wrap;
-    /* Make it responsive */
 }
 
 .footer-container .left-section {
@@ -174,23 +183,18 @@ nav a:hover {
     flex-direction: column;
 }
 
-/* Logo Styling */
 .footer-container .logo {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
-    /* Dark logo color */
 }
 
-/* Sitemap - Horizontal List on Larger Screens */
+/* Sitemap Styling */
 .footer-container .sitemap-container {
     display: flex;
-    /* Makes the list horizontal */
     gap: 20px;
-    /* Space between links */
     flex-wrap: wrap;
-    /* Wraps to the next line if needed */
 }
 
 .footer-container .sitemap {
@@ -199,14 +203,12 @@ nav a:hover {
 
 .footer-container .sitemap a {
     color: #333;
-    /* Dark link color */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-container .sitemap a:hover {
     color: #007bff;
-    /* Blue highlight on hover */
 }
 
 /* Horizontal Rule */
@@ -218,29 +220,25 @@ hr {
 }
 
 /* Disclaimer and Copyright */
-.disclaimer,
-.copyright-terms {
+.disclaimer, .copyright-terms {
     text-align: center;
     font-size: 0.9rem;
     color: #666;
-    /* Softer text color */
     padding: 10px 0;
 }
 
-.disclaimer p,
-.copyright-terms p {
+.disclaimer p, .copyright-terms p {
     margin: 0;
     font-size: 15px;
 }
 
-/* Responsive Styling */
+/* Footer Responsive Styling */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
         text-align: center;
     }
 
-    /* Stack links vertically on mobile */
     .footer-container .sitemap-container {
         flex-direction: column;
         gap: 10px;
@@ -255,43 +253,25 @@ hr {
     }
 }
 
-.account {
-    width: 35%;
-    height: 35px;
-    padding-top: 5px;
-}
-
-.image-b {
-    margin-top: 0px;
-}
-
+/* Popup Modal */
 .popup {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.5);
-    /* Black w/ opacity */
 }
 
 .popup-content {
     background-color: white;
     margin: 10% auto;
-    /* 10% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 70%;
-    /* Width of the popup */
     border-radius: 20px;
 }
 
@@ -302,14 +282,13 @@ hr {
     font-weight: bold;
 }
 
-.close-button:hover,
-.close-button:focus {
+.close-button:hover, .close-button:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-
+/* Input and Label Styles */
 .d-label {
     display: block;
     margin-bottom: 0.5em;
@@ -326,8 +305,8 @@ hr {
     font-size: 16px;
 }
 
-.red-button {
-    background-color: var(--red-button-color); /* Red */
+/* Button Styles */
+.red-button, .green-button, .blue-button {
     border: none;
     color: #fff;
     padding: 10px 20px;
@@ -338,58 +317,59 @@ hr {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.red-button {
+    background-color: var(--red-button-color);
 }
 
 .red-button:hover {
-    background-color: var(--red-button-hover-color); /* Darker red */
+    background-color: var(--red-button-hover-color);
 }
 
 .red-button:active {
-    background-color: var(--red-button-active-color); /* Darkest red */
+    background-color: var(--red-button-active-color);
 }
 
 .green-button {
-    background-color: var(--green-button-color); /* Green */
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+    background-color: var(--green-button-color);
 }
 
 .green-button:hover {
-    background-color: var(--green-button-hover-color); /* Darker green */
+    background-color: var(--green-button-hover-color);
 }
 
 .green-button:active {
-    background-color: var(--green-button-active-color); /* Darkest green */
+    background-color: var(--green-button-active-color);
 }
 
 .blue-button {
-    background-color: var(--blue-button-color); /* Blue */
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+    background-color: var(--blue-button-color);
 }
 
 .blue-button:hover {
-    background-color: var(--blue-button-hover-color); /* Darker blue */
+    background-color: var(--blue-button-hover-color);
 }
 
 .blue-button:active {
-    background-color: var(--blue-button-active-color); /* Darkest blue */
+    background-color: var(--blue-button-active-color);
 }
 
+/* Container Styles */
+.container-re {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+}
 
+@media (min-width: 768px) {
+    .container-re {
+        margin-top: 200px;
+    }
+}
