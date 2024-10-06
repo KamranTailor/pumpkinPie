@@ -57,4 +57,13 @@ import changePassword from './user/changePassword.js';
 app.use('/user/changePassword',  kamran.authentication.checkHeaders, changePassword);
 import logoutRouter from './user/logout.js';
 app.use('/user/logout',  kamran.authentication.checkHeaders, logoutRouter);
+
+//TUBE TIME APP ROUTES
+import statusRouter from './app/tube-time/status.js';
+app.use('/app-tfl', statusRouter);
+import nearbyRouter from './app/tube-time/nearby.js';
+app.use('/app-tfl', nearbyRouter);
+import stoppointRouter from './app/tube-time/stoppoint.js';
+app.use('/app-tfl', stoppointRouter);
+
 export default app;

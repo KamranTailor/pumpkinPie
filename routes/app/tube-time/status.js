@@ -1,21 +1,16 @@
 // app/tube-time/status.js
 
 import express from 'express';
-import fsPromises from '../../utils/fsPromises.js';
-
+import kamran from "../../../functions/main.js"
 const router = express.Router();
 
 router.get('/tfl-status', async (request, response) => {
     try {
-        const filePath = '../database/tfl/status.json';
 
-        // Read the contents of the JSON file using fsPromises.readFile() method
-        const data = await fsPromises.readFile(filePath, 'utf8');
+        const responce = await kamran.database.getDatabase("7750a3bc-1372-4485-9581-8516193b3f6e");
+        const data = responce.data;
 
-        // Parse the JSON data
-        const jsonData = JSON.parse(data);
-
-        response.json(jsonData);
+        response.json(data);
     } catch (error) {
         console.error(error);
         response.status(500).json({ error: 'Internal Server Error' });
