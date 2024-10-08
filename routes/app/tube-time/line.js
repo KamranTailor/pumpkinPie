@@ -41,7 +41,7 @@ router.get('/tfl-status-line', async (request, response) => {
         }
 
         if (lineStatus) {
-            response.json({ lineStatus });
+            response.json({ lineStatus, name: lineStatus.name });
         } else {
             response.status(404).json({ error: "Line status not found" });
         }
