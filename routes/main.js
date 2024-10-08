@@ -65,5 +65,7 @@ import nearbyRouter from './app/tube-time/nearby.js';
 app.use('/app-tfl', nearbyRouter);
 import stoppointRouter from './app/tube-time/stoppoint.js';
 app.use('/app-tfl', stoppointRouter);
+import lineDataRouter from './app/tube-time/line.js';
+app.use('/app-tfl', lineDataRouter);
 
 export default app;
