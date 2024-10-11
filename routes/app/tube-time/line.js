@@ -40,11 +40,12 @@ router.get('/tfl-status-line', async (request, response) => {
                 break;
         }
 
+
         const dataStations = await fs.readFile(`./dataset/tfl-lines/${id}.json`, 'utf8');
         const dataStationsJSON = JSON.parse(dataStations);
 
         if (lineStatus) {
-            response.json({ lineStatus, name: lineStatus.name, stations: dataStationsJSON });
+            response.json({ lineStatus, name: lineStatus.name, stations: dataStationsJSON, amoutOfStations: dataStationsJSON.length});
         } else {
             response.status(404).json({ error: "Line status not found" });
         }
