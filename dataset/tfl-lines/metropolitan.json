@@ -1,0 +1,680 @@
+[
+  {
+    "naptanId": "940GZZLUALD",
+    "commonName": "Aldgate Underground Station",
+    "id": "940GZZLUALD",
+    "lines": [
+      {
+        "id": "100",
+        "name": "100"
+      },
+      {
+        "id": "135",
+        "name": "135"
+      },
+      {
+        "id": "15",
+        "name": "15"
+      },
+      {
+        "id": "205",
+        "name": "205"
+      },
+      {
+        "id": "25",
+        "name": "25"
+      },
+      {
+        "id": "42",
+        "name": "42"
+      },
+      {
+        "id": "78",
+        "name": "78"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "n15",
+        "name": "N15"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n550",
+        "name": "N550"
+      },
+      {
+        "id": "n551",
+        "name": "N551"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUAMS",
+    "commonName": "Amersham Underground Station",
+    "id": "940GZZLUAMS",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBBN",
+    "commonName": "Barbican Underground Station",
+    "id": "940GZZLUBBN",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBST",
+    "commonName": "Baker Street Underground Station",
+    "id": "940GZZLUBST",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCAL",
+    "commonName": "Chalfont & Latimer Underground Station",
+    "id": "940GZZLUCAL",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCSM",
+    "commonName": "Chesham Underground Station",
+    "id": "940GZZLUCSM",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCXY",
+    "commonName": "Croxley Underground Station",
+    "id": "940GZZLUCXY",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCYD",
+    "commonName": "Chorleywood Underground Station",
+    "id": "940GZZLUCYD",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEAE",
+    "commonName": "Eastcote Underground Station",
+    "id": "940GZZLUEAE",
+    "lines": [
+      {
+        "id": "398",
+        "name": "398"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUESQ",
+    "commonName": "Euston Square Underground Station",
+    "id": "940GZZLUESQ",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFCN",
+    "commonName": "Farringdon Underground Station",
+    "id": "940GZZLUFCN",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFYR",
+    "commonName": "Finchley Road Underground Station",
+    "id": "940GZZLUFYR",
+    "lines": [
+      {
+        "id": "113",
+        "name": "113"
+      },
+      {
+        "id": "13",
+        "name": "13"
+      },
+      {
+        "id": "187",
+        "name": "187"
+      },
+      {
+        "id": "268",
+        "name": "268"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "n113",
+        "name": "N113"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGPS",
+    "commonName": "Great Portland Street Underground Station",
+    "id": "940GZZLUGPS",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHGD",
+    "commonName": "Hillingdon Underground Station",
+    "id": "940GZZLUHGD",
+    "lines": [
+      {
+        "id": "278",
+        "name": "278"
+      },
+      {
+        "id": "697",
+        "name": "697"
+      },
+      {
+        "id": "698",
+        "name": "698"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "u2",
+        "name": "U2"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHOH",
+    "commonName": "Harrow-on-the-Hill Underground Station",
+    "id": "940GZZLUHOH",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUICK",
+    "commonName": "Ickenham Underground Station",
+    "id": "940GZZLUICK",
+    "lines": [
+      {
+        "id": "278",
+        "name": "278"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "u1",
+        "name": "U1"
+      },
+      {
+        "id": "u10",
+        "name": "U10"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKSX",
+    "commonName": "King's Cross St. Pancras Underground Station",
+    "id": "940GZZLUKSX",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULVT",
+    "commonName": "Liverpool Street Underground Station",
+    "id": "940GZZLULVT",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMGT",
+    "commonName": "Moorgate Underground Station",
+    "id": "940GZZLUMGT",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMPK",
+    "commonName": "Moor Park Underground Station",
+    "id": "940GZZLUMPK",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNHA",
+    "commonName": "North Harrow Underground Station",
+    "id": "940GZZLUNHA",
+    "lines": [
+      {
+        "id": "183",
+        "name": "183"
+      },
+      {
+        "id": "h18",
+        "name": "H18"
+      },
+      {
+        "id": "h19",
+        "name": "H19"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNKP",
+    "commonName": "Northwick Park Underground Station",
+    "id": "940GZZLUNKP",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNOW",
+    "commonName": "Northwood Underground Station",
+    "id": "940GZZLUNOW",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNWH",
+    "commonName": "Northwood Hills Underground Station",
+    "id": "940GZZLUNWH",
+    "lines": [
+      {
+        "id": "282",
+        "name": "282"
+      },
+      {
+        "id": "h11",
+        "name": "H11"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPNR",
+    "commonName": "Pinner Underground Station",
+    "id": "940GZZLUPNR",
+    "lines": [
+      {
+        "id": "183",
+        "name": "183"
+      },
+      {
+        "id": "h11",
+        "name": "H11"
+      },
+      {
+        "id": "h12",
+        "name": "H12"
+      },
+      {
+        "id": "h13",
+        "name": "H13"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPRD",
+    "commonName": "Preston Road Underground Station",
+    "id": "940GZZLUPRD",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURKW",
+    "commonName": "Rickmansworth Underground Station",
+    "id": "940GZZLURKW",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURSM",
+    "commonName": "Ruislip Manor Underground Station",
+    "id": "940GZZLURSM",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURSP",
+    "commonName": "Ruislip Underground Station",
+    "id": "940GZZLURSP",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURYL",
+    "commonName": "Rayners Lane Underground Station",
+    "id": "940GZZLURYL",
+    "lines": [
+      {
+        "id": "398",
+        "name": "398"
+      },
+      {
+        "id": "h10",
+        "name": "H10"
+      },
+      {
+        "id": "h12",
+        "name": "H12"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUUXB",
+    "commonName": "Uxbridge Underground Station",
+    "id": "940GZZLUUXB",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWAF",
+    "commonName": "Watford Underground Station",
+    "id": "940GZZLUWAF",
+    "lines": [
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWHW",
+    "commonName": "West Harrow Underground Station",
+    "id": "940GZZLUWHW",
+    "lines": [
+      {
+        "id": "114",
+        "name": "114"
+      },
+      {
+        "id": "140",
+        "name": "140"
+      },
+      {
+        "id": "183",
+        "name": "183"
+      },
+      {
+        "id": "640",
+        "name": "640"
+      },
+      {
+        "id": "h11",
+        "name": "H11"
+      },
+      {
+        "id": "h18",
+        "name": "H18"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "n140",
+        "name": "N140"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWYP",
+    "commonName": "Wembley Park Underground Station",
+    "id": "940GZZLUWYP",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  }
+]

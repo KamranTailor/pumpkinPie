@@ -1,0 +1,1089 @@
+[
+  {
+    "naptanId": "940GZZLUBKE",
+    "commonName": "Barkingside Underground Station",
+    "id": "940GZZLUBKE",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBKH",
+    "commonName": "Buckhurst Hill Underground Station",
+    "id": "940GZZLUBKH",
+    "lines": [
+      {
+        "id": "167",
+        "name": "167"
+      },
+      {
+        "id": "549",
+        "name": "549"
+      },
+      {
+        "id": "677",
+        "name": "677"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBLG",
+    "commonName": "Bethnal Green Underground Station",
+    "id": "940GZZLUBLG",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBND",
+    "commonName": "Bond Street Underground Station",
+    "id": "940GZZLUBND",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBNK",
+    "commonName": "Bank Underground Station",
+    "id": "940GZZLUBNK",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCHL",
+    "commonName": "Chancery Lane Underground Station",
+    "id": "940GZZLUCHL",
+    "lines": [
+      {
+        "id": "17",
+        "name": "17"
+      },
+      {
+        "id": "46",
+        "name": "46"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCWL",
+    "commonName": "Chigwell Underground Station",
+    "id": "940GZZLUCWL",
+    "lines": [
+      {
+        "id": "167",
+        "name": "167"
+      },
+      {
+        "id": "667",
+        "name": "667"
+      },
+      {
+        "id": "677",
+        "name": "677"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUDBN",
+    "commonName": "Debden Underground Station",
+    "id": "940GZZLUDBN",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEAN",
+    "commonName": "East Acton Underground Station",
+    "id": "940GZZLUEAN",
+    "lines": [
+      {
+        "id": "228",
+        "name": "228"
+      },
+      {
+        "id": "272",
+        "name": "272"
+      },
+      {
+        "id": "283",
+        "name": "283"
+      },
+      {
+        "id": "7",
+        "name": "7"
+      },
+      {
+        "id": "70",
+        "name": "70"
+      },
+      {
+        "id": "72",
+        "name": "72"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n7",
+        "name": "N7"
+      },
+      {
+        "id": "n72",
+        "name": "N72"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEBY",
+    "commonName": "Ealing Broadway Underground Station",
+    "id": "940GZZLUEBY",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEPG",
+    "commonName": "Epping Underground Station",
+    "id": "940GZZLUEPG",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFLP",
+    "commonName": "Fairlop Underground Station",
+    "id": "940GZZLUFLP",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGFD",
+    "commonName": "Greenford Underground Station",
+    "id": "940GZZLUGFD",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGGH",
+    "commonName": "Grange Hill Underground Station",
+    "id": "940GZZLUGGH",
+    "lines": [
+      {
+        "id": "462",
+        "name": "462"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGTH",
+    "commonName": "Gants Hill Underground Station",
+    "id": "940GZZLUGTH",
+    "lines": [
+      {
+        "id": "123",
+        "name": "123"
+      },
+      {
+        "id": "128",
+        "name": "128"
+      },
+      {
+        "id": "150",
+        "name": "150"
+      },
+      {
+        "id": "167",
+        "name": "167"
+      },
+      {
+        "id": "179",
+        "name": "179"
+      },
+      {
+        "id": "296",
+        "name": "296"
+      },
+      {
+        "id": "396",
+        "name": "396"
+      },
+      {
+        "id": "462",
+        "name": "462"
+      },
+      {
+        "id": "66",
+        "name": "66"
+      },
+      {
+        "id": "667",
+        "name": "667"
+      },
+      {
+        "id": "677",
+        "name": "677"
+      },
+      {
+        "id": "679",
+        "name": "679"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      },
+      {
+        "id": "sl2",
+        "name": "SL2"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHBN",
+    "commonName": "Holborn Underground Station",
+    "id": "940GZZLUHBN",
+    "lines": [
+      {
+        "id": "8",
+        "name": "8"
+      },
+      {
+        "id": "98",
+        "name": "98"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n242",
+        "name": "N242"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHGR",
+    "commonName": "Hanger Lane Underground Station",
+    "id": "940GZZLUHGR",
+    "lines": [
+      {
+        "id": "112",
+        "name": "112"
+      },
+      {
+        "id": "226",
+        "name": "226"
+      },
+      {
+        "id": "483",
+        "name": "483"
+      },
+      {
+        "id": "487",
+        "name": "487"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n83",
+        "name": "N83"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHLT",
+    "commonName": "Hainault Underground Station",
+    "id": "940GZZLUHLT",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHPK",
+    "commonName": "Holland Park Underground Station",
+    "id": "940GZZLUHPK",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULGN",
+    "commonName": "Loughton Underground Station",
+    "id": "940GZZLULGN",
+    "lines": [
+      {
+        "id": "167",
+        "name": "167"
+      },
+      {
+        "id": "20",
+        "name": "20"
+      },
+      {
+        "id": "397",
+        "name": "397"
+      },
+      {
+        "id": "549",
+        "name": "549"
+      },
+      {
+        "id": "677",
+        "name": "677"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULGT",
+    "commonName": "Lancaster Gate Underground Station",
+    "id": "940GZZLULGT",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULVT",
+    "commonName": "Liverpool Street Underground Station",
+    "id": "940GZZLULVT",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULYN",
+    "commonName": "Leyton Underground Station",
+    "id": "940GZZLULYN",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "w14",
+        "name": "W14"
+      },
+      {
+        "id": "w15",
+        "name": "W15"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULYS",
+    "commonName": "Leytonstone Underground Station",
+    "id": "940GZZLULYS",
+    "lines": [
+      {
+        "id": "339",
+        "name": "339"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "w12",
+        "name": "W12"
+      },
+      {
+        "id": "w15",
+        "name": "W15"
+      },
+      {
+        "id": "w16",
+        "name": "W16"
+      },
+      {
+        "id": "w19",
+        "name": "W19"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMBA",
+    "commonName": "Marble Arch Underground Station",
+    "id": "940GZZLUMBA",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMED",
+    "commonName": "Mile End Underground Station",
+    "id": "940GZZLUMED",
+    "lines": [
+      {
+        "id": "277",
+        "name": "277"
+      },
+      {
+        "id": "323",
+        "name": "323"
+      },
+      {
+        "id": "339",
+        "name": "339"
+      },
+      {
+        "id": "425",
+        "name": "425"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "d6",
+        "name": "D6"
+      },
+      {
+        "id": "d7",
+        "name": "D7"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNAN",
+    "commonName": "North Acton Underground Station",
+    "id": "940GZZLUNAN",
+    "lines": [
+      {
+        "id": "218",
+        "name": "218"
+      },
+      {
+        "id": "260",
+        "name": "260"
+      },
+      {
+        "id": "266",
+        "name": "266"
+      },
+      {
+        "id": "440",
+        "name": "440"
+      },
+      {
+        "id": "487",
+        "name": "487"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n266",
+        "name": "N266"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNBP",
+    "commonName": "Newbury Park Underground Station",
+    "id": "940GZZLUNBP",
+    "lines": [
+      {
+        "id": "296",
+        "name": "296"
+      },
+      {
+        "id": "396",
+        "name": "396"
+      },
+      {
+        "id": "66",
+        "name": "66"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNHG",
+    "commonName": "Notting Hill Gate Underground Station",
+    "id": "940GZZLUNHG",
+    "lines": [
+      {
+        "id": "148",
+        "name": "148"
+      },
+      {
+        "id": "27",
+        "name": "27"
+      },
+      {
+        "id": "28",
+        "name": "28"
+      },
+      {
+        "id": "31",
+        "name": "31"
+      },
+      {
+        "id": "328",
+        "name": "328"
+      },
+      {
+        "id": "70",
+        "name": "70"
+      },
+      {
+        "id": "94",
+        "name": "94"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n27",
+        "name": "N27"
+      },
+      {
+        "id": "n28",
+        "name": "N28"
+      },
+      {
+        "id": "n31",
+        "name": "N31"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNHT",
+    "commonName": "Northolt Underground Station",
+    "id": "940GZZLUNHT",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUOXC",
+    "commonName": "Oxford Circus Underground Station",
+    "id": "940GZZLUOXC",
+    "lines": [
+      {
+        "id": "12",
+        "name": "12"
+      },
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "390",
+        "name": "390"
+      },
+      {
+        "id": "453",
+        "name": "453"
+      },
+      {
+        "id": "55",
+        "name": "55"
+      },
+      {
+        "id": "73",
+        "name": "73"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "98",
+        "name": "98"
+      },
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n109",
+        "name": "N109"
+      },
+      {
+        "id": "n136",
+        "name": "N136"
+      },
+      {
+        "id": "n137",
+        "name": "N137"
+      },
+      {
+        "id": "n15",
+        "name": "N15"
+      },
+      {
+        "id": "n18",
+        "name": "N18"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n3",
+        "name": "N3"
+      },
+      {
+        "id": "n55",
+        "name": "N55"
+      },
+      {
+        "id": "n73",
+        "name": "N73"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPVL",
+    "commonName": "Perivale Underground Station",
+    "id": "940GZZLUPVL",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUQWY",
+    "commonName": "Queensway Underground Station",
+    "id": "940GZZLUQWY",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURBG",
+    "commonName": "Redbridge Underground Station",
+    "id": "940GZZLURBG",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURSG",
+    "commonName": "Ruislip Gardens Underground Station",
+    "id": "940GZZLURSG",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURVY",
+    "commonName": "Roding Valley Underground Station",
+    "id": "940GZZLURVY",
+    "lines": [
+      {
+        "id": "549",
+        "name": "549"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSBC",
+    "commonName": "Shepherd's Bush (Central) Underground Station",
+    "id": "940GZZLUSBC",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSNB",
+    "commonName": "Snaresbrook Underground Station",
+    "id": "940GZZLUSNB",
+    "lines": [
+      {
+        "id": "66",
+        "name": "66"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n55",
+        "name": "N55"
+      },
+      {
+        "id": "w13",
+        "name": "W13"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSPU",
+    "commonName": "St. Paul's Underground Station",
+    "id": "940GZZLUSPU",
+    "lines": [
+      {
+        "id": "133",
+        "name": "133"
+      },
+      {
+        "id": "25",
+        "name": "25"
+      },
+      {
+        "id": "4",
+        "name": "4"
+      },
+      {
+        "id": "56",
+        "name": "56"
+      },
+      {
+        "id": "76",
+        "name": "76"
+      },
+      {
+        "id": "8",
+        "name": "8"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n242",
+        "name": "N242"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSRP",
+    "commonName": "South Ruislip Underground Station",
+    "id": "940GZZLUSRP",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSTD",
+    "commonName": "Stratford Underground Station",
+    "id": "940GZZLUSTD",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSWF",
+    "commonName": "South Woodford Underground Station",
+    "id": "940GZZLUSWF",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTCR",
+    "commonName": "Tottenham Court Road Underground Station",
+    "id": "940GZZLUTCR",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTHB",
+    "commonName": "Theydon Bois Underground Station",
+    "id": "940GZZLUTHB",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWCY",
+    "commonName": "White City Underground Station",
+    "id": "940GZZLUWCY",
+    "lines": [
+      {
+        "id": "220",
+        "name": "220"
+      },
+      {
+        "id": "272",
+        "name": "272"
+      },
+      {
+        "id": "283",
+        "name": "283"
+      },
+      {
+        "id": "72",
+        "name": "72"
+      },
+      {
+        "id": "95",
+        "name": "95"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n72",
+        "name": "N72"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWOF",
+    "commonName": "Woodford Underground Station",
+    "id": "940GZZLUWOF",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWRP",
+    "commonName": "West Ruislip Underground Station",
+    "id": "940GZZLUWRP",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWSD",
+    "commonName": "Wanstead Underground Station",
+    "id": "940GZZLUWSD",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWTA",
+    "commonName": "West Acton Underground Station",
+    "id": "940GZZLUWTA",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      }
+    ]
+  }
+]

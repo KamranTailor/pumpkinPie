@@ -1,0 +1,1310 @@
+[
+  {
+    "naptanId": "940GZZLUACT",
+    "commonName": "Acton Town Underground Station",
+    "id": "940GZZLUACT",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "e3",
+        "name": "E3"
+      },
+      {
+        "id": "n11",
+        "name": "N11"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUADE",
+    "commonName": "Aldgate East Underground Station",
+    "id": "940GZZLUADE",
+    "lines": [
+      {
+        "id": "205",
+        "name": "205"
+      },
+      {
+        "id": "25",
+        "name": "25"
+      },
+      {
+        "id": "254",
+        "name": "254"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n253",
+        "name": "N253"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBBB",
+    "commonName": "Bromley-by-Bow Underground Station",
+    "id": "940GZZLUBBB",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBEC",
+    "commonName": "Becontree Underground Station",
+    "id": "940GZZLUBEC",
+    "lines": [
+      {
+        "id": "145",
+        "name": "145"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBKF",
+    "commonName": "Blackfriars Underground Station",
+    "id": "940GZZLUBKF",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBKG",
+    "commonName": "Barking Underground Station",
+    "id": "940GZZLUBKG",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBSC",
+    "commonName": "Barons Court Underground Station",
+    "id": "940GZZLUBSC",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBWR",
+    "commonName": "Bow Road Underground Station",
+    "id": "940GZZLUBWR",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBWT",
+    "commonName": "Bayswater Underground Station",
+    "id": "940GZZLUBWT",
+    "lines": [
+      {
+        "id": "70",
+        "name": "70"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCST",
+    "commonName": "Cannon Street Underground Station",
+    "id": "940GZZLUCST",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCWP",
+    "commonName": "Chiswick Park Underground Station",
+    "id": "940GZZLUCWP",
+    "lines": [
+      {
+        "id": "110",
+        "name": "110"
+      },
+      {
+        "id": "237",
+        "name": "237"
+      },
+      {
+        "id": "267",
+        "name": "267"
+      },
+      {
+        "id": "272",
+        "name": "272"
+      },
+      {
+        "id": "440",
+        "name": "440"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "e3",
+        "name": "E3"
+      },
+      {
+        "id": "h91",
+        "name": "H91"
+      },
+      {
+        "id": "n9",
+        "name": "N9"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUDGE",
+    "commonName": "Dagenham East Underground Station",
+    "id": "940GZZLUDGE",
+    "lines": [
+      {
+        "id": "103",
+        "name": "103"
+      },
+      {
+        "id": "364",
+        "name": "364"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUDGY",
+    "commonName": "Dagenham Heathway Underground Station",
+    "id": "940GZZLUDGY",
+    "lines": [
+      {
+        "id": "364",
+        "name": "364"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEBY",
+    "commonName": "Ealing Broadway Underground Station",
+    "id": "940GZZLUEBY",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUECM",
+    "commonName": "Ealing Common Underground Station",
+    "id": "940GZZLUECM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUECT",
+    "commonName": "Earl's Court Underground Station",
+    "id": "940GZZLUECT",
+    "lines": [
+      {
+        "id": "328",
+        "name": "328"
+      },
+      {
+        "id": "74",
+        "name": "74"
+      },
+      {
+        "id": "c1",
+        "name": "C1"
+      },
+      {
+        "id": "c3",
+        "name": "C3"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n31",
+        "name": "N31"
+      },
+      {
+        "id": "n74",
+        "name": "N74"
+      },
+      {
+        "id": "n97",
+        "name": "N97"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEHM",
+    "commonName": "East Ham Underground Station",
+    "id": "940GZZLUEHM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEMB",
+    "commonName": "Embankment Underground Station",
+    "id": "940GZZLUEMB",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEPK",
+    "commonName": "Elm Park Underground Station",
+    "id": "940GZZLUEPK",
+    "lines": [
+      {
+        "id": "165",
+        "name": "165"
+      },
+      {
+        "id": "365",
+        "name": "365"
+      },
+      {
+        "id": "372",
+        "name": "372"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEPY",
+    "commonName": "East Putney Underground Station",
+    "id": "940GZZLUEPY",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUERC",
+    "commonName": "Edgware Road (Circle Line) Underground Station",
+    "id": "940GZZLUERC",
+    "lines": [
+      {
+        "id": "18",
+        "name": "18"
+      },
+      {
+        "id": "205",
+        "name": "205"
+      },
+      {
+        "id": "23",
+        "name": "23"
+      },
+      {
+        "id": "27",
+        "name": "27"
+      },
+      {
+        "id": "36",
+        "name": "36"
+      },
+      {
+        "id": "6",
+        "name": "6"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "n18",
+        "name": "N18"
+      },
+      {
+        "id": "n27",
+        "name": "N27"
+      },
+      {
+        "id": "n32",
+        "name": "N32"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFBY",
+    "commonName": "Fulham Broadway Underground Station",
+    "id": "940GZZLUFBY",
+    "lines": [
+      {
+        "id": "11",
+        "name": "11"
+      },
+      {
+        "id": "28",
+        "name": "28"
+      },
+      {
+        "id": "295",
+        "name": "295"
+      },
+      {
+        "id": "306",
+        "name": "306"
+      },
+      {
+        "id": "424",
+        "name": "424"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n11",
+        "name": "N11"
+      },
+      {
+        "id": "n28",
+        "name": "N28"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGBY",
+    "commonName": "Gunnersbury Underground Station",
+    "id": "940GZZLUGBY",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGTR",
+    "commonName": "Gloucester Road Underground Station",
+    "id": "940GZZLUGTR",
+    "lines": [
+      {
+        "id": "74",
+        "name": "74"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n74",
+        "name": "N74"
+      },
+      {
+        "id": "n97",
+        "name": "N97"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHCH",
+    "commonName": "Hornchurch Underground Station",
+    "id": "940GZZLUHCH",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHSD",
+    "commonName": "Hammersmith (Dist&Picc Line) Underground Station",
+    "id": "940GZZLUHSD",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHSK",
+    "commonName": "High Street Kensington Underground Station",
+    "id": "940GZZLUHSK",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKOY",
+    "commonName": "Kensington (Olympia) Underground Station",
+    "id": "940GZZLUKOY",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKWG",
+    "commonName": "Kew Gardens Underground Station",
+    "id": "940GZZLUKWG",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMED",
+    "commonName": "Mile End Underground Station",
+    "id": "940GZZLUMED",
+    "lines": [
+      {
+        "id": "277",
+        "name": "277"
+      },
+      {
+        "id": "323",
+        "name": "323"
+      },
+      {
+        "id": "339",
+        "name": "339"
+      },
+      {
+        "id": "425",
+        "name": "425"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "d6",
+        "name": "D6"
+      },
+      {
+        "id": "d7",
+        "name": "D7"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMMT",
+    "commonName": "Monument Underground Station",
+    "id": "940GZZLUMMT",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMSH",
+    "commonName": "Mansion House Underground Station",
+    "id": "940GZZLUMSH",
+    "lines": [
+      {
+        "id": "344",
+        "name": "344"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNHG",
+    "commonName": "Notting Hill Gate Underground Station",
+    "id": "940GZZLUNHG",
+    "lines": [
+      {
+        "id": "148",
+        "name": "148"
+      },
+      {
+        "id": "27",
+        "name": "27"
+      },
+      {
+        "id": "28",
+        "name": "28"
+      },
+      {
+        "id": "31",
+        "name": "31"
+      },
+      {
+        "id": "328",
+        "name": "328"
+      },
+      {
+        "id": "70",
+        "name": "70"
+      },
+      {
+        "id": "94",
+        "name": "94"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n27",
+        "name": "N27"
+      },
+      {
+        "id": "n28",
+        "name": "N28"
+      },
+      {
+        "id": "n31",
+        "name": "N31"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPAC",
+    "commonName": "Paddington Underground Station",
+    "id": "940GZZLUPAC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPLW",
+    "commonName": "Plaistow Underground Station",
+    "id": "940GZZLUPLW",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPSG",
+    "commonName": "Parsons Green Underground Station",
+    "id": "940GZZLUPSG",
+    "lines": [
+      {
+        "id": "14",
+        "name": "14"
+      },
+      {
+        "id": "414",
+        "name": "414"
+      },
+      {
+        "id": "424",
+        "name": "424"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPYB",
+    "commonName": "Putney Bridge Underground Station",
+    "id": "940GZZLUPYB",
+    "lines": [
+      {
+        "id": "14",
+        "name": "14"
+      },
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "220",
+        "name": "220"
+      },
+      {
+        "id": "265",
+        "name": "265"
+      },
+      {
+        "id": "270",
+        "name": "270"
+      },
+      {
+        "id": "378",
+        "name": "378"
+      },
+      {
+        "id": "39",
+        "name": "39"
+      },
+      {
+        "id": "424",
+        "name": "424"
+      },
+      {
+        "id": "430",
+        "name": "430"
+      },
+      {
+        "id": "74",
+        "name": "74"
+      },
+      {
+        "id": "85",
+        "name": "85"
+      },
+      {
+        "id": "93",
+        "name": "93"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "n33",
+        "name": "N33"
+      },
+      {
+        "id": "n72",
+        "name": "N72"
+      },
+      {
+        "id": "n74",
+        "name": "N74"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURMD",
+    "commonName": "Richmond Underground Station",
+    "id": "940GZZLURMD",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURVP",
+    "commonName": "Ravenscourt Park Underground Station",
+    "id": "940GZZLURVP",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSFB",
+    "commonName": "Stamford Brook Underground Station",
+    "id": "940GZZLUSFB",
+    "lines": [
+      {
+        "id": "110",
+        "name": "110"
+      },
+      {
+        "id": "190",
+        "name": "190"
+      },
+      {
+        "id": "237",
+        "name": "237"
+      },
+      {
+        "id": "267",
+        "name": "267"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "h91",
+        "name": "H91"
+      },
+      {
+        "id": "n11",
+        "name": "N11"
+      },
+      {
+        "id": "n9",
+        "name": "N9"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSFS",
+    "commonName": "Southfields Underground Station",
+    "id": "940GZZLUSFS",
+    "lines": [
+      {
+        "id": "39",
+        "name": "39"
+      },
+      {
+        "id": "639",
+        "name": "639"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSGN",
+    "commonName": "Stepney Green Underground Station",
+    "id": "940GZZLUSGN",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSJP",
+    "commonName": "St. James's Park Underground Station",
+    "id": "940GZZLUSJP",
+    "lines": [
+      {
+        "id": "11",
+        "name": "11"
+      },
+      {
+        "id": "148",
+        "name": "148"
+      },
+      {
+        "id": "24",
+        "name": "24"
+      },
+      {
+        "id": "26",
+        "name": "26"
+      },
+      {
+        "id": "3",
+        "name": "3"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n11",
+        "name": "N11"
+      },
+      {
+        "id": "n136",
+        "name": "N136"
+      },
+      {
+        "id": "n26",
+        "name": "N26"
+      },
+      {
+        "id": "n44",
+        "name": "N44"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSKS",
+    "commonName": "South Kensington Underground Station",
+    "id": "940GZZLUSKS",
+    "lines": [
+      {
+        "id": "14",
+        "name": "14"
+      },
+      {
+        "id": "345",
+        "name": "345"
+      },
+      {
+        "id": "414",
+        "name": "414"
+      },
+      {
+        "id": "49",
+        "name": "49"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSSQ",
+    "commonName": "Sloane Square Underground Station",
+    "id": "940GZZLUSSQ",
+    "lines": [
+      {
+        "id": "c1",
+        "name": "C1"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTMP",
+    "commonName": "Temple Underground Station",
+    "id": "940GZZLUTMP",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTNG",
+    "commonName": "Turnham Green Underground Station",
+    "id": "940GZZLUTNG",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTWH",
+    "commonName": "Tower Hill Underground Station",
+    "id": "940GZZLUTWH",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUUPB",
+    "commonName": "Upminster Bridge Underground Station",
+    "id": "940GZZLUUPB",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUUPK",
+    "commonName": "Upton Park Underground Station",
+    "id": "940GZZLUUPK",
+    "lines": [
+      {
+        "id": "238",
+        "name": "238"
+      },
+      {
+        "id": "376",
+        "name": "376"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUUPM",
+    "commonName": "Upminster Underground Station",
+    "id": "940GZZLUUPM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUUPY",
+    "commonName": "Upney Underground Station",
+    "id": "940GZZLUUPY",
+    "lines": [
+      {
+        "id": "62",
+        "name": "62"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUVIC",
+    "commonName": "Victoria Underground Station",
+    "id": "940GZZLUVIC",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWBN",
+    "commonName": "West Brompton Underground Station",
+    "id": "940GZZLUWBN",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWHM",
+    "commonName": "West Ham Underground Station",
+    "id": "940GZZLUWHM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWIM",
+    "commonName": "Wimbledon Underground Station",
+    "id": "940GZZLUWIM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWIP",
+    "commonName": "Wimbledon Park Underground Station",
+    "id": "940GZZLUWIP",
+    "lines": [
+      {
+        "id": "156",
+        "name": "156"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "n87",
+        "name": "N87"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWKN",
+    "commonName": "West Kensington Underground Station",
+    "id": "940GZZLUWKN",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWPL",
+    "commonName": "Whitechapel Underground Station",
+    "id": "940GZZLUWPL",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWSM",
+    "commonName": "Westminster Underground Station",
+    "id": "940GZZLUWSM",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  }
+]

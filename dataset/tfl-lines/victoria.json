@@ -1,0 +1,374 @@
+[
+  {
+    "naptanId": "940GZZLUBLR",
+    "commonName": "Blackhorse Road Underground Station",
+    "id": "940GZZLUBLR",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBXN",
+    "commonName": "Brixton Underground Station",
+    "id": "940GZZLUBXN",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEUS",
+    "commonName": "Euston Underground Station",
+    "id": "940GZZLUEUS",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFPK",
+    "commonName": "Finsbury Park Underground Station",
+    "id": "940GZZLUFPK",
+    "lines": [
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGPK",
+    "commonName": "Green Park Underground Station",
+    "id": "940GZZLUGPK",
+    "lines": [
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHAI",
+    "commonName": "Highbury & Islington Underground Station",
+    "id": "940GZZLUHAI",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKSX",
+    "commonName": "King's Cross St. Pancras Underground Station",
+    "id": "940GZZLUKSX",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUOXC",
+    "commonName": "Oxford Circus Underground Station",
+    "id": "940GZZLUOXC",
+    "lines": [
+      {
+        "id": "12",
+        "name": "12"
+      },
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "390",
+        "name": "390"
+      },
+      {
+        "id": "453",
+        "name": "453"
+      },
+      {
+        "id": "55",
+        "name": "55"
+      },
+      {
+        "id": "73",
+        "name": "73"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "98",
+        "name": "98"
+      },
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n109",
+        "name": "N109"
+      },
+      {
+        "id": "n136",
+        "name": "N136"
+      },
+      {
+        "id": "n137",
+        "name": "N137"
+      },
+      {
+        "id": "n15",
+        "name": "N15"
+      },
+      {
+        "id": "n18",
+        "name": "N18"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n3",
+        "name": "N3"
+      },
+      {
+        "id": "n55",
+        "name": "N55"
+      },
+      {
+        "id": "n73",
+        "name": "N73"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPCO",
+    "commonName": "Pimlico Underground Station",
+    "id": "940GZZLUPCO",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSKW",
+    "commonName": "Stockwell Underground Station",
+    "id": "940GZZLUSKW",
+    "lines": [
+      {
+        "id": "155",
+        "name": "155"
+      },
+      {
+        "id": "196",
+        "name": "196"
+      },
+      {
+        "id": "2",
+        "name": "2"
+      },
+      {
+        "id": "333",
+        "name": "333"
+      },
+      {
+        "id": "345",
+        "name": "345"
+      },
+      {
+        "id": "50",
+        "name": "50"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "n2",
+        "name": "N2"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "p5",
+        "name": "P5"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSVS",
+    "commonName": "Seven Sisters Underground Station",
+    "id": "940GZZLUSVS",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTMH",
+    "commonName": "Tottenham Hale Underground Station",
+    "id": "940GZZLUTMH",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUVIC",
+    "commonName": "Victoria Underground Station",
+    "id": "940GZZLUVIC",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUVXL",
+    "commonName": "Vauxhall Underground Station",
+    "id": "940GZZLUVXL",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWRR",
+    "commonName": "Warren Street Underground Station",
+    "id": "940GZZLUWRR",
+    "lines": [
+      {
+        "id": "134",
+        "name": "134"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWWL",
+    "commonName": "Walthamstow Central Underground Station",
+    "id": "940GZZLUWWL",
+    "lines": [
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  }
+]

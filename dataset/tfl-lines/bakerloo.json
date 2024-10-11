@@ -1,0 +1,453 @@
+[
+  {
+    "naptanId": "940GZZLUBST",
+    "commonName": "Baker Street Underground Station",
+    "id": "940GZZLUBST",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCHX",
+    "commonName": "Charing Cross Underground Station",
+    "id": "940GZZLUCHX",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEAC",
+    "commonName": "Elephant & Castle Underground Station",
+    "id": "940GZZLUEAC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEMB",
+    "commonName": "Embankment Underground Station",
+    "id": "940GZZLUEMB",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUERB",
+    "commonName": "Edgware Road (Bakerloo) Underground Station",
+    "id": "940GZZLUERB",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHAW",
+    "commonName": "Harrow & Wealdstone Underground Station",
+    "id": "940GZZLUHAW",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHSN",
+    "commonName": "Harlesden Underground Station",
+    "id": "940GZZLUHSN",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKEN",
+    "commonName": "Kenton Underground Station",
+    "id": "940GZZLUKEN",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKPK",
+    "commonName": "Kilburn Park Underground Station",
+    "id": "940GZZLUKPK",
+    "lines": [
+      {
+        "id": "316",
+        "name": "316"
+      },
+      {
+        "id": "6",
+        "name": "6"
+      },
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKSL",
+    "commonName": "Kensal Green Underground Station",
+    "id": "940GZZLUKSL",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULBN",
+    "commonName": "Lambeth North Underground Station",
+    "id": "940GZZLULBN",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMVL",
+    "commonName": "Maida Vale Underground Station",
+    "id": "940GZZLUMVL",
+    "lines": [
+      {
+        "id": "16",
+        "name": "16"
+      },
+      {
+        "id": "98",
+        "name": "98"
+      },
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "n32",
+        "name": "N32"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMYB",
+    "commonName": "Marylebone Underground Station",
+    "id": "940GZZLUMYB",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNWY",
+    "commonName": "North Wembley Underground Station",
+    "id": "940GZZLUNWY",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUOXC",
+    "commonName": "Oxford Circus Underground Station",
+    "id": "940GZZLUOXC",
+    "lines": [
+      {
+        "id": "12",
+        "name": "12"
+      },
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "390",
+        "name": "390"
+      },
+      {
+        "id": "453",
+        "name": "453"
+      },
+      {
+        "id": "55",
+        "name": "55"
+      },
+      {
+        "id": "73",
+        "name": "73"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "98",
+        "name": "98"
+      },
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "n109",
+        "name": "N109"
+      },
+      {
+        "id": "n136",
+        "name": "N136"
+      },
+      {
+        "id": "n137",
+        "name": "N137"
+      },
+      {
+        "id": "n15",
+        "name": "N15"
+      },
+      {
+        "id": "n18",
+        "name": "N18"
+      },
+      {
+        "id": "n207",
+        "name": "N207"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "n25",
+        "name": "N25"
+      },
+      {
+        "id": "n3",
+        "name": "N3"
+      },
+      {
+        "id": "n55",
+        "name": "N55"
+      },
+      {
+        "id": "n73",
+        "name": "N73"
+      },
+      {
+        "id": "n8",
+        "name": "N8"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPAC",
+    "commonName": "Paddington Underground Station",
+    "id": "940GZZLUPAC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUPCC",
+    "commonName": "Piccadilly Circus Underground Station",
+    "id": "940GZZLUPCC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUQPS",
+    "commonName": "Queen's Park Underground Station",
+    "id": "940GZZLUQPS",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLURGP",
+    "commonName": "Regent's Park Underground Station",
+    "id": "940GZZLURGP",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSGP",
+    "commonName": "Stonebridge Park Underground Station",
+    "id": "940GZZLUSGP",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSKT",
+    "commonName": "South Kenton Underground Station",
+    "id": "940GZZLUSKT",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWJN",
+    "commonName": "Willesden Junction Underground Station",
+    "id": "940GZZLUWJN",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWKA",
+    "commonName": "Warwick Avenue Underground Station",
+    "id": "940GZZLUWKA",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWLO",
+    "commonName": "Waterloo Underground Station",
+    "id": "940GZZLUWLO",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWYC",
+    "commonName": "Wembley Central Underground Station",
+    "id": "940GZZLUWYC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      }
+    ]
+  }
+]

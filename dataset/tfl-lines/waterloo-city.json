@@ -1,0 +1,44 @@
+[
+  {
+    "naptanId": "940GZZLUBNK",
+    "commonName": "Bank Underground Station",
+    "id": "940GZZLUBNK",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWLO",
+    "commonName": "Waterloo Underground Station",
+    "id": "940GZZLUWLO",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1178 @@
+[
+  {
+    "naptanId": "940GZZBPSUST",
+    "commonName": "Battersea Power Station Underground Station",
+    "id": "940GZZBPSUST",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUACY",
+    "commonName": "Archway Underground Station",
+    "id": "940GZZLUACY",
+    "lines": [
+      {
+        "id": "17",
+        "name": "17"
+      },
+      {
+        "id": "263",
+        "name": "263"
+      },
+      {
+        "id": "43",
+        "name": "43"
+      },
+      {
+        "id": "n271",
+        "name": "N271"
+      },
+      {
+        "id": "n41",
+        "name": "N41"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUAGL",
+    "commonName": "Angel Underground Station",
+    "id": "940GZZLUAGL",
+    "lines": [
+      {
+        "id": "205",
+        "name": "205"
+      },
+      {
+        "id": "214",
+        "name": "214"
+      },
+      {
+        "id": "274",
+        "name": "274"
+      },
+      {
+        "id": "394",
+        "name": "394"
+      },
+      {
+        "id": "4",
+        "name": "4"
+      },
+      {
+        "id": "43",
+        "name": "43"
+      },
+      {
+        "id": "56",
+        "name": "56"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBLM",
+    "commonName": "Balham Underground Station",
+    "id": "940GZZLUBLM",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBNK",
+    "commonName": "Bank Underground Station",
+    "id": "940GZZLUBNK",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBOR",
+    "commonName": "Borough Underground Station",
+    "id": "940GZZLUBOR",
+    "lines": [
+      {
+        "id": "21",
+        "name": "21"
+      },
+      {
+        "id": "n21",
+        "name": "N21"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBTK",
+    "commonName": "Burnt Oak Underground Station",
+    "id": "940GZZLUBTK",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBTX",
+    "commonName": "Brent Cross Underground Station",
+    "id": "940GZZLUBTX",
+    "lines": [
+      {
+        "id": "112",
+        "name": "112"
+      },
+      {
+        "id": "113",
+        "name": "113"
+      },
+      {
+        "id": "210",
+        "name": "210"
+      },
+      {
+        "id": "232",
+        "name": "232"
+      },
+      {
+        "id": "n113",
+        "name": "N113"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBZP",
+    "commonName": "Belsize Park Underground Station",
+    "id": "940GZZLUBZP",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCFM",
+    "commonName": "Chalk Farm Underground Station",
+    "id": "940GZZLUCFM",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCHX",
+    "commonName": "Charing Cross Underground Station",
+    "id": "940GZZLUCHX",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCND",
+    "commonName": "Colindale Underground Station",
+    "id": "940GZZLUCND",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCPC",
+    "commonName": "Clapham Common Underground Station",
+    "id": "940GZZLUCPC",
+    "lines": [
+      {
+        "id": "137",
+        "name": "137"
+      },
+      {
+        "id": "249",
+        "name": "249"
+      },
+      {
+        "id": "345",
+        "name": "345"
+      },
+      {
+        "id": "35",
+        "name": "35"
+      },
+      {
+        "id": "37",
+        "name": "37"
+      },
+      {
+        "id": "417",
+        "name": "417"
+      },
+      {
+        "id": "n137",
+        "name": "N137"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCPN",
+    "commonName": "Clapham North Underground Station",
+    "id": "940GZZLUCPN",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCPS",
+    "commonName": "Clapham South Underground Station",
+    "id": "940GZZLUCPS",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCSD",
+    "commonName": "Colliers Wood Underground Station",
+    "id": "940GZZLUCSD",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCTN",
+    "commonName": "Camden Town Underground Station",
+    "id": "940GZZLUCTN",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEAC",
+    "commonName": "Elephant & Castle Underground Station",
+    "id": "940GZZLUEAC",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEFY",
+    "commonName": "East Finchley Underground Station",
+    "id": "940GZZLUEFY",
+    "lines": [
+      {
+        "id": "102",
+        "name": "102"
+      },
+      {
+        "id": "143",
+        "name": "143"
+      },
+      {
+        "id": "234",
+        "name": "234"
+      },
+      {
+        "id": "263",
+        "name": "263"
+      },
+      {
+        "id": "603",
+        "name": "603"
+      },
+      {
+        "id": "h3",
+        "name": "H3"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "n271",
+        "name": "N271"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEGW",
+    "commonName": "Edgware Underground Station",
+    "id": "940GZZLUEGW",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEMB",
+    "commonName": "Embankment Underground Station",
+    "id": "940GZZLUEMB",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUEUS",
+    "commonName": "Euston Underground Station",
+    "id": "940GZZLUEUS",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFYC",
+    "commonName": "Finchley Central Underground Station",
+    "id": "940GZZLUFYC",
+    "lines": [
+      {
+        "id": "125",
+        "name": "125"
+      },
+      {
+        "id": "13",
+        "name": "13"
+      },
+      {
+        "id": "143",
+        "name": "143"
+      },
+      {
+        "id": "326",
+        "name": "326"
+      },
+      {
+        "id": "460",
+        "name": "460"
+      },
+      {
+        "id": "626",
+        "name": "626"
+      },
+      {
+        "id": "683",
+        "name": "683"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGDG",
+    "commonName": "Goodge Street Underground Station",
+    "id": "940GZZLUGDG",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGGN",
+    "commonName": "Golders Green Underground Station",
+    "id": "940GZZLUGGN",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHBT",
+    "commonName": "High Barnet Underground Station",
+    "id": "940GZZLUHBT",
+    "lines": [
+      {
+        "id": "107",
+        "name": "107"
+      },
+      {
+        "id": "184",
+        "name": "184"
+      },
+      {
+        "id": "234",
+        "name": "234"
+      },
+      {
+        "id": "263",
+        "name": "263"
+      },
+      {
+        "id": "307",
+        "name": "307"
+      },
+      {
+        "id": "326",
+        "name": "326"
+      },
+      {
+        "id": "34",
+        "name": "34"
+      },
+      {
+        "id": "383",
+        "name": "383"
+      },
+      {
+        "id": "384",
+        "name": "384"
+      },
+      {
+        "id": "389",
+        "name": "389"
+      },
+      {
+        "id": "606",
+        "name": "606"
+      },
+      {
+        "id": "626",
+        "name": "626"
+      },
+      {
+        "id": "634",
+        "name": "634"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHCL",
+    "commonName": "Hendon Central Underground Station",
+    "id": "940GZZLUHCL",
+    "lines": [
+      {
+        "id": "113",
+        "name": "113"
+      },
+      {
+        "id": "143",
+        "name": "143"
+      },
+      {
+        "id": "186",
+        "name": "186"
+      },
+      {
+        "id": "324",
+        "name": "324"
+      },
+      {
+        "id": "326",
+        "name": "326"
+      },
+      {
+        "id": "643",
+        "name": "643"
+      },
+      {
+        "id": "83",
+        "name": "83"
+      },
+      {
+        "id": "n113",
+        "name": "N113"
+      },
+      {
+        "id": "n5",
+        "name": "N5"
+      },
+      {
+        "id": "n83",
+        "name": "N83"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHGT",
+    "commonName": "Highgate Underground Station",
+    "id": "940GZZLUHGT",
+    "lines": [
+      {
+        "id": "134",
+        "name": "134"
+      },
+      {
+        "id": "234",
+        "name": "234"
+      },
+      {
+        "id": "43",
+        "name": "43"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUHTD",
+    "commonName": "Hampstead Underground Station",
+    "id": "940GZZLUHTD",
+    "lines": [
+      {
+        "id": "46",
+        "name": "46"
+      },
+      {
+        "id": "603",
+        "name": "603"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKNG",
+    "commonName": "Kennington Underground Station",
+    "id": "940GZZLUKNG",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKSH",
+    "commonName": "Kentish Town Underground Station",
+    "id": "940GZZLUKSH",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKSX",
+    "commonName": "King's Cross St. Pancras Underground Station",
+    "id": "940GZZLUKSX",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULNB",
+    "commonName": "London Bridge Underground Station",
+    "id": "940GZZLULNB",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULSQ",
+    "commonName": "Leicester Square Underground Station",
+    "id": "940GZZLULSQ",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMDN",
+    "commonName": "Morden Underground Station",
+    "id": "940GZZLUMDN",
+    "lines": [
+      {
+        "id": "154",
+        "name": "154"
+      },
+      {
+        "id": "163",
+        "name": "163"
+      },
+      {
+        "id": "164",
+        "name": "164"
+      },
+      {
+        "id": "201",
+        "name": "201"
+      },
+      {
+        "id": "293",
+        "name": "293"
+      },
+      {
+        "id": "413",
+        "name": "413"
+      },
+      {
+        "id": "470",
+        "name": "470"
+      },
+      {
+        "id": "80",
+        "name": "80"
+      },
+      {
+        "id": "93",
+        "name": "93"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMGT",
+    "commonName": "Moorgate Underground Station",
+    "id": "940GZZLUMGT",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMHL",
+    "commonName": "Mill Hill East Underground Station",
+    "id": "940GZZLUMHL",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUMTC",
+    "commonName": "Mornington Crescent Underground Station",
+    "id": "940GZZLUMTC",
+    "lines": [
+      {
+        "id": "46",
+        "name": "46"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUODS",
+    "commonName": "Old Street Underground Station",
+    "id": "940GZZLUODS",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUOVL",
+    "commonName": "Oval Underground Station",
+    "id": "940GZZLUOVL",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSKW",
+    "commonName": "Stockwell Underground Station",
+    "id": "940GZZLUSKW",
+    "lines": [
+      {
+        "id": "155",
+        "name": "155"
+      },
+      {
+        "id": "196",
+        "name": "196"
+      },
+      {
+        "id": "2",
+        "name": "2"
+      },
+      {
+        "id": "333",
+        "name": "333"
+      },
+      {
+        "id": "345",
+        "name": "345"
+      },
+      {
+        "id": "50",
+        "name": "50"
+      },
+      {
+        "id": "88",
+        "name": "88"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "n2",
+        "name": "N2"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "p5",
+        "name": "P5"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSWN",
+    "commonName": "South Wimbledon Underground Station",
+    "id": "940GZZLUSWN",
+    "lines": [
+      {
+        "id": "93",
+        "name": "93"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTAW",
+    "commonName": "Totteridge & Whetstone Underground Station",
+    "id": "940GZZLUTAW",
+    "lines": [
+      {
+        "id": "234",
+        "name": "234"
+      },
+      {
+        "id": "263",
+        "name": "263"
+      },
+      {
+        "id": "326",
+        "name": "326"
+      },
+      {
+        "id": "34",
+        "name": "34"
+      },
+      {
+        "id": "626",
+        "name": "626"
+      },
+      {
+        "id": "634",
+        "name": "634"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTBC",
+    "commonName": "Tooting Bec Underground Station",
+    "id": "940GZZLUTBC",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTBY",
+    "commonName": "Tooting Broadway Underground Station",
+    "id": "940GZZLUTBY",
+    "lines": [
+      {
+        "id": "127",
+        "name": "127"
+      },
+      {
+        "id": "131",
+        "name": "131"
+      },
+      {
+        "id": "155",
+        "name": "155"
+      },
+      {
+        "id": "219",
+        "name": "219"
+      },
+      {
+        "id": "264",
+        "name": "264"
+      },
+      {
+        "id": "270",
+        "name": "270"
+      },
+      {
+        "id": "280",
+        "name": "280"
+      },
+      {
+        "id": "333",
+        "name": "333"
+      },
+      {
+        "id": "355",
+        "name": "355"
+      },
+      {
+        "id": "44",
+        "name": "44"
+      },
+      {
+        "id": "493",
+        "name": "493"
+      },
+      {
+        "id": "57",
+        "name": "57"
+      },
+      {
+        "id": "77",
+        "name": "77"
+      },
+      {
+        "id": "g1",
+        "name": "G1"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "n44",
+        "name": "N44"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTCR",
+    "commonName": "Tottenham Court Road Underground Station",
+    "id": "940GZZLUTCR",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUTFP",
+    "commonName": "Tufnell Park Underground Station",
+    "id": "940GZZLUTFP",
+    "lines": [
+      {
+        "id": "4",
+        "name": "4"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWFN",
+    "commonName": "West Finchley Underground Station",
+    "id": "940GZZLUWFN",
+    "lines": [
+      {
+        "id": "125",
+        "name": "125"
+      },
+      {
+        "id": "13",
+        "name": "13"
+      },
+      {
+        "id": "221",
+        "name": "221"
+      },
+      {
+        "id": "460",
+        "name": "460"
+      },
+      {
+        "id": "626",
+        "name": "626"
+      },
+      {
+        "id": "683",
+        "name": "683"
+      },
+      {
+        "id": "n20",
+        "name": "N20"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWLO",
+    "commonName": "Waterloo Underground Station",
+    "id": "940GZZLUWLO",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWOP",
+    "commonName": "Woodside Park Underground Station",
+    "id": "940GZZLUWOP",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWRR",
+    "commonName": "Warren Street Underground Station",
+    "id": "940GZZLUWRR",
+    "lines": [
+      {
+        "id": "134",
+        "name": "134"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZNEUGST",
+    "commonName": "Nine Elms Underground Station",
+    "id": "940GZZNEUGST",
+    "lines": [
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  }
+]

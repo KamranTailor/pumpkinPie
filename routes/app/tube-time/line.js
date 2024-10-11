@@ -1,11 +1,11 @@
 import express from 'express';
 import kamran from "../../../functions/main.js";
 const router = express.Router();
+import { promises as fs } from 'fs';
 
 router.get('/tfl-status-line', async (request, response) => {
     try {
         const { id } = request.query;
-        console.log(id);
         
         const responce = await kamran.database.getDatabase("7750a3bc-1372-4485-9581-8516193b3f6e");
         const data = responce.data;
@@ -40,8 +40,11 @@ router.get('/tfl-status-line', async (request, response) => {
                 break;
         }
 
+        const dataStations = await fs.readFile(`./dataset/tfl-lines/${id}.json`, 'utf8');
+        const dataStationsJSON = JSON.parse(dataStations);
+
         if (lineStatus) {
-            response.json({ lineStatus, name: lineStatus.name });
+            response.json({ lineStatus, name: lineStatus.name, stations: dataStationsJSON });
         } else {
             response.status(404).json({ error: "Line status not found" });
         }

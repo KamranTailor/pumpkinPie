@@ -1,0 +1,487 @@
+[
+  {
+    "naptanId": "940GZZLUBMY",
+    "commonName": "Bermondsey Underground Station",
+    "id": "940GZZLUBMY",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBND",
+    "commonName": "Bond Street Underground Station",
+    "id": "940GZZLUBND",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUBST",
+    "commonName": "Baker Street Underground Station",
+    "id": "940GZZLUBST",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCGT",
+    "commonName": "Canning Town Underground Station",
+    "id": "940GZZLUCGT",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCPK",
+    "commonName": "Canons Park Underground Station",
+    "id": "940GZZLUCPK",
+    "lines": [
+      {
+        "id": "79",
+        "name": "79"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCWR",
+    "commonName": "Canada Water Underground Station",
+    "id": "940GZZLUCWR",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUCYF",
+    "commonName": "Canary Wharf Underground Station",
+    "id": "940GZZLUCYF",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUDOH",
+    "commonName": "Dollis Hill Underground Station",
+    "id": "940GZZLUDOH",
+    "lines": [
+      {
+        "id": "226",
+        "name": "226"
+      },
+      {
+        "id": "302",
+        "name": "302"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUFYR",
+    "commonName": "Finchley Road Underground Station",
+    "id": "940GZZLUFYR",
+    "lines": [
+      {
+        "id": "113",
+        "name": "113"
+      },
+      {
+        "id": "13",
+        "name": "13"
+      },
+      {
+        "id": "187",
+        "name": "187"
+      },
+      {
+        "id": "268",
+        "name": "268"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      },
+      {
+        "id": "n113",
+        "name": "N113"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUGPK",
+    "commonName": "Green Park Underground Station",
+    "id": "940GZZLUGPK",
+    "lines": [
+      {
+        "id": "22",
+        "name": "22"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n22",
+        "name": "N22"
+      },
+      {
+        "id": "piccadilly",
+        "name": "Piccadilly"
+      },
+      {
+        "id": "victoria",
+        "name": "Victoria"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKBN",
+    "commonName": "Kilburn Underground Station",
+    "id": "940GZZLUKBN",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUKBY",
+    "commonName": "Kingsbury Underground Station",
+    "id": "940GZZLUKBY",
+    "lines": [
+      {
+        "id": "183",
+        "name": "183"
+      },
+      {
+        "id": "204",
+        "name": "204"
+      },
+      {
+        "id": "303",
+        "name": "303"
+      },
+      {
+        "id": "324",
+        "name": "324"
+      },
+      {
+        "id": "628",
+        "name": "628"
+      },
+      {
+        "id": "653",
+        "name": "653"
+      },
+      {
+        "id": "683",
+        "name": "683"
+      },
+      {
+        "id": "688",
+        "name": "688"
+      },
+      {
+        "id": "79",
+        "name": "79"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n98",
+        "name": "N98"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLULNB",
+    "commonName": "London Bridge Underground Station",
+    "id": "940GZZLULNB",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNDN",
+    "commonName": "Neasden Underground Station",
+    "id": "940GZZLUNDN",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUNGW",
+    "commonName": "North Greenwich Underground Station",
+    "id": "940GZZLUNGW",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUQBY",
+    "commonName": "Queensbury Underground Station",
+    "id": "940GZZLUQBY",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSJW",
+    "commonName": "St. John's Wood Underground Station",
+    "id": "940GZZLUSJW",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSTD",
+    "commonName": "Stratford Underground Station",
+    "id": "940GZZLUSTD",
+    "lines": [
+      {
+        "id": "central",
+        "name": "Central"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSTM",
+    "commonName": "Stanmore Underground Station",
+    "id": "940GZZLUSTM",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSWC",
+    "commonName": "Swiss Cottage Underground Station",
+    "id": "940GZZLUSWC",
+    "lines": [
+      {
+        "id": "31",
+        "name": "31"
+      },
+      {
+        "id": "c11",
+        "name": "C11"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n28",
+        "name": "N28"
+      },
+      {
+        "id": "n31",
+        "name": "N31"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUSWK",
+    "commonName": "Southwark Underground Station",
+    "id": "940GZZLUSWK",
+    "lines": [
+      {
+        "id": "381",
+        "name": "381"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "n343",
+        "name": "N343"
+      },
+      {
+        "id": "n381",
+        "name": "N381"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWHM",
+    "commonName": "West Ham Underground Station",
+    "id": "940GZZLUWHM",
+    "lines": [
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWHP",
+    "commonName": "West Hampstead Underground Station",
+    "id": "940GZZLUWHP",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWIG",
+    "commonName": "Willesden Green Underground Station",
+    "id": "940GZZLUWIG",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWLO",
+    "commonName": "Waterloo Underground Station",
+    "id": "940GZZLUWLO",
+    "lines": [
+      {
+        "id": "bakerloo",
+        "name": "Bakerloo"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "northern",
+        "name": "Northern"
+      },
+      {
+        "id": "waterloo-city",
+        "name": "Waterloo & City"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWSM",
+    "commonName": "Westminster Underground Station",
+    "id": "940GZZLUWSM",
+    "lines": [
+      {
+        "id": "circle",
+        "name": "Circle"
+      },
+      {
+        "id": "district",
+        "name": "District"
+      },
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      }
+    ]
+  },
+  {
+    "naptanId": "940GZZLUWYP",
+    "commonName": "Wembley Park Underground Station",
+    "id": "940GZZLUWYP",
+    "lines": [
+      {
+        "id": "jubilee",
+        "name": "Jubilee"
+      },
+      {
+        "id": "metropolitan",
+        "name": "Metropolitan"
+      }
+    ]
+  }
+]
