@@ -58,6 +58,12 @@ app.use('/user/changePassword',  kamran.authentication.checkHeaders, changePassw
 import logoutRouter from './user/logout.js';
 app.use('/user/logout',  kamran.authentication.checkHeaders, logoutRouter);
 
+//GLOABL APP ROUTES 
+import sighnUpRouterApp from './app/authentication/signUp.js';
+app.use('/app/sighnUp', sighnUpRouterApp);
+import loginRouterApp from './app/authentication/login.js';
+app.use('/app/login', loginRouterApp);
+
 //TUBE TIME APP ROUTES
 import statusRouter from './app/tube-time/status.js';
 app.use('/app-tfl', statusRouter);
