@@ -1,366 +1,13 @@
 [
   {
-    "naptanId": "4900ZZCRADD0",
-    "commonName": "Addiscombe Tram Stop",
-    "id": "4900ZZCRADD0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRADD1",
-    "commonName": "Addiscombe",
-    "id": "4900ZZCRADD1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRADV",
-    "commonName": "Addington Village",
-    "id": "4900ZZCRADV",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRAMP0",
-    "commonName": "Ampere Way",
-    "id": "4900ZZCRAMP0",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRAMP1",
-    "commonName": "Ampere Way",
-    "id": "4900ZZCRAMP1",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRARA0",
-    "commonName": "Arena Tram Stop",
-    "id": "4900ZZCRARA0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRARA1",
-    "commonName": "Arena",
-    "id": "4900ZZCRARA1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRAVE1",
-    "commonName": "Avenue Road",
-    "id": "4900ZZCRAVE1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBED0",
-    "commonName": "Beddington Lane Tram Stop",
-    "id": "4900ZZCRBED0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBEK",
-    "commonName": "Beckenham Junction",
-    "id": "4900ZZCRBEK",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBGV0",
-    "commonName": "Belgrave Walk Tram Stop",
-    "id": "4900ZZCRBGV0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBGV1",
-    "commonName": "Belgrave Walk",
-    "id": "4900ZZCRBGV1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBIR1",
-    "commonName": "Birkbeck",
-    "id": "4900ZZCRBIR1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBLA0",
-    "commonName": "Blackhorse Lane",
-    "id": "4900ZZCRBLA0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRBRD0",
-    "commonName": "Beckenham Road Tram Stop",
-    "id": "4900ZZCRBRD0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRCEN0",
-    "commonName": "George Street",
-    "id": "4900ZZCRCEN0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRCHR",
-    "commonName": "Church Street Tram Stop",
-    "id": "4900ZZCRCHR",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRCOO0",
-    "commonName": "Coombe Lane",
-    "id": "4900ZZCRCOO0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRCOO1",
-    "commonName": "Coombe Lane Tram Stop",
-    "id": "4900ZZCRCOO1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRCTR",
-    "commonName": "Tamworth Road / Centrale Tram Stop",
-    "id": "4900ZZCRCTR",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRDDR",
-    "commonName": "Dundonald Road",
-    "id": "4900ZZCRDDR",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRECR1",
-    "commonName": "East Croydon",
-    "id": "4900ZZCRECR1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRELM1",
-    "commonName": "Elmers End Station",
-    "id": "4900ZZCRELM1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRFLD0",
-    "commonName": "Fieldway",
-    "id": "4900ZZCRFLD0",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRGRA0",
-    "commonName": "Gravel Hill Tram Stop",
-    "id": "4900ZZCRGRA0",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRHAR0",
-    "commonName": "Harrington Road",
-    "id": "4900ZZCRHAR0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRKGH0",
-    "commonName": "King Henry's Drive",
-    "id": "4900ZZCRKGH0",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRKGH1",
-    "commonName": "King Henry's Drive Tram Stop",
-    "id": "4900ZZCRKGH1",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRLEB",
-    "commonName": "Lebanon Road",
-    "id": "4900ZZCRLEB",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRLOY1",
-    "commonName": "Lloyd Park",
-    "id": "4900ZZCRLOY1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRMCH0",
-    "commonName": "Mitcham Tram Stop",
-    "id": "4900ZZCRMCH0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRMDN0",
-    "commonName": "Morden Road Tram Stop",
-    "id": "4900ZZCRMDN0",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRMTP0",
-    "commonName": "Merton Park Tram Stop",
-    "id": "4900ZZCRMTP0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRNWA1",
-    "commonName": "New Addington",
-    "id": "4900ZZCRNWA1",
-    "lines": [
-      "tram",
-      "bus"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRPHI0",
-    "commonName": "Phipps Bridge Tram Stop",
-    "id": "4900ZZCRPHI0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRRVC0",
-    "commonName": "Reeves Corner",
-    "id": "4900ZZCRRVC0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRSAN1",
-    "commonName": "Sandilands Tram Stop",
-    "id": "4900ZZCRSAN1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRTPA0",
-    "commonName": "Therapia Lane Tram Stop",
-    "id": "4900ZZCRTPA0",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRTPA1",
-    "commonName": "Therapia Lane",
-    "id": "4900ZZCRTPA1",
-    "lines": [
-      "bus",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRWCR1",
-    "commonName": "West Croydon",
-    "id": "4900ZZCRWCR1",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRWEL0",
-    "commonName": "Wellesley Road",
-    "id": "4900ZZCRWEL0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "4900ZZCRWOD0",
-    "commonName": "Woodside Tram Stop",
-    "id": "4900ZZCRWOD0",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRADD",
-    "commonName": "Addiscombe Tram Stop",
-    "id": "9400ZZCRADD",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
     "naptanId": "9400ZZCRADD1",
     "commonName": "Addiscombe",
     "id": "9400ZZCRADD1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -368,15 +15,10 @@
     "commonName": "Addiscombe",
     "id": "9400ZZCRADD2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRADV",
-    "commonName": "Addington Village Tram Stop",
-    "id": "9400ZZCRADV",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -384,7 +26,10 @@
     "commonName": "Addington Village",
     "id": "9400ZZCRADV1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -392,15 +37,10 @@
     "commonName": "Addington Village",
     "id": "9400ZZCRADV2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRAMP",
-    "commonName": "Ampere Way Tram Stop",
-    "id": "9400ZZCRAMP",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -408,7 +48,10 @@
     "commonName": "Ampere Way",
     "id": "9400ZZCRAMP1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -416,15 +59,10 @@
     "commonName": "Ampere Way",
     "id": "9400ZZCRAMP2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRARA",
-    "commonName": "Arena Tram Stop",
-    "id": "9400ZZCRARA",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -432,7 +70,10 @@
     "commonName": "Arena",
     "id": "9400ZZCRARA1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -440,15 +81,10 @@
     "commonName": "Arena",
     "id": "9400ZZCRARA2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRAVE",
-    "commonName": "Avenue Road Tram Stop",
-    "id": "9400ZZCRAVE",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -456,7 +92,10 @@
     "commonName": "Avenue Road",
     "id": "9400ZZCRAVE1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -464,15 +103,10 @@
     "commonName": "Avenue Road",
     "id": "9400ZZCRAVE2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBED",
-    "commonName": "Beddington Lane Tram Stop",
-    "id": "9400ZZCRBED",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -480,7 +114,10 @@
     "commonName": "Beddington Lane",
     "id": "9400ZZCRBED1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -488,15 +125,10 @@
     "commonName": "Beddington Lane",
     "id": "9400ZZCRBED2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBEK",
-    "commonName": "Beckenham Junction Tram Stop",
-    "id": "9400ZZCRBEK",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -504,23 +136,10 @@
     "commonName": "Beckenham Junction",
     "id": "9400ZZCRBEK1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBEK2",
-    "commonName": "Beckenham Junction Tram Stop",
-    "id": "9400ZZCRBEK2",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBGV",
-    "commonName": "Belgrave Walk Tram Stop",
-    "id": "9400ZZCRBGV",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -528,7 +147,10 @@
     "commonName": "Belgrave Walk",
     "id": "9400ZZCRBGV1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -536,15 +158,10 @@
     "commonName": "Belgrave Walk",
     "id": "9400ZZCRBGV2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBIR",
-    "commonName": "Birkbeck Tram Stop",
-    "id": "9400ZZCRBIR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -552,15 +169,10 @@
     "commonName": "Birkbeck",
     "id": "9400ZZCRBIR1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBLA",
-    "commonName": "Blackhorse Lane Tram Stop",
-    "id": "9400ZZCRBLA",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -568,7 +180,10 @@
     "commonName": "Blackhorse Lane",
     "id": "9400ZZCRBLA1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -576,15 +191,10 @@
     "commonName": "Blackhorse Lane",
     "id": "9400ZZCRBLA2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRBRD",
-    "commonName": "Beckenham Road Tram Stop",
-    "id": "9400ZZCRBRD",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -592,15 +202,10 @@
     "commonName": "Beckenham Road",
     "id": "9400ZZCRBRD1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRCEN",
-    "commonName": "George Street Tram Stop",
-    "id": "9400ZZCRCEN",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -608,15 +213,10 @@
     "commonName": "George Street",
     "id": "9400ZZCRCEN1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRCHR",
-    "commonName": "Church Street Tram Stop",
-    "id": "9400ZZCRCHR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -624,15 +224,10 @@
     "commonName": "Church Street",
     "id": "9400ZZCRCHR1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRCOO",
-    "commonName": "Coombe Lane Tram Stop",
-    "id": "9400ZZCRCOO",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -640,7 +235,10 @@
     "commonName": "Coombe Lane",
     "id": "9400ZZCRCOO1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -648,15 +246,10 @@
     "commonName": "Coombe Lane",
     "id": "9400ZZCRCOO2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRCTR",
-    "commonName": "Centrale Tram Stop",
-    "id": "9400ZZCRCTR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -664,15 +257,10 @@
     "commonName": "Centrale",
     "id": "9400ZZCRCTR1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRDDR",
-    "commonName": "Dundonald Road Tram Stop",
-    "id": "9400ZZCRDDR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -680,7 +268,10 @@
     "commonName": "Dundonald Road",
     "id": "9400ZZCRDDR1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -688,15 +279,10 @@
     "commonName": "Dundonald Road",
     "id": "9400ZZCRDDR2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRECR",
-    "commonName": "East Croydon Tram Stop",
-    "id": "9400ZZCRECR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -704,7 +290,10 @@
     "commonName": "East Croydon",
     "id": "9400ZZCRECR1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -712,23 +301,10 @@
     "commonName": "East Croydon",
     "id": "9400ZZCRECR2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRECR3",
-    "commonName": "East Croydon Tram Stop",
-    "id": "9400ZZCRECR3",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRELM",
-    "commonName": "Elmers End Tram Stop",
-    "id": "9400ZZCRELM",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -736,15 +312,10 @@
     "commonName": "Elmers End",
     "id": "9400ZZCRELM1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRFLD",
-    "commonName": "Fieldway Tram Stop",
-    "id": "9400ZZCRFLD",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -752,7 +323,10 @@
     "commonName": "Fieldway",
     "id": "9400ZZCRFLD1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -760,15 +334,10 @@
     "commonName": "Fieldway",
     "id": "9400ZZCRFLD2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRGRA",
-    "commonName": "Gravel Hill Tram Stop",
-    "id": "9400ZZCRGRA",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -776,7 +345,10 @@
     "commonName": "Gravel Hill",
     "id": "9400ZZCRGRA1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -784,15 +356,10 @@
     "commonName": "Gravel Hill",
     "id": "9400ZZCRGRA2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRHAR",
-    "commonName": "Harrington Road Tram Stop",
-    "id": "9400ZZCRHAR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -800,7 +367,10 @@
     "commonName": "Harrington Road",
     "id": "9400ZZCRHAR1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -808,15 +378,10 @@
     "commonName": "Harrington Road",
     "id": "9400ZZCRHAR2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRKGH",
-    "commonName": "King Henry's Drive Tram Stop",
-    "id": "9400ZZCRKGH",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -824,7 +389,10 @@
     "commonName": "King Henry's Drive",
     "id": "9400ZZCRKGH1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -832,15 +400,10 @@
     "commonName": "King Henry's Drive",
     "id": "9400ZZCRKGH2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRLEB",
-    "commonName": "Lebanon Road Tram Stop",
-    "id": "9400ZZCRLEB",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -848,7 +411,10 @@
     "commonName": "Lebanon Road",
     "id": "9400ZZCRLEB1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -856,15 +422,10 @@
     "commonName": "Lebanon Road",
     "id": "9400ZZCRLEB2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRLOY",
-    "commonName": "Lloyd Park Tram Stop",
-    "id": "9400ZZCRLOY",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -872,7 +433,10 @@
     "commonName": "Lloyd Park",
     "id": "9400ZZCRLOY1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -880,15 +444,10 @@
     "commonName": "Lloyd Park",
     "id": "9400ZZCRLOY2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRMCH",
-    "commonName": "Mitcham Tram Stop",
-    "id": "9400ZZCRMCH",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -896,7 +455,10 @@
     "commonName": "Mitcham",
     "id": "9400ZZCRMCH1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -904,15 +466,10 @@
     "commonName": "Mitcham",
     "id": "9400ZZCRMCH2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRMDN",
-    "commonName": "Morden Road Tram Stop",
-    "id": "9400ZZCRMDN",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -920,7 +477,10 @@
     "commonName": "Morden Road",
     "id": "9400ZZCRMDN1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -928,15 +488,10 @@
     "commonName": "Morden Road",
     "id": "9400ZZCRMDN2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRMJT",
-    "commonName": "Mitcham Junction Tram Stop",
-    "id": "9400ZZCRMJT",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -944,7 +499,10 @@
     "commonName": "Mitcham Junction",
     "id": "9400ZZCRMJT1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -952,15 +510,10 @@
     "commonName": "Mitcham Junction",
     "id": "9400ZZCRMJT2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRMTP",
-    "commonName": "Merton Park Tram Stop",
-    "id": "9400ZZCRMTP",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -968,7 +521,10 @@
     "commonName": "Merton Park",
     "id": "9400ZZCRMTP1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -976,15 +532,10 @@
     "commonName": "Merton Park",
     "id": "9400ZZCRMTP2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRNWA",
-    "commonName": "New Addington Tram Stop",
-    "id": "9400ZZCRNWA",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -992,23 +543,10 @@
     "commonName": "New Addington",
     "id": "9400ZZCRNWA1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRNWA2",
-    "commonName": "New Addington Tram Stop",
-    "id": "9400ZZCRNWA2",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRPHI",
-    "commonName": "Phipps Bridge Tram Stop",
-    "id": "9400ZZCRPHI",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1016,7 +554,10 @@
     "commonName": "Phipps Bridge",
     "id": "9400ZZCRPHI1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1024,15 +565,10 @@
     "commonName": "Phipps Bridge",
     "id": "9400ZZCRPHI2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRRVC",
-    "commonName": "Reeves Corner Tram Stop",
-    "id": "9400ZZCRRVC",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1040,15 +576,10 @@
     "commonName": "Reeves Corner",
     "id": "9400ZZCRRVC1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRSAN",
-    "commonName": "Sandilands Tram Stop",
-    "id": "9400ZZCRSAN",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1056,7 +587,10 @@
     "commonName": "Sandilands",
     "id": "9400ZZCRSAN1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1064,15 +598,10 @@
     "commonName": "Sandilands",
     "id": "9400ZZCRSAN2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRTPA",
-    "commonName": "Therapia Lane Tram Stop",
-    "id": "9400ZZCRTPA",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1080,7 +609,10 @@
     "commonName": "Therapia Lane",
     "id": "9400ZZCRTPA1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1088,15 +620,10 @@
     "commonName": "Therapia Lane",
     "id": "9400ZZCRTPA2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWAD",
-    "commonName": "Waddon Marsh Tram Stop",
-    "id": "9400ZZCRWAD",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1104,7 +631,10 @@
     "commonName": "Waddon Marsh",
     "id": "9400ZZCRWAD1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1112,15 +642,10 @@
     "commonName": "Waddon Marsh",
     "id": "9400ZZCRWAD2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWAN",
-    "commonName": "Wandle Park Tram Stop",
-    "id": "9400ZZCRWAN",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1128,7 +653,10 @@
     "commonName": "Wandle Park",
     "id": "9400ZZCRWAN1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1136,15 +664,10 @@
     "commonName": "Wandle Park",
     "id": "9400ZZCRWAN2",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWCR",
-    "commonName": "West Croydon Tram Stop",
-    "id": "9400ZZCRWCR",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1152,15 +675,10 @@
     "commonName": "West Croydon",
     "id": "9400ZZCRWCR1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWEL",
-    "commonName": "Wellesley Road Tram Stop",
-    "id": "9400ZZCRWEL",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1168,15 +686,10 @@
     "commonName": "Wellesley Road",
     "id": "9400ZZCRWEL1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWMB",
-    "commonName": "Wimbledon Tram Stop",
-    "id": "9400ZZCRWMB",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1184,23 +697,10 @@
     "commonName": "Wimbledon",
     "id": "9400ZZCRWMB1",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWMB2",
-    "commonName": "Wimbledon Tram Stop",
-    "id": "9400ZZCRWMB2",
-    "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "9400ZZCRWOD",
-    "commonName": "Woodside Tram Stop",
-    "id": "9400ZZCRWOD",
-    "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1208,7 +708,10 @@
     "commonName": "Woodside",
     "id": "9400ZZCRWOD1",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1216,7 +719,10 @@
     "commonName": "Woodside",
     "id": "9400ZZCRWOD2",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1224,7 +730,10 @@
     "commonName": "Addiscombe Tram Stop",
     "id": "940GZZCRADD",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1232,8 +741,46 @@
     "commonName": "Addington Village Tram Stop",
     "id": "940GZZCRADV",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "130",
+        "name": "130"
+      },
+      {
+        "id": "314",
+        "name": "314"
+      },
+      {
+        "id": "353",
+        "name": "353"
+      },
+      {
+        "id": "359",
+        "name": "359"
+      },
+      {
+        "id": "433",
+        "name": "433"
+      },
+      {
+        "id": "466",
+        "name": "466"
+      },
+      {
+        "id": "64",
+        "name": "64"
+      },
+      {
+        "id": "654",
+        "name": "654"
+      },
+      {
+        "id": "664",
+        "name": "664"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1241,8 +788,14 @@
     "commonName": "Ampere Way Tram Stop",
     "id": "940GZZCRAMP",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "s4",
+        "name": "S4"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1250,7 +803,10 @@
     "commonName": "Arena Tram Stop",
     "id": "940GZZCRARA",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1258,7 +814,10 @@
     "commonName": "Avenue Road Tram Stop",
     "id": "940GZZCRAVE",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1266,7 +825,10 @@
     "commonName": "Beddington Lane Tram Stop",
     "id": "940GZZCRBED",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1274,7 +836,10 @@
     "commonName": "Beckenham Junction Tram Stop",
     "id": "940GZZCRBEK",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1282,7 +847,10 @@
     "commonName": "Belgrave Walk Tram Stop",
     "id": "940GZZCRBGV",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1290,7 +858,10 @@
     "commonName": "Birkbeck Tram Stop",
     "id": "940GZZCRBIR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1298,7 +869,10 @@
     "commonName": "Blackhorse Lane Tram Stop",
     "id": "940GZZCRBLA",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1306,7 +880,10 @@
     "commonName": "Beckenham Road Tram Stop",
     "id": "940GZZCRBRD",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1314,7 +891,10 @@
     "commonName": "George Street Tram Stop",
     "id": "940GZZCRCEN",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1322,8 +902,30 @@
     "commonName": "Church Street Tram Stop",
     "id": "940GZZCRCHR",
     "lines": [
-      "tram",
-      "bus"
+      {
+        "id": "157",
+        "name": "157"
+      },
+      {
+        "id": "264",
+        "name": "264"
+      },
+      {
+        "id": "407",
+        "name": "407"
+      },
+      {
+        "id": "410",
+        "name": "410"
+      },
+      {
+        "id": "645",
+        "name": "645"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1331,7 +933,10 @@
     "commonName": "Coombe Lane Tram Stop",
     "id": "940GZZCRCOO",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1339,7 +944,10 @@
     "commonName": "Centrale Tram Stop",
     "id": "940GZZCRCTR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1347,7 +955,10 @@
     "commonName": "Dundonald Road Tram Stop",
     "id": "940GZZCRDDR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1355,7 +966,10 @@
     "commonName": "East Croydon Tram Stop",
     "id": "940GZZCRECR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1363,7 +977,10 @@
     "commonName": "Elmers End Tram Stop",
     "id": "940GZZCRELM",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1371,8 +988,18 @@
     "commonName": "Fieldway Tram Stop",
     "id": "940GZZCRFLD",
     "lines": [
-      "tram",
-      "bus"
+      {
+        "id": "130",
+        "name": "130"
+      },
+      {
+        "id": "314",
+        "name": "314"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1380,8 +1007,18 @@
     "commonName": "Gravel Hill Tram Stop",
     "id": "940GZZCRGRA",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "130",
+        "name": "130"
+      },
+      {
+        "id": "466",
+        "name": "466"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1389,7 +1026,10 @@
     "commonName": "Harrington Road Tram Stop",
     "id": "940GZZCRHAR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1397,8 +1037,22 @@
     "commonName": "King Henry's Drive Tram Stop",
     "id": "940GZZCRKGH",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "130",
+        "name": "130"
+      },
+      {
+        "id": "64",
+        "name": "64"
+      },
+      {
+        "id": "664",
+        "name": "664"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1406,7 +1060,10 @@
     "commonName": "Lebanon Road Tram Stop",
     "id": "940GZZCRLEB",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1414,7 +1071,10 @@
     "commonName": "Lloyd Park Tram Stop",
     "id": "940GZZCRLOY",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1422,7 +1082,10 @@
     "commonName": "Mitcham Tram Stop",
     "id": "940GZZCRMCH",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1430,8 +1093,22 @@
     "commonName": "Morden Road Tram Stop",
     "id": "940GZZCRMDN",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "470",
+        "name": "470"
+      },
+      {
+        "id": "93",
+        "name": "93"
+      },
+      {
+        "id": "n155",
+        "name": "N155"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1439,7 +1116,10 @@
     "commonName": "Mitcham Junction Tram Stop",
     "id": "940GZZCRMJT",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1447,7 +1127,10 @@
     "commonName": "Merton Park Tram Stop",
     "id": "940GZZCRMTP",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1455,8 +1138,26 @@
     "commonName": "New Addington Tram Stop",
     "id": "940GZZCRNWA",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "130",
+        "name": "130"
+      },
+      {
+        "id": "314",
+        "name": "314"
+      },
+      {
+        "id": "64",
+        "name": "64"
+      },
+      {
+        "id": "664",
+        "name": "664"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1464,7 +1165,10 @@
     "commonName": "Phipps Bridge Tram Stop",
     "id": "940GZZCRPHI",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1472,7 +1176,10 @@
     "commonName": "Reeves Corner Tram Stop",
     "id": "940GZZCRRVC",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1480,7 +1187,10 @@
     "commonName": "Sandilands Tram Stop",
     "id": "940GZZCRSAN",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1488,8 +1198,14 @@
     "commonName": "Therapia Lane Tram Stop",
     "id": "940GZZCRTPA",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "s4",
+        "name": "S4"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1497,7 +1213,10 @@
     "commonName": "Waddon Marsh Tram Stop",
     "id": "940GZZCRWAD",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1505,8 +1224,22 @@
     "commonName": "Wandle Park Tram Stop",
     "id": "940GZZCRWAN",
     "lines": [
-      "bus",
-      "tram"
+      {
+        "id": "407",
+        "name": "407"
+      },
+      {
+        "id": "410",
+        "name": "410"
+      },
+      {
+        "id": "645",
+        "name": "645"
+      },
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1514,7 +1247,10 @@
     "commonName": "West Croydon Tram Stop",
     "id": "940GZZCRWCR",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1522,7 +1258,10 @@
     "commonName": "Wellesley Road Tram Stop",
     "id": "940GZZCRWEL",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1530,7 +1269,10 @@
     "commonName": "Wimbledon Tram Stop",
     "id": "940GZZCRWMB",
     "lines": [
-      "tram"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   },
   {
@@ -1538,79 +1280,10 @@
     "commonName": "Woodside Tram Stop",
     "id": "940GZZCRWOD",
     "lines": [
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBBEK",
-    "commonName": "Beckenham Junction",
-    "id": "HUBBEK",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBBIR",
-    "commonName": "Birkbeck",
-    "id": "HUBBIR",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBECY",
-    "commonName": "East Croydon",
-    "id": "HUBECY",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBELM",
-    "commonName": "Elmers End",
-    "id": "HUBELM",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBMJT",
-    "commonName": "Mitcham Junction",
-    "id": "HUBMJT",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBWCY",
-    "commonName": "West Croydon",
-    "id": "HUBWCY",
-    "lines": [
-      "bus",
-      "national-rail",
-      "overground",
-      "tram"
-    ]
-  },
-  {
-    "naptanId": "HUBWIM",
-    "commonName": "Wimbledon",
-    "id": "HUBWIM",
-    "lines": [
-      "bus",
-      "national-rail",
-      "tram",
-      "tube"
+      {
+        "id": "tram",
+        "name": "Tram"
+      }
     ]
   }
 ]
