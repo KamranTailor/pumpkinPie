@@ -1,23 +1,2249 @@
 [
   {
-    "lines": []
+    "naptanId": "4900ZZDLABR0",
+    "commonName": "Abbey Road DLR Station",
+    "id": "4900ZZDLABR0",
+    "lines": [
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLABR1",
+    "commonName": "Abbey Road DLR Station",
+    "id": "4900ZZDLABR1",
+    "lines": [
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLALL1",
+    "commonName": "All Saints",
+    "id": "4900ZZDLALL1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLALL2",
+    "commonName": "All Saints",
+    "id": "4900ZZDLALL2",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLBEC1",
+    "commonName": "Beckton Station",
+    "id": "4900ZZDLBEC1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLBLA1",
+    "commonName": "Blackwall Station",
+    "id": "4900ZZDLBLA1",
+    "lines": [
+      "dlr"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "4900ZZDLBOW1",
+    "commonName": "Bow Church Station",
+    "id": "4900ZZDLBOW1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLBPK1",
+    "commonName": "Beckton Park Station",
+    "id": "4900ZZDLBPK1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCAN1",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "4900ZZDLCAN1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCAN2",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "4900ZZDLCAN2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCAN3",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "4900ZZDLCAN3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCAN4",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "4900ZZDLCAN4",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT2",
+    "commonName": "Canning Town Station",
+    "id": "4900ZZDLCGT2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT3",
+    "commonName": "Canning Town Bus Station",
+    "id": "4900ZZDLCGT3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT4",
+    "commonName": "Canning Town Station",
+    "id": "4900ZZDLCGT4",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT5",
+    "commonName": "Canning Town Bus Station",
+    "id": "4900ZZDLCGT5",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT6",
+    "commonName": "Canning Town Station",
+    "id": "4900ZZDLCGT6",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCGT7",
+    "commonName": "Canning Town Bus Station",
+    "id": "4900ZZDLCGT7",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCLA1",
+    "commonName": "Crossharbour Station",
+    "id": "4900ZZDLCLA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCLA2",
+    "commonName": "Crossharbour Station",
+    "id": "4900ZZDLCLA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCUS1",
+    "commonName": "Custom House Station",
+    "id": "4900ZZDLCUS1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCUS2",
+    "commonName": "Custom House Station",
+    "id": "4900ZZDLCUS2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCUT1",
+    "commonName": "Greenwich Tn Ctr / Cutty Sark Stn",
+    "id": "4900ZZDLCUT1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCUT2",
+    "commonName": "Greenwich Tn Ctr / Cutty Sark Stn",
+    "id": "4900ZZDLCUT2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCYP1",
+    "commonName": "Cyprus Station",
+    "id": "4900ZZDLCYP1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLCYP2",
+    "commonName": "Cyprus Station",
+    "id": "4900ZZDLCYP2",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLDEP1",
+    "commonName": "Deptford Bridge",
+    "id": "4900ZZDLDEP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLDEP2",
+    "commonName": "Deptford Bridge",
+    "id": "4900ZZDLDEP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLDEV1",
+    "commonName": "Devons Road Station",
+    "id": "4900ZZDLDEV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLEIN1",
+    "commonName": "East India Station",
+    "id": "4900ZZDLEIN1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLEIN2",
+    "commonName": "East India Station",
+    "id": "4900ZZDLEIN2",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLEIN3",
+    "commonName": "East India Station",
+    "id": "4900ZZDLEIN3",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLELV1",
+    "commonName": "Elverson Road",
+    "id": "4900ZZDLELV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLELV2",
+    "commonName": "Elverson Road",
+    "id": "4900ZZDLELV2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLGAL1",
+    "commonName": "Gallions Reach Station",
+    "id": "4900ZZDLGAL1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLGRE1",
+    "commonName": "Greenwich Station",
+    "id": "4900ZZDLGRE1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLGRE2",
+    "commonName": "Greenwich Station",
+    "id": "4900ZZDLGRE2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLGRE3",
+    "commonName": "Greenwich Station",
+    "id": "4900ZZDLGRE3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLHEQ1",
+    "commonName": "Heron Quays",
+    "id": "4900ZZDLHEQ1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLISL2",
+    "commonName": "Island Gardens Station",
+    "id": "4900ZZDLISL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLKGV1",
+    "commonName": "King George V.",
+    "id": "4900ZZDLKGV1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLKGV2",
+    "commonName": "King George V.",
+    "id": "4900ZZDLKGV2",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLLCA1",
+    "commonName": "London City Airport",
+    "id": "4900ZZDLLCA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLLCA2",
+    "commonName": "London City Airport",
+    "id": "4900ZZDLLCA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLLCA3",
+    "commonName": "London City Airport",
+    "id": "4900ZZDLLCA3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLLEW1",
+    "commonName": "Lewisham Station",
+    "id": "4900ZZDLLEW1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLLEW2",
+    "commonName": "Lewisham Station",
+    "id": "4900ZZDLLEW2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLMUD1",
+    "commonName": "Mudchute Station",
+    "id": "4900ZZDLMUD1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLMUD2",
+    "commonName": "Mudchute Station",
+    "id": "4900ZZDLMUD2",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLPOP1",
+    "commonName": "Poplar",
+    "id": "4900ZZDLPOP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLPOP2",
+    "commonName": "Poplar",
+    "id": "4900ZZDLPOP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLPRE1",
+    "commonName": "Prince Regent",
+    "id": "4900ZZDLPRE1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLPRE2",
+    "commonName": "Prince Regent",
+    "id": "4900ZZDLPRE2",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLPUD1",
+    "commonName": "Pudding Mill Lane",
+    "id": "4900ZZDLPUD1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLRAL1",
+    "commonName": "Royal Albert Dlr Station",
+    "id": "4900ZZDLRAL1",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLRVC1",
+    "commonName": "Royal Victoria Station",
+    "id": "4900ZZDLRVC1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLRVC2",
+    "commonName": "Royal Victoria Station",
+    "id": "4900ZZDLRVC2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSHA3",
+    "commonName": "Shadwell Station",
+    "id": "4900ZZDLSHA3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSHA4",
+    "commonName": "Shadwell Station",
+    "id": "4900ZZDLSHA4",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSHS0",
+    "commonName": "Stratford High Street",
+    "id": "4900ZZDLSHS0",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSHS1",
+    "commonName": "Stratford High Street",
+    "id": "4900ZZDLSHS1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSIT0",
+    "commonName": "Stratford International DLR",
+    "id": "4900ZZDLSIT0",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSIT1",
+    "commonName": "Stratford International DLR",
+    "id": "4900ZZDLSIT1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSOQ1",
+    "commonName": "South Quay",
+    "id": "4900ZZDLSOQ1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSOQ2",
+    "commonName": "South Quay",
+    "id": "4900ZZDLSOQ2",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSTL0",
+    "commonName": "Star Lane Station",
+    "id": "4900ZZDLSTL0",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLSTL1",
+    "commonName": "Star Lane Station",
+    "id": "4900ZZDLSTL1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLTWG1",
+    "commonName": "Tower Gateway Station",
+    "id": "4900ZZDLTWG1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLTWG2",
+    "commonName": "Tower Gateway Station",
+    "id": "4900ZZDLTWG2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLWFE1",
+    "commonName": "Westferry Station",
+    "id": "4900ZZDLWFE1",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLWIQ1",
+    "commonName": "West India Quay",
+    "id": "4900ZZDLWIQ1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLWLA1",
+    "commonName": "Woolwich Arsenal DLR",
+    "id": "4900ZZDLWLA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLWLA2",
+    "commonName": "Woolwich Arsenal DLR",
+    "id": "4900ZZDLWLA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "4900ZZDLWSV1",
+    "commonName": "West Silvertown Station",
+    "id": "4900ZZDLWSV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLABR",
+    "commonName": "Abbey Road DLR Station",
+    "id": "9400ZZDLABR",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLABR1",
+    "commonName": "Abbey Road DLR Station",
+    "id": "9400ZZDLABR1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLABR2",
+    "commonName": "Abbey Road DLR Station",
+    "id": "9400ZZDLABR2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLALL",
+    "commonName": "All Saints DLR Station",
+    "id": "9400ZZDLALL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLALL1",
+    "commonName": "All Saints DLR Station",
+    "id": "9400ZZDLALL1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLALL2",
+    "commonName": "All Saints DLR Station",
+    "id": "9400ZZDLALL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBEC",
+    "commonName": "Beckton DLR Station",
+    "id": "9400ZZDLBEC",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBEC1",
+    "commonName": "Beckton DLR Station",
+    "id": "9400ZZDLBEC1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBLA",
+    "commonName": "Blackwall DLR Station",
+    "id": "9400ZZDLBLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBLA1",
+    "commonName": "Blackwall DLR Station",
+    "id": "9400ZZDLBLA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBLA2",
+    "commonName": "Blackwall DLR Station",
+    "id": "9400ZZDLBLA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBNK",
+    "commonName": "Bank DLR Station",
+    "id": "9400ZZDLBNK",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBNK1",
+    "commonName": "Bank DLR Station",
+    "id": "9400ZZDLBNK1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBNK2",
+    "commonName": "Bank",
+    "id": "9400ZZDLBNK2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBOW",
+    "commonName": "Bow Church DLR Station",
+    "id": "9400ZZDLBOW",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBOW1",
+    "commonName": "Bow Church DLR Station",
+    "id": "9400ZZDLBOW1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBOW2",
+    "commonName": "Bow Church DLR Station",
+    "id": "9400ZZDLBOW2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBPK",
+    "commonName": "Beckton Park DLR Station",
+    "id": "9400ZZDLBPK",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBPK1",
+    "commonName": "Beckton Park DLR Station",
+    "id": "9400ZZDLBPK1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLBPK2",
+    "commonName": "Beckton Park DLR Station",
+    "id": "9400ZZDLBPK2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCAN",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "9400ZZDLCAN",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCAN1",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "9400ZZDLCAN1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCAN2",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "9400ZZDLCAN2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCGT",
+    "commonName": "Canning Town DLR Station",
+    "id": "9400ZZDLCGT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCGT1",
+    "commonName": "Canning Town DLR Station",
+    "id": "9400ZZDLCGT1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCGT2",
+    "commonName": "Canning Town DLR Station",
+    "id": "9400ZZDLCGT2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCGT3",
+    "commonName": "Canning Town DLR Station",
+    "id": "9400ZZDLCGT3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCGT4",
+    "commonName": "Canning Town DLR Station",
+    "id": "9400ZZDLCGT4",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCLA",
+    "commonName": "Crossharbour DLR Station",
+    "id": "9400ZZDLCLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCLA1",
+    "commonName": "Crossharbour DLR Station",
+    "id": "9400ZZDLCLA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCLA2",
+    "commonName": "Crossharbour DLR Station",
+    "id": "9400ZZDLCLA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUS",
+    "commonName": "Custom House (for ExCel) DLR Station",
+    "id": "9400ZZDLCUS",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUS1",
+    "commonName": "Custom House (for ExCel) DLR Station",
+    "id": "9400ZZDLCUS1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUS2",
+    "commonName": "Custom House Station",
+    "id": "9400ZZDLCUS2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUT",
+    "commonName": "Cutty Sark (for Maritime Greenwich) DLR Station",
+    "id": "9400ZZDLCUT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUT1",
+    "commonName": "Cutty Sark (for Maritime Greenwich) DLR Station",
+    "id": "9400ZZDLCUT1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCUT2",
+    "commonName": "Cutty Sark for Maritime Greenwich",
+    "id": "9400ZZDLCUT2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCYP",
+    "commonName": "Cyprus DLR Station",
+    "id": "9400ZZDLCYP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCYP1",
+    "commonName": "Cyprus DLR Station",
+    "id": "9400ZZDLCYP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLCYP2",
+    "commonName": "Cyprus DLR Station",
+    "id": "9400ZZDLCYP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEP",
+    "commonName": "Deptford Bridge DLR Station",
+    "id": "9400ZZDLDEP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEP1",
+    "commonName": "Deptford Bridge DLR Station",
+    "id": "9400ZZDLDEP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEP2",
+    "commonName": "Deptford Bridge DLR Station",
+    "id": "9400ZZDLDEP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEV",
+    "commonName": "Devons Road DLR Station",
+    "id": "9400ZZDLDEV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEV1",
+    "commonName": "Devons Road DLR Station",
+    "id": "9400ZZDLDEV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLDEV2",
+    "commonName": "Devons Road DLR Station",
+    "id": "9400ZZDLDEV2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLEIN",
+    "commonName": "East India DLR Station",
+    "id": "9400ZZDLEIN",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLEIN1",
+    "commonName": "East India DLR Station",
+    "id": "9400ZZDLEIN1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLEIN2",
+    "commonName": "East India DLR Station",
+    "id": "9400ZZDLEIN2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLELV",
+    "commonName": "Elverson Road DLR Station",
+    "id": "9400ZZDLELV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLELV1",
+    "commonName": "Elverson Road DLR Station",
+    "id": "9400ZZDLELV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLELV2",
+    "commonName": "Elverson Road DLR Station",
+    "id": "9400ZZDLELV2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGAL",
+    "commonName": "Gallions Reach DLR Station",
+    "id": "9400ZZDLGAL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGAL1",
+    "commonName": "Gallions Reach DLR Station",
+    "id": "9400ZZDLGAL1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGAL2",
+    "commonName": "Gallions Reach DLR Station",
+    "id": "9400ZZDLGAL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGRE",
+    "commonName": "Greenwich DLR Station",
+    "id": "9400ZZDLGRE",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGRE1",
+    "commonName": "Greenwich DLR Station",
+    "id": "9400ZZDLGRE1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLGRE2",
+    "commonName": "Greenwich DLR Station",
+    "id": "9400ZZDLGRE2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLHEQ",
+    "commonName": "Heron Quays DLR Station",
+    "id": "9400ZZDLHEQ",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLHEQ1",
+    "commonName": "Heron Quays DLR Station",
+    "id": "9400ZZDLHEQ1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLHEQ2",
+    "commonName": "Heron Quays DLR Station",
+    "id": "9400ZZDLHEQ2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLISL",
+    "commonName": "Island Gardens DLR Station",
+    "id": "9400ZZDLISL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLISL1",
+    "commonName": "Island Gardens DLR Station",
+    "id": "9400ZZDLISL1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLISL2",
+    "commonName": "Island Gardens",
+    "id": "9400ZZDLISL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLKGV",
+    "commonName": "King George V DLR Station",
+    "id": "9400ZZDLKGV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLKGV1",
+    "commonName": "King George V DLR Station",
+    "id": "9400ZZDLKGV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLKGV2",
+    "commonName": "King George V.",
+    "id": "9400ZZDLKGV2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLCA",
+    "commonName": "London City Airport DLR Station",
+    "id": "9400ZZDLLCA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLCA1",
+    "commonName": "London City Airport DLR Station",
+    "id": "9400ZZDLLCA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLCA2",
+    "commonName": "London City Airport",
+    "id": "9400ZZDLLCA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLDP",
+    "commonName": "Langdon Park DLR Station",
+    "id": "9400ZZDLLDP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLDP1",
+    "commonName": "Langdon Park DLR Station",
+    "id": "9400ZZDLLDP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLDP2",
+    "commonName": "Langdon Park DLR Station",
+    "id": "9400ZZDLLDP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLEW",
+    "commonName": "Lewisham DLR Station",
+    "id": "9400ZZDLLEW",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLEW1",
+    "commonName": "Lewisham DLR Station",
+    "id": "9400ZZDLLEW1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLIM",
+    "commonName": "Limehouse DLR Station",
+    "id": "9400ZZDLLIM",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLIM1",
+    "commonName": "Limehouse DLR Station",
+    "id": "9400ZZDLLIM1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLLIM2",
+    "commonName": "Limehouse DLR Station",
+    "id": "9400ZZDLLIM2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLMUD",
+    "commonName": "Mudchute DLR Station",
+    "id": "9400ZZDLMUD",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLMUD1",
+    "commonName": "Mudchute DLR Station",
+    "id": "9400ZZDLMUD1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLMUD2",
+    "commonName": "Mudchute DLR Station",
+    "id": "9400ZZDLMUD2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPDK",
+    "commonName": "Pontoon Dock DLR Station",
+    "id": "9400ZZDLPDK",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPDK1",
+    "commonName": "Pontoon Dock DLR Station",
+    "id": "9400ZZDLPDK1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPDK2",
+    "commonName": "Pontoon Dock DLR Station",
+    "id": "9400ZZDLPDK2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPOP",
+    "commonName": "Poplar DLR Station",
+    "id": "9400ZZDLPOP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPOP1",
+    "commonName": "Poplar DLR Station",
+    "id": "9400ZZDLPOP1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPOP2",
+    "commonName": "Poplar DLR Station",
+    "id": "9400ZZDLPOP2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPOP3",
+    "commonName": "Poplar DLR Station",
+    "id": "9400ZZDLPOP3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPRE",
+    "commonName": "Prince Regent DLR Station",
+    "id": "9400ZZDLPRE",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPRE1",
+    "commonName": "Prince Regent DLR Station",
+    "id": "9400ZZDLPRE1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPRE2",
+    "commonName": "Prince Regent",
+    "id": "9400ZZDLPRE2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPUD",
+    "commonName": "Pudding Mill Lane DLR Station",
+    "id": "9400ZZDLPUD",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPUD1",
+    "commonName": "Pudding Mill Lane DLR Station",
+    "id": "9400ZZDLPUD1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLPUD2",
+    "commonName": "Pudding Mill Lane DLR Station",
+    "id": "9400ZZDLPUD2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRAL",
+    "commonName": "Royal Albert DLR Station",
+    "id": "9400ZZDLRAL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRAL1",
+    "commonName": "Royal Albert DLR Station",
+    "id": "9400ZZDLRAL1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRAL2",
+    "commonName": "Royal Albert DLR Station",
+    "id": "9400ZZDLRAL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRVC",
+    "commonName": "Royal Victoria DLR Station",
+    "id": "9400ZZDLRVC",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRVC1",
+    "commonName": "Royal Victoria DLR Station",
+    "id": "9400ZZDLRVC1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLRVC2",
+    "commonName": "Royal Victoria DLR Station",
+    "id": "9400ZZDLRVC2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHA",
+    "commonName": "Shadwell DLR Station",
+    "id": "9400ZZDLSHA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHA1",
+    "commonName": "Shadwell DLR Station",
+    "id": "9400ZZDLSHA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHA2",
+    "commonName": "Shadwell DLR",
+    "id": "9400ZZDLSHA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHS",
+    "commonName": "Stratford High Street DLR Station",
+    "id": "9400ZZDLSHS",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHS1",
+    "commonName": "Stratford High Street DLR Station",
+    "id": "9400ZZDLSHS1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSHS2",
+    "commonName": "Stratford High Street DLR Station",
+    "id": "9400ZZDLSHS2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSIT",
+    "commonName": "Stratford International DLR Station",
+    "id": "9400ZZDLSIT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSIT1",
+    "commonName": "Stratford International DLR Station",
+    "id": "9400ZZDLSIT1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSIT2",
+    "commonName": "Stratford International DLR Station",
+    "id": "9400ZZDLSIT2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSOQ",
+    "commonName": "South Quay DLR Station",
+    "id": "9400ZZDLSOQ",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSOQ1",
+    "commonName": "South Quay DLR Station",
+    "id": "9400ZZDLSOQ1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSOQ2",
+    "commonName": "South Quay DLR Station",
+    "id": "9400ZZDLSOQ2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTD",
+    "commonName": "Stratford DLR Station",
+    "id": "9400ZZDLSTD",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTD1",
+    "commonName": "Stratford DLR Station",
+    "id": "9400ZZDLSTD1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTD2",
+    "commonName": "Stratford DLR Station",
+    "id": "9400ZZDLSTD2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTD3",
+    "commonName": "Stratford DLR Station",
+    "id": "9400ZZDLSTD3",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTD4",
+    "commonName": "Stratford DLR Station",
+    "id": "9400ZZDLSTD4",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTL",
+    "commonName": "Star Lane DLR Station",
+    "id": "9400ZZDLSTL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTL1",
+    "commonName": "Star Lane DLR Station",
+    "id": "9400ZZDLSTL1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLSTL2",
+    "commonName": "Star Lane DLR Station",
+    "id": "9400ZZDLSTL2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLTWG",
+    "commonName": "Tower Gateway DLR Station",
+    "id": "9400ZZDLTWG",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLTWG1",
+    "commonName": "Tower Gateway DLR Station",
+    "id": "9400ZZDLTWG1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLTWG2",
+    "commonName": "Tower Gateway",
+    "id": "9400ZZDLTWG2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWFE",
+    "commonName": "Westferry DLR Station",
+    "id": "9400ZZDLWFE",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWFE1",
+    "commonName": "Westferry DLR Station",
+    "id": "9400ZZDLWFE1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWFE2",
+    "commonName": "Westferry DLR Station",
+    "id": "9400ZZDLWFE2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWHM",
+    "commonName": "West Ham DLR Station",
+    "id": "9400ZZDLWHM",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWHM1",
+    "commonName": "West Ham DLR Station",
+    "id": "9400ZZDLWHM1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWHM2",
+    "commonName": "West Ham DLR Station",
+    "id": "9400ZZDLWHM2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWIQ",
+    "commonName": "West India Quay DLR Station",
+    "id": "9400ZZDLWIQ",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWIQ1",
+    "commonName": "West India Quay DLR Station",
+    "id": "9400ZZDLWIQ1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWIQ2",
+    "commonName": "West India Quay DLR Station",
+    "id": "9400ZZDLWIQ2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWLA",
+    "commonName": "Woolwich Arsenal DLR Station",
+    "id": "9400ZZDLWLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWLA1",
+    "commonName": "Woolwich Arsenal DLR Station",
+    "id": "9400ZZDLWLA1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWLA2",
+    "commonName": "Woolwich Arsenal DLR Station",
+    "id": "9400ZZDLWLA2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWSV",
+    "commonName": "West Silvertown DLR Station",
+    "id": "9400ZZDLWSV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWSV1",
+    "commonName": "West Silvertown DLR Station",
+    "id": "9400ZZDLWSV1",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "9400ZZDLWSV2",
+    "commonName": "West Silvertown DLR Station",
+    "id": "9400ZZDLWSV2",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLABR",
+    "commonName": "Abbey Road DLR Station",
+    "id": "940GZZDLABR",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLALL",
+    "commonName": "All Saints DLR Station",
+    "id": "940GZZDLALL",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLBEC",
+    "commonName": "Beckton DLR Station",
+    "id": "940GZZDLBEC",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLBLA",
+    "commonName": "Blackwall DLR Station",
+    "id": "940GZZDLBLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLBNK",
+    "commonName": "Bank DLR Station",
+    "id": "940GZZDLBNK",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLBOW",
+    "commonName": "Bow Church DLR Station",
+    "id": "940GZZDLBOW",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLBPK",
+    "commonName": "Beckton Park DLR Station",
+    "id": "940GZZDLBPK",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCAN",
+    "commonName": "Canary Wharf DLR Station",
+    "id": "940GZZDLCAN",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCGT",
+    "commonName": "Canning Town DLR Station",
+    "id": "940GZZDLCGT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCLA",
+    "commonName": "Crossharbour DLR Station",
+    "id": "940GZZDLCLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCUS",
+    "commonName": "Custom House (for ExCel) DLR Station",
+    "id": "940GZZDLCUS",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCUT",
+    "commonName": "Cutty Sark (for Maritime Greenwich) DLR Station",
+    "id": "940GZZDLCUT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLCYP",
+    "commonName": "Cyprus DLR Station",
+    "id": "940GZZDLCYP",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLDEP",
+    "commonName": "Deptford Bridge DLR Station",
+    "id": "940GZZDLDEP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLDEV",
+    "commonName": "Devons Road DLR Station",
+    "id": "940GZZDLDEV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLEIN",
+    "commonName": "East India DLR Station",
+    "id": "940GZZDLEIN",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLELV",
+    "commonName": "Elverson Road DLR Station",
+    "id": "940GZZDLELV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLGAL",
+    "commonName": "Gallions Reach DLR Station",
+    "id": "940GZZDLGAL",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLGRE",
+    "commonName": "Greenwich DLR Station",
+    "id": "940GZZDLGRE",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLHEQ",
+    "commonName": "Heron Quays DLR Station",
+    "id": "940GZZDLHEQ",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLISL",
+    "commonName": "Island Gardens DLR Station",
+    "id": "940GZZDLISL",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLKGV",
+    "commonName": "King George V DLR Station",
+    "id": "940GZZDLKGV",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLLCA",
+    "commonName": "London City Airport DLR Station",
+    "id": "940GZZDLLCA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLLDP",
+    "commonName": "Langdon Park DLR Station",
+    "id": "940GZZDLLDP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLLEW",
+    "commonName": "Lewisham DLR Station",
+    "id": "940GZZDLLEW",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLLIM",
+    "commonName": "Limehouse DLR Station",
+    "id": "940GZZDLLIM",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLMUD",
+    "commonName": "Mudchute DLR Station",
+    "id": "940GZZDLMUD",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLPDK",
+    "commonName": "Pontoon Dock DLR Station",
+    "id": "940GZZDLPDK",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLPOP",
+    "commonName": "Poplar DLR Station",
+    "id": "940GZZDLPOP",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLPRE",
+    "commonName": "Prince Regent DLR Station",
+    "id": "940GZZDLPRE",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLPUD",
+    "commonName": "Pudding Mill Lane DLR Station",
+    "id": "940GZZDLPUD",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLRAL",
+    "commonName": "Royal Albert DLR Station",
+    "id": "940GZZDLRAL",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLRVC",
+    "commonName": "Royal Victoria DLR Station",
+    "id": "940GZZDLRVC",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSHA",
+    "commonName": "Shadwell DLR Station",
+    "id": "940GZZDLSHA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSHS",
+    "commonName": "Stratford High Street DLR Station",
+    "id": "940GZZDLSHS",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSIT",
+    "commonName": "Stratford International DLR Station",
+    "id": "940GZZDLSIT",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSOQ",
+    "commonName": "South Quay DLR Station",
+    "id": "940GZZDLSOQ",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSTD",
+    "commonName": "Stratford DLR Station",
+    "id": "940GZZDLSTD",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLSTL",
+    "commonName": "Star Lane DLR Station",
+    "id": "940GZZDLSTL",
+    "lines": [
+      "dlr",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLTWG",
+    "commonName": "Tower Gateway DLR Station",
+    "id": "940GZZDLTWG",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLWFE",
+    "commonName": "Westferry DLR Station",
+    "id": "940GZZDLWFE",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLWHM",
+    "commonName": "West Ham DLR Station",
+    "id": "940GZZDLWHM",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLWIQ",
+    "commonName": "West India Quay DLR Station",
+    "id": "940GZZDLWIQ",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLWLA",
+    "commonName": "Woolwich Arsenal DLR Station",
+    "id": "940GZZDLWLA",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "940GZZDLWSV",
+    "commonName": "West Silvertown DLR Station",
+    "id": "940GZZDLWSV",
+    "lines": [
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "HUBBAN",
+    "commonName": "Bank",
+    "id": "HUBBAN",
+    "lines": [
+      "bus",
+      "dlr",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBCAN",
+    "commonName": "Canning Town",
+    "id": "HUBCAN",
+    "lines": [
+      "bus",
+      "dlr",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBCAW",
+    "commonName": "Canary Wharf",
+    "id": "HUBCAW",
+    "lines": [
+      "bus",
+      "dlr",
+      "elizabeth-line",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBCUS",
+    "commonName": "Custom House",
+    "id": "HUBCUS",
+    "lines": [
+      "dlr",
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "HUBCUT",
+    "commonName": "Cutty Sark",
+    "id": "HUBCUT",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "HUBGNW",
+    "commonName": "Greenwich",
+    "id": "HUBGNW",
+    "lines": [
+      "bus",
+      "dlr",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "HUBLCY",
+    "commonName": "London City Airport",
+    "id": "HUBLCY",
+    "lines": [
+      "bus",
+      "dlr",
+      "plane"
+    ]
+  },
+  {
+    "naptanId": "HUBLEW",
+    "commonName": "Lewisham",
+    "id": "HUBLEW",
+    "lines": [
+      "bus",
+      "dlr",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "HUBLHS",
+    "commonName": "Limehouse",
+    "id": "HUBLHS",
+    "lines": [
+      "bus",
+      "dlr",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "HUBRVC",
+    "commonName": "Royal Victoria",
+    "id": "HUBRVC",
+    "lines": [
+      "bus",
+      "cable-car",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "HUBSDE",
+    "commonName": "Shadwell",
+    "id": "HUBSDE",
+    "lines": [
+      "bus",
+      "dlr",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBSRA",
+    "commonName": "Stratford",
+    "id": "HUBSRA",
+    "lines": [
+      "bus",
+      "dlr",
+      "elizabeth-line",
+      "international-rail",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBTOG",
+    "commonName": "Tower Gateway",
+    "id": "HUBTOG",
+    "lines": [
+      "bus",
+      "dlr"
+    ]
+  },
+  {
+    "naptanId": "HUBWEH",
+    "commonName": "West Ham",
+    "id": "HUBWEH",
+    "lines": [
+      "bus",
+      "dlr",
+      "national-rail",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWWA",
+    "commonName": "Woolwich Arsenal",
+    "id": "HUBWWA",
+    "lines": [
+      "bus",
+      "dlr",
+      "national-rail"
+    ]
   }
 ]

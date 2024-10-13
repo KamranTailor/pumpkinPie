@@ -1,23 +1,344 @@
 [
   {
-    "lines": []
+    "naptanId": "9100ABWDXR0",
+    "commonName": "Abbey Wood Station",
+    "id": "9100ABWDXR0",
+    "lines": [
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100ACTONML0",
+    "commonName": "Acton Main Line Station",
+    "id": "9100ACTONML0",
+    "lines": [
+      "national-rail",
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100BNHAM0",
+    "commonName": "Burnham (Berks) Rail Station",
+    "id": "9100BNHAM0",
+    "lines": [
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100BONDST0",
+    "commonName": "Bond Street Station",
+    "id": "9100BONDST0",
+    "lines": [
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100BRTWOOD1",
+    "commonName": "Brentwood Rail Station",
+    "id": "9100BRTWOOD1",
+    "lines": [
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100CANWHRF0",
+    "commonName": "Canary Wharf Rail Station",
+    "id": "9100CANWHRF0",
+    "lines": [
+      "elizabeth-line"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "9100CHDWLHT1",
+    "commonName": "Chadwell Heath Station",
+    "id": "9100CHDWLHT1",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100CSTMHSXR",
+    "commonName": "Custom House",
+    "id": "9100CSTMHSXR",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100EALINGB0",
+    "commonName": "Ealing Broadway Station",
+    "id": "9100EALINGB0",
+    "lines": [
+      "national-rail",
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100FRNDXR0",
+    "commonName": "Farringdon Station",
+    "id": "9100FRNDXR0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100FRSTGT0",
+    "commonName": "Forest Gate Station",
+    "id": "9100FRSTGT0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100GIDEAPK1",
+    "commonName": "Gidea Park Station",
+    "id": "9100GIDEAPK1",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100GODMAYS1",
+    "commonName": "Goodmayes Station",
+    "id": "9100GODMAYS1",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100HANWELL0",
+    "commonName": "Hanwell Station",
+    "id": "9100HANWELL0",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HAYESAH0",
+    "commonName": "Hayes & Harlington Station",
+    "id": "9100HAYESAH0",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HRLDWOD2",
+    "commonName": "Harold Wood Station",
+    "id": "9100HRLDWOD2",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100HTRWAPT0",
+    "commonName": "Heathrow Terminals 2 & 3 Rail Station",
+    "id": "9100HTRWAPT0",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HTRWTM40",
+    "commonName": "Heathrow Terminal 4",
+    "id": "9100HTRWTM40",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100HTRWTM50",
+    "commonName": "Heathrow Terminal 5",
+    "id": "9100HTRWTM50",
+    "lines": [
+      "national-rail",
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100ILFORD2",
+    "commonName": "Ilford Station",
+    "id": "9100ILFORD2",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100IVER1",
+    "commonName": "Iver Rail Station",
+    "id": "9100IVER1",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100LANGLEY0",
+    "commonName": "Langley (Berks) Rail Station",
+    "id": "9100LANGLEY0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100LIVST0",
+    "commonName": "Liverpool Street Station",
+    "id": "9100LIVST0",
+    "lines": [
+      "elizabeth-line",
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100MANRPK0",
+    "commonName": "Manor Park Station",
+    "id": "9100MANRPK0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100MDNHEAD0",
+    "commonName": "Maidenhead Rail Station",
+    "id": "9100MDNHEAD0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100MRYLAND0",
+    "commonName": "Maryland Station",
+    "id": "9100MRYLAND0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100PADTLL0",
+    "commonName": "Paddington Rail Station",
+    "id": "9100PADTLL0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100RDNGSTN0",
+    "commonName": "Reading Rail Station",
+    "id": "9100RDNGSTN0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100ROMFORD3",
+    "commonName": "Romford Station",
+    "id": "9100ROMFORD3",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100SHENFLD2",
+    "commonName": "Shenfield Rail Station",
+    "id": "9100SHENFLD2",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100SLOUGH0",
+    "commonName": "Slough Rail Station",
+    "id": "9100SLOUGH0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100STFD5",
+    "commonName": "Stratford Station",
+    "id": "9100STFD5",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100STHALL0",
+    "commonName": "Southall Station",
+    "id": "9100STHALL0",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100SVNKNGS0",
+    "commonName": "Seven Kings Station",
+    "id": "9100SVNKNGS0",
+    "lines": [
+      "elizabeth-line",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100TAPLOW0",
+    "commonName": "Taplow Rail Station",
+    "id": "9100TAPLOW0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100TCRST0",
+    "commonName": "Tottenham Court Road Station",
+    "id": "9100TCRST0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100WDTNSRD1",
+    "commonName": "Woolwich Rail Station",
+    "id": "9100WDTNSRD1",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100WESPLYD2",
+    "commonName": "West Drayton Station",
+    "id": "9100WESPLYD2",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100WEALNG1",
+    "commonName": "West Ealing Station",
+    "id": "9100WEALNG1",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100WHMDST0",
+    "commonName": "Whitechapel Rail Station",
+    "id": "9100WHMDST0",
+    "lines": [
+      "elizabeth-line"
+    ]
+  },
+  {
+    "naptanId": "9100WLSDNJN5",
+    "commonName": "Willesden Junction Rail Station",
+    "id": "9100WLSDNJN5",
+    "lines": [
+      "elizabeth-line"
+    ]
   }
 ]

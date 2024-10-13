@@ -1,23 +1,4666 @@
 [
   {
-    "lines": []
+    "naptanId": "2100BUSHEY0",
+    "commonName": "Bushey Rail Station",
+    "id": "2100BUSHEY0",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100BUSHEY1",
+    "commonName": "Bushey Rail Station",
+    "id": "2100BUSHEY1",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100BUSHYDC0",
+    "commonName": "Bushey Rail Station",
+    "id": "2100BUSHYDC0",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100BUSHYDC1",
+    "commonName": "Bushey Rail Station",
+    "id": "2100BUSHYDC1",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100CHESHNT0",
+    "commonName": "Cheshunt Rail Station",
+    "id": "2100CHESHNT0",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100CRPNDPK0",
+    "commonName": "Carpenders Park Rail Station",
+    "id": "2100CRPNDPK0",
+    "lines": [
+      "overground"
+    ]
   },
   {
-    "lines": []
+    "naptanId": "2100THBLDSG0",
+    "commonName": "Theobalds Grove Rail Station",
+    "id": "2100THBLDSG0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "2100WATFDHS0",
+    "commonName": "Watford High Street Rail Station",
+    "id": "2100WATFDHS0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "2100WATFDJ0",
+    "commonName": "Watford Junction Rail Station",
+    "id": "2100WATFDJ0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "2100WATFJDC0",
+    "commonName": "Watford Junction Rail Station",
+    "id": "2100WATFJDC0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ACTNCTL1",
+    "commonName": "Acton Central Station",
+    "id": "4900ACTNCTL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ACTNCTL2",
+    "commonName": "Acton Central Station",
+    "id": "4900ACTNCTL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ANERLEY1",
+    "commonName": "Anerley Station",
+    "id": "4900ANERLEY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ANERLEY2",
+    "commonName": "Anerley Station",
+    "id": "4900ANERLEY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BARKING1",
+    "commonName": "Barking Station",
+    "id": "4900BARKING1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BHILLPK1",
+    "commonName": "Bush Hill Park Station",
+    "id": "4900BHILLPK1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900BHILLPK2",
+    "commonName": "Bush Hill Park Station",
+    "id": "4900BHILLPK2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900BKRVS1",
+    "commonName": "Barking Riverside Station",
+    "id": "4900BKRVS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BKRVS2",
+    "commonName": "Barking Riverside Station",
+    "id": "4900BKRVS2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BLCHSRD1",
+    "commonName": "Blackhorse Rd Stn   / Blackhorse Lane",
+    "id": "4900BLCHSRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BLCHSRD2",
+    "commonName": "Blackhorse Road Station",
+    "id": "4900BLCHSRD2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BLCHSRD3",
+    "commonName": "Blackhorse Rd Stn   / Blackhorse Lane",
+    "id": "4900BLCHSRD3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BRBY1",
+    "commonName": "Brondesbury Station",
+    "id": "4900BRBY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BRBYPK1",
+    "commonName": "Brondesbury Park Station",
+    "id": "4900BRBYPK1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900BROCKLY1",
+    "commonName": "Brockley Station",
+    "id": "4900BROCKLY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BROCKLY2",
+    "commonName": "Brockley Station",
+    "id": "4900BROCKLY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BRUCGRV1",
+    "commonName": "Bruce Grove Station",
+    "id": "4900BRUCGRV1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BRUCGRV2",
+    "commonName": "Bruce Grove Station",
+    "id": "4900BRUCGRV2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900BTHNLGR1",
+    "commonName": "Bethnal Green Rail Station",
+    "id": "4900BTHNLGR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CAMHTH1",
+    "commonName": "Cambridge Heath Station",
+    "id": "4900CAMHTH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CHINGFD1",
+    "commonName": "Chingford Station",
+    "id": "4900CHINGFD1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLAPTON1",
+    "commonName": "Clapton Station",
+    "id": "4900CLAPTON1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLDNNRB1",
+    "commonName": "Caledonian Road & Barnsbury Station",
+    "id": "4900CLDNNRB1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLPHHS1",
+    "commonName": "Clapham High Street",
+    "id": "4900CLPHHS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLPHMJC1",
+    "commonName": "Clapham Junction Station",
+    "id": "4900CLPHMJC1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLPHMJC2",
+    "commonName": "Clapham Junction Station",
+    "id": "4900CLPHMJC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CLPHMJC3",
+    "commonName": "Clapham Junction Station",
+    "id": "4900CLPHMJC3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CMDNRD1",
+    "commonName": "Camden Road Station",
+    "id": "4900CMDNRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CNDAW1",
+    "commonName": "Canada Water Station",
+    "id": "4900CNDAW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CNDAW2",
+    "commonName": "Canada Water Station",
+    "id": "4900CNDAW2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CNDAW3",
+    "commonName": "Canada Water Station",
+    "id": "4900CNDAW3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CNNB1",
+    "commonName": "Canonbury Station",
+    "id": "4900CNNB1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CROUCHH1",
+    "commonName": "Crouch Hill Station",
+    "id": "4900CROUCHH1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900CRYSTLP1",
+    "commonName": "Crystal Palace Station",
+    "id": "4900CRYSTLP1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CSEAH1",
+    "commonName": "Imperial Wharf Stn  / Chelsea Harbour",
+    "id": "4900CSEAH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CSEAH3",
+    "commonName": "Imperial Wharf Stn  / Chelsea Harbour",
+    "id": "4900CSEAH3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900CSEAH4",
+    "commonName": "Imperial Wharf Stn  / Chelsea Harbour",
+    "id": "4900CSEAH4",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900DALS1",
+    "commonName": "Dalston Junction Station",
+    "id": "4900DALS1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900DALS2",
+    "commonName": "Dalston Junction Station",
+    "id": "4900DALS2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900DALSKLD1",
+    "commonName": "Dalston Kingsland Station",
+    "id": "4900DALSKLD1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900DENMRKH1",
+    "commonName": "Denmark Hill Station",
+    "id": "4900DENMRKH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900EDMNGRN1",
+    "commonName": "Edmonton Green Station",
+    "id": "4900EDMNGRN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900EMRSPKH1",
+    "commonName": "Emerson Park Station",
+    "id": "4900EMRSPKH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ENFLDTN1",
+    "commonName": "Enfield Town Station",
+    "id": "4900ENFLDTN1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900ENFLDTN2",
+    "commonName": "Enfield Town Station",
+    "id": "4900ENFLDTN2",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900EUSTON0",
+    "commonName": "Euston Station",
+    "id": "4900EUSTON0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900EUSTON1",
+    "commonName": "Euston Station",
+    "id": "4900EUSTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900EUSTON3",
+    "commonName": "Euston Station",
+    "id": "4900EUSTON3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900FNCHLYR1",
+    "commonName": "Finchley Road & Frognal Station",
+    "id": "4900FNCHLYR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900FORESTH1",
+    "commonName": "Forest Hill Station",
+    "id": "4900FORESTH1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900FORESTH2",
+    "commonName": "Forest Hill Station",
+    "id": "4900FORESTH2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900FORESTH3",
+    "commonName": "Forest Hill Station",
+    "id": "4900FORESTH3",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900FORESTH4",
+    "commonName": "Forest Hill Station",
+    "id": "4900FORESTH4",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900GNRSBRY1",
+    "commonName": "Gunnersbury Station",
+    "id": "4900GNRSBRY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900GNRSBRY2",
+    "commonName": "Gunnersbury Station",
+    "id": "4900GNRSBRY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900GOSPLOK1",
+    "commonName": "Gospel Oak Station",
+    "id": "4900GOSPLOK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYC1",
+    "commonName": "Hackney Central Station",
+    "id": "4900HACKNYC1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYC2",
+    "commonName": "Hackney Central Station",
+    "id": "4900HACKNYC2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYC3",
+    "commonName": "Hackney Central Station",
+    "id": "4900HACKNYC3",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYC4",
+    "commonName": "Hackney Central Station",
+    "id": "4900HACKNYC4",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYW1",
+    "commonName": "Hackney Wick Station",
+    "id": "4900HACKNYW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HACKNYW2",
+    "commonName": "Hackney Wick Station",
+    "id": "4900HACKNYW2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HAGGERS1",
+    "commonName": "Haggerston Station",
+    "id": "4900HAGGERS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HAKNYNM1",
+    "commonName": "Hackney Downs Station",
+    "id": "4900HAKNYNM1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HAKNYNM2",
+    "commonName": "Hackney Downs Station",
+    "id": "4900HAKNYNM2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HARLSDN1",
+    "commonName": "Harlesden Station",
+    "id": "4900HARLSDN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HEDSTNL1",
+    "commonName": "Headstone Lane Station",
+    "id": "4900HEDSTNL1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HEDSTNL2",
+    "commonName": "Headstone Lane Station",
+    "id": "4900HEDSTNL2",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HGHI",
+    "commonName": "Highbury & Islington Station",
+    "id": "4900HGHI",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HGHMSPK1",
+    "commonName": "Highams Park Station",
+    "id": "4900HGHMSPK1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HGHMSPK2",
+    "commonName": "Highams Park Station",
+    "id": "4900HGHMSPK2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HGHMSPK3",
+    "commonName": "Highams Park Station",
+    "id": "4900HGHMSPK3",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HMPSTDH1",
+    "commonName": "Hampstead Heath Station",
+    "id": "4900HMPSTDH1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HOMRTON1",
+    "commonName": "Homerton Station",
+    "id": "4900HOMRTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HONROPK1",
+    "commonName": "Honor Oak Park Station",
+    "id": "4900HONROPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HOXTON1",
+    "commonName": "Hoxton Station",
+    "id": "4900HOXTON1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HOXTON2",
+    "commonName": "Hoxton Station",
+    "id": "4900HOXTON2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900HRGYGL1",
+    "commonName": "Harringay Green Lanes Station",
+    "id": "4900HRGYGL1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HRGYGL2",
+    "commonName": "Harringay Green Lanes Station",
+    "id": "4900HRGYGL2",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HROW1",
+    "commonName": "Harrow & Wealdstone Station",
+    "id": "4900HROW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HROW2",
+    "commonName": "Harrow & Wealdstone Station",
+    "id": "4900HROW2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900HTCHEND1",
+    "commonName": "Hatch End Station",
+    "id": "4900HTCHEND1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KENOLYM1",
+    "commonName": "Kensington Olympia Station",
+    "id": "4900KENOLYM1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KENOLYM2",
+    "commonName": "Kensington Olympia Station",
+    "id": "4900KENOLYM2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KENR1",
+    "commonName": "Kensal Rise Station",
+    "id": "4900KENR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KENR2",
+    "commonName": "Kensal Rise Station",
+    "id": "4900KENR2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KENSLG1",
+    "commonName": "Kensal Green Station",
+    "id": "4900KENSLG1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KEWGRDN1",
+    "commonName": "Kew Gardens Station",
+    "id": "4900KEWGRDN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KEWGRDN2",
+    "commonName": "Kew Gardens Station",
+    "id": "4900KEWGRDN2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KLBRNHR1",
+    "commonName": "Kilburn High Road Station",
+    "id": "4900KLBRNHR1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900KNTSHTW1",
+    "commonName": "Kentish Town West Station",
+    "id": "4900KNTSHTW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900KTON1",
+    "commonName": "Kenton Station",
+    "id": "4900KTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900LEYTNMR1",
+    "commonName": "Leyton Midland Road Station",
+    "id": "4900LEYTNMR1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900LEYTNMR2",
+    "commonName": "Leyton Midland Road Station",
+    "id": "4900LEYTNMR2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900LONFLDS1",
+    "commonName": "London Fields Station",
+    "id": "4900LONFLDS1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900LONFLDS2",
+    "commonName": "London Fields Station",
+    "id": "4900LONFLDS2",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900LYTNSHR1",
+    "commonName": "Leytonstone High Road Station",
+    "id": "4900LYTNSHR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NEWXGTE1",
+    "commonName": "New Cross Gate Station",
+    "id": "4900NEWXGTE1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NORWDJ1",
+    "commonName": "Norwood Junction Station",
+    "id": "4900NORWDJ1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NORWDJ2",
+    "commonName": "Norwood Junction Station",
+    "id": "4900NORWDJ2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NORWDJ3",
+    "commonName": "Norwood Junction Station",
+    "id": "4900NORWDJ3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NWCRELL1",
+    "commonName": "New Cross Station",
+    "id": "4900NWCRELL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900NWEMBLY1",
+    "commonName": "North Wembley Station",
+    "id": "4900NWEMBLY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900PCKHMQD1",
+    "commonName": "Queen's Road Peckham Station",
+    "id": "4900PCKHMQD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900PCKHMRY1",
+    "commonName": "Peckham Rye Station",
+    "id": "4900PCKHMRY1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900PENEW1",
+    "commonName": "Penge West Station",
+    "id": "4900PENEW1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900QPRK",
+    "commonName": "Queens Park Station",
+    "id": "4900QPRK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900RCTRYRD1",
+    "commonName": "Rectory Road Station",
+    "id": "4900RCTRYRD1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900RICHMND1",
+    "commonName": "Richmond Station",
+    "id": "4900RICHMND1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900RICHMND2",
+    "commonName": "Richmond Station",
+    "id": "4900RICHMND2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ROMFORD1",
+    "commonName": "Romford Station",
+    "id": "4900ROMFORD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ROMFORD2",
+    "commonName": "Romford Station",
+    "id": "4900ROMFORD2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900RTHERHI1",
+    "commonName": "Rotherhithe Station",
+    "id": "4900RTHERHI1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SACTON1",
+    "commonName": "South Acton Station",
+    "id": "4900SACTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SACTON2",
+    "commonName": "South Acton Station",
+    "id": "4900SACTON2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SBURY1",
+    "commonName": "Southbury Station",
+    "id": "4900SBURY1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SEVNSIS",
+    "commonName": "Seven Sisters Station",
+    "id": "4900SEVNSIS",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHADWEL1",
+    "commonName": "Shadwell Rail Station",
+    "id": "4900SHADWEL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHADWEL2",
+    "commonName": "Shadwell Rail Station",
+    "id": "4900SHADWEL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHMPSTD1",
+    "commonName": "South Hampstead Station",
+    "id": "4900SHMPSTD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHPDSB1",
+    "commonName": "Shepherd's Bush Rail Station",
+    "id": "4900SHPDSB1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHPDSB2",
+    "commonName": "Shepherd's Bush Rail Station",
+    "id": "4900SHPDSB2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SHRDHST1",
+    "commonName": "Shoreditch High Street Station",
+    "id": "4900SHRDHST1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SIVRST1",
+    "commonName": "Silver Street Station",
+    "id": "4900SIVRST1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SKENTON1",
+    "commonName": "South Kenton Station",
+    "id": "4900SKENTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SKENTON2",
+    "commonName": "South Kenton Station",
+    "id": "4900SKENTON2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STFD1",
+    "commonName": "Stratford Station",
+    "id": "4900STFD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STFD2",
+    "commonName": "Stratford Station",
+    "id": "4900STFD2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STFD3",
+    "commonName": "Stratford Station",
+    "id": "4900STFD3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STFD4",
+    "commonName": "Stratford Station",
+    "id": "4900STFD4",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STJMSST1",
+    "commonName": "St James's Street Station",
+    "id": "4900STJMSST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STKNWNG1",
+    "commonName": "Stoke Newington Station",
+    "id": "4900STKNWNG1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STMFDHL1",
+    "commonName": "Stamford Hill Station",
+    "id": "4900STMFDHL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STNBGPK1",
+    "commonName": "Stonebridge Park Station",
+    "id": "4900STNBGPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900STOTNHM1",
+    "commonName": "South Tottenham Station",
+    "id": "4900STOTNHM1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SURREYQ1",
+    "commonName": "Surrey Quays Station",
+    "id": "4900SURREYQ1",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SURREYQ2",
+    "commonName": "Surrey Quays Station",
+    "id": "4900SURREYQ2",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "4900SYDENHM1",
+    "commonName": "Sydenham Station",
+    "id": "4900SYDENHM1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SYDENHM2",
+    "commonName": "Sydenham Station",
+    "id": "4900SYDENHM2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900SYDENHM3",
+    "commonName": "Sydenham Station",
+    "id": "4900SYDENHM3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900TURKYST1",
+    "commonName": "Turkey Street Station",
+    "id": "4900TURKYST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900UPMNSTR1",
+    "commonName": "Upminster Station",
+    "id": "4900UPMNSTR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900UPMNSTR2",
+    "commonName": "Upminster Station",
+    "id": "4900UPMNSTR2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900UPRHLWY1",
+    "commonName": "Upper Holloway Station",
+    "id": "4900UPRHLWY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900UPRHLWY2",
+    "commonName": "Upper Holloway Station",
+    "id": "4900UPRHLWY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WAPPING1",
+    "commonName": "Wapping Station",
+    "id": "4900WAPPING1",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WBRMPTN",
+    "commonName": "West Brompton Station",
+    "id": "4900WBRMPTN",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WCHAPEL1",
+    "commonName": "Whitechapel Station",
+    "id": "4900WCHAPEL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WCHAPEL2",
+    "commonName": "Whitechapel Station",
+    "id": "4900WCHAPEL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WCROYDN1",
+    "commonName": "West Croydon Station",
+    "id": "4900WCROYDN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WCROYDN2",
+    "commonName": "West Croydon Station",
+    "id": "4900WCROYDN2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WCROYDN3",
+    "commonName": "West Croydon Station",
+    "id": "4900WCROYDN3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WDGRNPK1",
+    "commonName": "Woodgrange Park Station",
+    "id": "4900WDGRNPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WDST1",
+    "commonName": "Wood Street Station",
+    "id": "4900WDST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WHHRTLA1",
+    "commonName": "White Hart Lane Station",
+    "id": "4900WHHRTLA1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WHMDSTD0",
+    "commonName": "West Hampstead Overground Station",
+    "id": "4900WHMDSTD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLSDJHL1",
+    "commonName": "Willesden Junction Station",
+    "id": "4900WLSDJHL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLSDJHL2",
+    "commonName": "Willesden Junction Station",
+    "id": "4900WLSDJHL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLSDJHL3",
+    "commonName": "Willesden Junction Station",
+    "id": "4900WLSDJHL3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLTHQRD1",
+    "commonName": "Walthamstow Queens Road Station",
+    "id": "4900WLTHQRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLTWCEN1",
+    "commonName": "Walthamstow Central Station",
+    "id": "4900WLTWCEN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLTWCEN2",
+    "commonName": "Walthamstow Central Station",
+    "id": "4900WLTWCEN2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WLTWCEN3",
+    "commonName": "Walthamstow Central Station",
+    "id": "4900WLTWCEN3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WMBY1",
+    "commonName": "Wembley Central Station",
+    "id": "4900WMBY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WMBY2",
+    "commonName": "Wembley Central Station",
+    "id": "4900WMBY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WMBY3",
+    "commonName": "Wembley Central Station",
+    "id": "4900WMBY3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WNDSWRD1",
+    "commonName": "Pensbury Street",
+    "id": "4900WNDSWRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900WNSTDPK1",
+    "commonName": "Wanstead Park Station",
+    "id": "4900WNSTDPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ZZLUSVS1",
+    "commonName": "Seven Sisters Station",
+    "id": "4900ZZLUSVS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ZZLUSVS2",
+    "commonName": "Seven Sisters Station",
+    "id": "4900ZZLUSVS2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ZZLUSVS3",
+    "commonName": "Seven Sisters Station",
+    "id": "4900ZZLUSVS3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ZZLUSVS4",
+    "commonName": "Seven Sisters Station",
+    "id": "4900ZZLUSVS4",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "4900ZZLUSVS5",
+    "commonName": "Seven Sisters Station",
+    "id": "4900ZZLUSVS5",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ACTNCTL0",
+    "commonName": "Acton Central Station",
+    "id": "9100ACTNCTL0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ACTNCTL1",
+    "commonName": "Acton Central Station",
+    "id": "9100ACTNCTL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ANERLEY0",
+    "commonName": "Anerley Station",
+    "id": "9100ANERLEY0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ANERLEY1",
+    "commonName": "Anerley Station",
+    "id": "9100ANERLEY1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BARKING1",
+    "commonName": "Barking Station",
+    "id": "9100BARKING1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BHILLPK0",
+    "commonName": "Bush Hill Park Station",
+    "id": "9100BHILLPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BHILLPK1",
+    "commonName": "Bush Hill Park Station",
+    "id": "9100BHILLPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BKRVS1",
+    "commonName": "Barking Riverside Station",
+    "id": "9100BKRVS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BKRVS2",
+    "commonName": "Barking Riverside Station",
+    "id": "9100BKRVS2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BLCHSRD0",
+    "commonName": "Blackhorse Road Station",
+    "id": "9100BLCHSRD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BLCHSRD1",
+    "commonName": "Blackhorse Road Station",
+    "id": "9100BLCHSRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRBY0",
+    "commonName": "Brondesbury Station",
+    "id": "9100BRBY0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRBY1",
+    "commonName": "Brondesbury Station",
+    "id": "9100BRBY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRBYPK0",
+    "commonName": "Brondesbury Park Station",
+    "id": "9100BRBYPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRBYPK1",
+    "commonName": "Brondesbury Park Station",
+    "id": "9100BRBYPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BROCKLY0",
+    "commonName": "Brockley Station",
+    "id": "9100BROCKLY0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BROCKLY1",
+    "commonName": "Brockley Station",
+    "id": "9100BROCKLY1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRUCGRV0",
+    "commonName": "Bruce Grove Station",
+    "id": "9100BRUCGRV0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BRUCGRV1",
+    "commonName": "Bruce Grove Station",
+    "id": "9100BRUCGRV1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BTHNLGR0",
+    "commonName": "Bethnal Green Rail Station",
+    "id": "9100BTHNLGR0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BTHNLGR1",
+    "commonName": "Bethnal Green Rail Station",
+    "id": "9100BTHNLGR1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BUSHYDC1",
+    "commonName": "Bushey Rail Station",
+    "id": "9100BUSHYDC1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100BUSHYDC2",
+    "commonName": "Bushey Rail Station",
+    "id": "9100BUSHYDC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CAMHTH0",
+    "commonName": "Cambridge Heath Station",
+    "id": "9100CAMHTH0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CAMHTH2",
+    "commonName": "Cambridge Heath Station",
+    "id": "9100CAMHTH2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CHESHNT1",
+    "commonName": "Cheshunt Rail Station",
+    "id": "9100CHESHNT1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CHESHNT3",
+    "commonName": "Cheshunt Rail Station",
+    "id": "9100CHESHNT3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CHINGFD0",
+    "commonName": "Chingford Station",
+    "id": "9100CHINGFD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLAPTON0",
+    "commonName": "Clapton Station",
+    "id": "9100CLAPTON0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLAPTON1",
+    "commonName": "Clapton Station",
+    "id": "9100CLAPTON1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLDNNRB1",
+    "commonName": "Caledonian Road & Barnsbury Station",
+    "id": "9100CLDNNRB1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLPHHS0",
+    "commonName": "Clapham High Street",
+    "id": "9100CLPHHS0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLPHHS1",
+    "commonName": "Clapham High Street",
+    "id": "9100CLPHHS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLPHMJ1",
+    "commonName": "Clapham Junction Rail Station",
+    "id": "9100CLPHMJ1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CLPHMJC1",
+    "commonName": "Clapham Junction Station",
+    "id": "9100CLPHMJC1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CMDNRD0",
+    "commonName": "Camden Road Station",
+    "id": "9100CMDNRD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CMDNRD1",
+    "commonName": "Camden Road Station",
+    "id": "9100CMDNRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNDAW1",
+    "commonName": "Canada Water Station",
+    "id": "9100CNDAW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNDAW2",
+    "commonName": "Canada Water Station",
+    "id": "9100CNDAW2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNNB1",
+    "commonName": "Canonbury Station",
+    "id": "9100CNNB1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNNB2",
+    "commonName": "Canonbury Station",
+    "id": "9100CNNB2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNNB3",
+    "commonName": "Canonbury Station",
+    "id": "9100CNNB3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CNNB4",
+    "commonName": "Canonbury Station",
+    "id": "9100CNNB4",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CROUCHH0",
+    "commonName": "Crouch Hill Station",
+    "id": "9100CROUCHH0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CROUCHH1",
+    "commonName": "Crouch Hill Station",
+    "id": "9100CROUCHH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CRPNDPK1",
+    "commonName": "Carpenders Park Rail Station",
+    "id": "9100CRPNDPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CRPNDPK2",
+    "commonName": "Carpenders Park Rail Station",
+    "id": "9100CRPNDPK2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CRYSTLP5",
+    "commonName": "Crystal Palace Station",
+    "id": "9100CRYSTLP5",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CSEAH0",
+    "commonName": "Imperial Wharf Station",
+    "id": "9100CSEAH0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100CSEAH1",
+    "commonName": "Imperial Wharf Station",
+    "id": "9100CSEAH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100DALS0",
+    "commonName": "Dalston Junction Station",
+    "id": "9100DALS0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100DALSKL1",
+    "commonName": "Dalston Kingsland Station",
+    "id": "9100DALSKL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100DALSKLD0",
+    "commonName": "Dalston Kingsland Station",
+    "id": "9100DALSKLD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100DENMRKH1",
+    "commonName": "Denmark Hill Station",
+    "id": "9100DENMRKH1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100DENMRKH2",
+    "commonName": "Denmark Hill Station",
+    "id": "9100DENMRKH2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100EDMNGRN0",
+    "commonName": "Edmonton Green Station",
+    "id": "9100EDMNGRN0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100EDMNGRN1",
+    "commonName": "Edmonton Green Station",
+    "id": "9100EDMNGRN1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100EMRSPKH0",
+    "commonName": "Emerson Park Station",
+    "id": "9100EMRSPKH0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ENFLDTN0",
+    "commonName": "Enfield Town Station",
+    "id": "9100ENFLDTN0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100EUSTON0",
+    "commonName": "Euston Station",
+    "id": "9100EUSTON0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100FNCHLRY1",
+    "commonName": "Finchley Road & Frognal Station",
+    "id": "9100FNCHLRY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100FNCHLYR0",
+    "commonName": "Finchley Road & Frognal Station",
+    "id": "9100FNCHLYR0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100FORESTH0",
+    "commonName": "Forest Hill Station",
+    "id": "9100FORESTH0",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100FORESTH1",
+    "commonName": "Forest Hill Station",
+    "id": "9100FORESTH1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100GNRSBRY0",
+    "commonName": "Gunnersbury Station",
+    "id": "9100GNRSBRY0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100GOSPLOK1",
+    "commonName": "Gospel Oak Station",
+    "id": "9100GOSPLOK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100GOSPLOK2",
+    "commonName": "Gospel Oak Station",
+    "id": "9100GOSPLOK2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100GOSPLOK3",
+    "commonName": "Gospel Oak Station",
+    "id": "9100GOSPLOK3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HACKNYC1",
+    "commonName": "Hackney Central Station",
+    "id": "9100HACKNYC1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HACKNYC2",
+    "commonName": "Hackney Central Station",
+    "id": "9100HACKNYC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HACKNYW0",
+    "commonName": "Hackney Wick Station",
+    "id": "9100HACKNYW0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HACKNYW1",
+    "commonName": "Hackney Wick Station",
+    "id": "9100HACKNYW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HAGGERS0",
+    "commonName": "Haggerston Station",
+    "id": "9100HAGGERS0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HAGGERS1",
+    "commonName": "Haggerston Station",
+    "id": "9100HAGGERS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HAKNYNM1",
+    "commonName": "Hackney Downs Station",
+    "id": "9100HAKNYNM1",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HAKNYNM2",
+    "commonName": "Hackney Downs Station",
+    "id": "9100HAKNYNM2",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HARLSDN0",
+    "commonName": "Harlesden Station",
+    "id": "9100HARLSDN0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HARLSDN1",
+    "commonName": "Harlesden Station",
+    "id": "9100HARLSDN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HEDSTNL0",
+    "commonName": "Headstone Lane Station",
+    "id": "9100HEDSTNL0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HEDSTNL1",
+    "commonName": "Headstone Lane Station",
+    "id": "9100HEDSTNL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HGHMSPK0",
+    "commonName": "Highams Park Station",
+    "id": "9100HGHMSPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HGHMSPK1",
+    "commonName": "Highams Park Station",
+    "id": "9100HGHMSPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HIGBYA3",
+    "commonName": "Highbury & Islington Station",
+    "id": "9100HIGBYA3",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HIGHBYA1",
+    "commonName": "Highbury & Islington Station",
+    "id": "9100HIGHBYA1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HIGHBYA2",
+    "commonName": "Highbury & Islington Station",
+    "id": "9100HIGHBYA2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HMPSTDH0",
+    "commonName": "Hampstead Heath Station",
+    "id": "9100HMPSTDH0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HMPSTDH1",
+    "commonName": "Hampstead Heath Station",
+    "id": "9100HMPSTDH1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HOMRTON1",
+    "commonName": "Homerton Station",
+    "id": "9100HOMRTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HOMRTON2",
+    "commonName": "Homerton Station",
+    "id": "9100HOMRTON2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HONROPK0",
+    "commonName": "Honor Oak Park Station",
+    "id": "9100HONROPK0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HONROPK1",
+    "commonName": "Honor Oak Park Station",
+    "id": "9100HONROPK1",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100HOXTON0",
+    "commonName": "Hoxton Station",
+    "id": "9100HOXTON0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HOXTON1",
+    "commonName": "Hoxton Station",
+    "id": "9100HOXTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HRGYGL0",
+    "commonName": "Harringay Green Lanes Station",
+    "id": "9100HRGYGL0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HRGYGL1",
+    "commonName": "Harringay Green Lanes Station",
+    "id": "9100HRGYGL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HROWDC1",
+    "commonName": "Harrow & Wealdstone Station",
+    "id": "9100HROWDC1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HROWDC2",
+    "commonName": "Harrow & Wealdstone Station",
+    "id": "9100HROWDC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HTCHEND0",
+    "commonName": "Hatch End",
+    "id": "9100HTCHEND0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100HTCHEND1",
+    "commonName": "Hatch End",
+    "id": "9100HTCHEND1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENOLYM0",
+    "commonName": "Kensington (Olympia) Station",
+    "id": "9100KENOLYM0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENOLYM1",
+    "commonName": "Kensington (Olympia) Station",
+    "id": "9100KENOLYM1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENR0",
+    "commonName": "Kensal Rise Station",
+    "id": "9100KENR0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENR1",
+    "commonName": "Kensal Rise Station",
+    "id": "9100KENR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENSLG0",
+    "commonName": "Kensal Green Station",
+    "id": "9100KENSLG0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KENSLG1",
+    "commonName": "Kensal Green Station",
+    "id": "9100KENSLG1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KEWGRDN0",
+    "commonName": "Kew Gardens Station",
+    "id": "9100KEWGRDN0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KEWGRDN1",
+    "commonName": "Kew Gardens Station",
+    "id": "9100KEWGRDN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KLBRNHR1",
+    "commonName": "Kilburn High Road Station",
+    "id": "9100KLBRNHR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KLBRNHR2",
+    "commonName": "Kilburn High Road Station",
+    "id": "9100KLBRNHR2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KNTSHTW0",
+    "commonName": "Kentish Town West Station",
+    "id": "9100KNTSHTW0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KNTSHTW1",
+    "commonName": "Kentish Town West Station",
+    "id": "9100KNTSHTW1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KTON0",
+    "commonName": "Kenton Station",
+    "id": "9100KTON0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100KTON1",
+    "commonName": "Kenton Station",
+    "id": "9100KTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LEYTNMR0",
+    "commonName": "Leyton Midland Road Station",
+    "id": "9100LEYTNMR0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LEYTNMR1",
+    "commonName": "Leyton Midland Road Station",
+    "id": "9100LEYTNMR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LIVST0",
+    "commonName": "Liverpool Street Station",
+    "id": "9100LIVST0",
+    "lines": [
+      "elizabeth-line",
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100LONFLDS0",
+    "commonName": "London Fields Station",
+    "id": "9100LONFLDS0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LONFLDS1",
+    "commonName": "London Fields Station",
+    "id": "9100LONFLDS1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LYTNSHR0",
+    "commonName": "Leytonstone High Road Station",
+    "id": "9100LYTNSHR0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100LYTNSHR1",
+    "commonName": "Leytonstone High Road Station",
+    "id": "9100LYTNSHR1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NEWXGTE0",
+    "commonName": "New Cross Gate Station",
+    "id": "9100NEWXGTE0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NEWXGTE2",
+    "commonName": "New Cross Gate Station",
+    "id": "9100NEWXGTE2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NORWDJ0",
+    "commonName": "Norwood Junction Station",
+    "id": "9100NORWDJ0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NORWDJ2",
+    "commonName": "Norwood Junction Station",
+    "id": "9100NORWDJ2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NWCRELL1",
+    "commonName": "New Cross Station",
+    "id": "9100NWCRELL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NWEMBLY1",
+    "commonName": "North Wembley Station",
+    "id": "9100NWEMBLY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100NWEMBLY2",
+    "commonName": "North Wembley Station",
+    "id": "9100NWEMBLY2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100PCKHMQD0",
+    "commonName": "Queens Road Peckham Station",
+    "id": "9100PCKHMQD0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100PCKHMRY2",
+    "commonName": "Peckham Rye Station",
+    "id": "9100PCKHMRY2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100PENEW0",
+    "commonName": "Penge West Station",
+    "id": "9100PENEW0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100PENEW1",
+    "commonName": "Penge West Station",
+    "id": "9100PENEW1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100PKHMRYC1",
+    "commonName": "Peckham Rye Station",
+    "id": "9100PKHMRYC1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100QPRK1",
+    "commonName": "Queen's Park Station (London)",
+    "id": "9100QPRK1",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100QPRK2",
+    "commonName": "Queen's Park Station (London)",
+    "id": "9100QPRK2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100RCTRYD1",
+    "commonName": "Rectory Road Station",
+    "id": "9100RCTRYD1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100RCTRYRD0",
+    "commonName": "Rectory Road Station",
+    "id": "9100RCTRYRD0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100RICHNLL0",
+    "commonName": "Richmond Station",
+    "id": "9100RICHNLL0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100ROMFORD0",
+    "commonName": "Romford Station",
+    "id": "9100ROMFORD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100RTHERHI1",
+    "commonName": "Rotherhithe Station",
+    "id": "9100RTHERHI1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100RTHERHI2",
+    "commonName": "Rotherhithe Station",
+    "id": "9100RTHERHI2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SACTON0",
+    "commonName": "South Acton Station",
+    "id": "9100SACTON0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SACTON1",
+    "commonName": "South Acton Station",
+    "id": "9100SACTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SBURY0",
+    "commonName": "Southbury Station",
+    "id": "9100SBURY0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SBURY1",
+    "commonName": "Southbury Station",
+    "id": "9100SBURY1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SEVNSIS0",
+    "commonName": "Seven Sisters Station",
+    "id": "9100SEVNSIS0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SEVNSIS1",
+    "commonName": "Seven Sisters Station",
+    "id": "9100SEVNSIS1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHADWEL1",
+    "commonName": "Shadwell Rail Station",
+    "id": "9100SHADWEL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHADWEL2",
+    "commonName": "Shadwell Rail Station",
+    "id": "9100SHADWEL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHMPSTD0",
+    "commonName": "South Hampstead Station",
+    "id": "9100SHMPSTD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHMPSTD1",
+    "commonName": "South Hampstead Station",
+    "id": "9100SHMPSTD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHPDSB0",
+    "commonName": "Shepherd's Bush Rail Station",
+    "id": "9100SHPDSB0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHPDSB1",
+    "commonName": "Shepherd's Bush Rail Station",
+    "id": "9100SHPDSB1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHRDHST0",
+    "commonName": "Shoreditch High Street Station",
+    "id": "9100SHRDHST0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SHRDHST1",
+    "commonName": "Shoreditch High Street Station",
+    "id": "9100SHRDHST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SIVRST0",
+    "commonName": "Silver Street Station",
+    "id": "9100SIVRST0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SIVRST1",
+    "commonName": "Silver Street Station",
+    "id": "9100SIVRST1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SKENTON1",
+    "commonName": "South Kenton Station",
+    "id": "9100SKENTON1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STFD3",
+    "commonName": "Stratford Station",
+    "id": "9100STFD3",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STFD4",
+    "commonName": "Stratford Station",
+    "id": "9100STFD4",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STJMSST0",
+    "commonName": "St James Street Station",
+    "id": "9100STJMSST0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STJMSST1",
+    "commonName": "St James Street Station",
+    "id": "9100STJMSST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STKNWNG0",
+    "commonName": "Stoke Newington Station",
+    "id": "9100STKNWNG0",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "9100STKNWNG1",
+    "commonName": "Stoke Newington Station",
+    "id": "9100STKNWNG1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STMFDHL0",
+    "commonName": "Stamford Hill Station",
+    "id": "9100STMFDHL0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STMFDHL1",
+    "commonName": "Stamford Hill Station",
+    "id": "9100STMFDHL1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STNBGPK0",
+    "commonName": "Stonebridge Park Station",
+    "id": "9100STNBGPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STNBGPK1",
+    "commonName": "Stonebridge Park Station",
+    "id": "9100STNBGPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STOTNHM0",
+    "commonName": "South Tottenham Station",
+    "id": "9100STOTNHM0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100STOTNHM1",
+    "commonName": "South Tottenham Station",
+    "id": "9100STOTNHM1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SURREYQ1",
+    "commonName": "Surrey Quays Station",
+    "id": "9100SURREYQ1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SURREYQ2",
+    "commonName": "Surrey Quays Station",
+    "id": "9100SURREYQ2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SYDENHM0",
+    "commonName": "Sydenham Station",
+    "id": "9100SYDENHM0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100SYDENHM1",
+    "commonName": "Sydenham Station",
+    "id": "9100SYDENHM1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100THBLDSG0",
+    "commonName": "Theobalds Grove Rail Station",
+    "id": "9100THBLDSG0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100THBLDSG1",
+    "commonName": "Theobalds Grove Rail Station",
+    "id": "9100THBLDSG1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100TURKYST0",
+    "commonName": "Turkey Street Station",
+    "id": "9100TURKYST0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100TURKYST1",
+    "commonName": "Turkey Street Station",
+    "id": "9100TURKYST1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100UPMNSP61",
+    "commonName": "Upminster Station",
+    "id": "9100UPMNSP61",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100UPRHLWY0",
+    "commonName": "Upper Holloway Station",
+    "id": "9100UPRHLWY0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100UPRHLWY1",
+    "commonName": "Upper Holloway Station",
+    "id": "9100UPRHLWY1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WAPPING1",
+    "commonName": "Wapping Station",
+    "id": "9100WAPPING1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WAPPING2",
+    "commonName": "Wapping Station",
+    "id": "9100WAPPING2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WATFDHS1",
+    "commonName": "Watford High Street Rail Station",
+    "id": "9100WATFDHS1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WATFDHS2",
+    "commonName": "Watford High Street Rail Station",
+    "id": "9100WATFDHS2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WATFJDC2",
+    "commonName": "Watford Junction Rail Station",
+    "id": "9100WATFJDC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WBRMPTN0",
+    "commonName": "West Brompton Station",
+    "id": "9100WBRMPTN0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WBRMPTN1",
+    "commonName": "West Brompton Station",
+    "id": "9100WBRMPTN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WCHAPEL1",
+    "commonName": "Whitechapel Station",
+    "id": "9100WCHAPEL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WCHAPEL2",
+    "commonName": "Whitechapel Station",
+    "id": "9100WCHAPEL2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WCROYDN2",
+    "commonName": "West Croydon Station",
+    "id": "9100WCROYDN2",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WDGRNPK0",
+    "commonName": "Woodgrange Park Station",
+    "id": "9100WDGRNPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WDGRNPK1",
+    "commonName": "Woodgrange Park Station",
+    "id": "9100WDGRNPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WDST0",
+    "commonName": "Wood Street Station",
+    "id": "9100WDST0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WDST1",
+    "commonName": "Wood Street Station",
+    "id": "9100WDST1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WHHRTLA0",
+    "commonName": "White Hart Lane Station",
+    "id": "9100WHHRTLA0",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WHHRTLA1",
+    "commonName": "White Hart Lane Station",
+    "id": "9100WHHRTLA1",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WHMDSTD0",
+    "commonName": "West Hampstead Overground Station",
+    "id": "9100WHMDSTD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WHMDSTD1",
+    "commonName": "West Hampstead Overground Station",
+    "id": "9100WHMDSTD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLSDJHL1",
+    "commonName": "Willesden Junction Station",
+    "id": "9100WLSDJHL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLSDNJL1",
+    "commonName": "Willesden Junction Station",
+    "id": "9100WLSDNJL1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLTHQRD0",
+    "commonName": "Walthamstow Queens Road Station",
+    "id": "9100WLTHQRD0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLTHQRD1",
+    "commonName": "Walthamstow Queens Road Station",
+    "id": "9100WLTHQRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLTWCEN1",
+    "commonName": "Walthamstow Central Station",
+    "id": "9100WLTWCEN1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WLTWCEN2",
+    "commonName": "Walthamstow Central Station",
+    "id": "9100WLTWCEN2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WMBYDC1",
+    "commonName": "Wembley Central Station",
+    "id": "9100WMBYDC1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WMBYDC2",
+    "commonName": "Wembley Central Station",
+    "id": "9100WMBYDC2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WNDSWRD1",
+    "commonName": "Wandsworth Road Station",
+    "id": "9100WNDSWRD1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WNDSWRD2",
+    "commonName": "Wandsworth Road Station",
+    "id": "9100WNDSWRD2",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WNSTDPK0",
+    "commonName": "Wanstead Park Station",
+    "id": "9100WNSTDPK0",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "9100WNSTDPK1",
+    "commonName": "Wanstead Park Station",
+    "id": "9100WNSTDPK1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GACTNCTL",
+    "commonName": "Acton Central Rail Station",
+    "id": "910GACTNCTL",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GANERLEY",
+    "commonName": "Anerley Rail Station",
+    "id": "910GANERLEY",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBARKING",
+    "commonName": "Barking Rail Station",
+    "id": "910GBARKING",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GBHILLPK",
+    "commonName": "Bush Hill Park Rail Station",
+    "id": "910GBHILLPK",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBKRVS",
+    "commonName": "Barking Riverside",
+    "id": "910GBKRVS",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBLCHSRD",
+    "commonName": "Blackhorse Road Rail Station",
+    "id": "910GBLCHSRD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBRBY",
+    "commonName": "Brondesbury Rail Station",
+    "id": "910GBRBY",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBRBYPK",
+    "commonName": "Brondesbury Park Rail Station",
+    "id": "910GBRBYPK",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBROCKLY",
+    "commonName": "Brockley Rail Station",
+    "id": "910GBROCKLY",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GBRUCGRV",
+    "commonName": "Bruce Grove Rail Station",
+    "id": "910GBRUCGRV",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GBTHNLGR",
+    "commonName": "Bethnal Green Rail Station",
+    "id": "910GBTHNLGR",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GBUSHEY",
+    "commonName": "Bushey Rail Station",
+    "id": "910GBUSHEY",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GBUSHYDC",
+    "commonName": "Bushey Rail Station",
+    "id": "910GBUSHYDC",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCAMHTH",
+    "commonName": "Cambridge Heath (London) Rail Station",
+    "id": "910GCAMHTH",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCHESHNT",
+    "commonName": "Cheshunt Rail Station",
+    "id": "910GCHESHNT",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCHINGFD",
+    "commonName": "Chingford Rail Station",
+    "id": "910GCHINGFD",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCLAPTON",
+    "commonName": "Clapton Rail Station",
+    "id": "910GCLAPTON",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCLDNNRB",
+    "commonName": "Caledonian Road & Barnsbury Rail Station",
+    "id": "910GCLDNNRB",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCLPHHS",
+    "commonName": "Clapham High Street Rail Station",
+    "id": "910GCLPHHS",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCLPHMJ1",
+    "commonName": "Clapham Junction Rail Station",
+    "id": "910GCLPHMJ1",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCLPHMJC",
+    "commonName": "Clapham Junction Rail Station",
+    "id": "910GCLPHMJC",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCMDNRD",
+    "commonName": "Camden Road Rail Station",
+    "id": "910GCMDNRD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCNDAW",
+    "commonName": "Canada Water Rail Station",
+    "id": "910GCNDAW",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCNNB",
+    "commonName": "Canonbury Rail Station",
+    "id": "910GCNNB",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCROUCHH",
+    "commonName": "Crouch Hill Rail Station",
+    "id": "910GCROUCHH",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCRPNDPK",
+    "commonName": "Carpenders Park Rail Station",
+    "id": "910GCRPNDPK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCRYSTLP",
+    "commonName": "Crystal Palace Rail Station",
+    "id": "910GCRYSTLP",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GCSEAH",
+    "commonName": "Imperial Wharf Rail Station",
+    "id": "910GCSEAH",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GDALS",
+    "commonName": "Dalston Junction Rail Station",
+    "id": "910GDALS",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GDALSKLD",
+    "commonName": "Dalston Kingsland Rail Station",
+    "id": "910GDALSKLD",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GDENMRKH",
+    "commonName": "Denmark Hill Rail Station",
+    "id": "910GDENMRKH",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GEDMNGRN",
+    "commonName": "Edmonton Green Rail Station",
+    "id": "910GEDMNGRN",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GEMRSPKH",
+    "commonName": "Emerson Park Rail Station",
+    "id": "910GEMRSPKH",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GENFLDTN",
+    "commonName": "Enfield Town Rail Station",
+    "id": "910GENFLDTN",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GEUSTON",
+    "commonName": "London Euston Rail Station",
+    "id": "910GEUSTON",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GFNCHLYR",
+    "commonName": "Finchley Road & Frognal Rail Station",
+    "id": "910GFNCHLYR",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GFORESTH",
+    "commonName": "Forest Hill Rail Station",
+    "id": "910GFORESTH",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GGNRSBRY",
+    "commonName": "Gunnersbury Rail Station",
+    "id": "910GGNRSBRY",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GGOSPLOK",
+    "commonName": "Gospel Oak Rail Station",
+    "id": "910GGOSPLOK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHACKNYC",
+    "commonName": "Hackney Central Rail Station",
+    "id": "910GHACKNYC",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "910GHACKNYW",
+    "commonName": "Hackney Wick Rail Station",
+    "id": "910GHACKNYW",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHAGGERS",
+    "commonName": "Haggerston Rail Station",
+    "id": "910GHAGGERS",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHAKNYNM",
+    "commonName": "Hackney Downs Rail Station",
+    "id": "910GHAKNYNM",
+    "lines": [
+      "national-rail",
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "910GHARLSDN",
+    "commonName": "Harlesden Rail Station",
+    "id": "910GHARLSDN",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHEDSTNL",
+    "commonName": "Headstone Lane Rail Station",
+    "id": "910GHEDSTNL",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHGHI",
+    "commonName": "Highbury & Islington Rail Station",
+    "id": "910GHGHI",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHGHMSPK",
+    "commonName": "Highams Park Rail Station",
+    "id": "910GHGHMSPK",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHMPSTDH",
+    "commonName": "Hampstead Heath Rail Station",
+    "id": "910GHMPSTDH",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHOMRTON",
+    "commonName": "Homerton Rail Station",
+    "id": "910GHOMRTON",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHONROPK",
+    "commonName": "Honor Oak Park Rail Station",
+    "id": "910GHONROPK",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHOXTON",
+    "commonName": "Hoxton Rail Station",
+    "id": "910GHOXTON",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHRGYGL",
+    "commonName": "Harringay Green Lanes Rail Station",
+    "id": "910GHRGYGL",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GHROW",
+    "commonName": "Harrow & Wealdstone Rail Station",
+    "id": "910GHROW",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GHTCHEND",
+    "commonName": "Hatch End Rail Station",
+    "id": "910GHTCHEND",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKENOLYM",
+    "commonName": "Kensington (Olympia) Rail Station",
+    "id": "910GKENOLYM",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKENR",
+    "commonName": "Kensal Rise Rail Station",
+    "id": "910GKENR",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKENSLG",
+    "commonName": "Kensal Green Rail Station",
+    "id": "910GKENSLG",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKEWGRDN",
+    "commonName": "Kew Gardens Rail Station",
+    "id": "910GKEWGRDN",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKLBRNHR",
+    "commonName": "Kilburn High Road Rail Station",
+    "id": "910GKLBRNHR",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKNTSHTW",
+    "commonName": "Kentish Town West Rail Station",
+    "id": "910GKNTSHTW",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GKTON",
+    "commonName": "Kenton Rail Station",
+    "id": "910GKTON",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GLEYTNMR",
+    "commonName": "Leyton Midland Road Rail Station",
+    "id": "910GLEYTNMR",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GLIVST",
+    "commonName": "London Liverpool Street Rail Station",
+    "id": "910GLIVST",
+    "lines": [
+      "elizabeth-line",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GLONFLDS",
+    "commonName": "London Fields Rail Station",
+    "id": "910GLONFLDS",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GLYTNSHR",
+    "commonName": "Leytonstone High Road Rail Station",
+    "id": "910GLYTNSHR",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GNEWXGTE",
+    "commonName": "New Cross Gate Rail Station",
+    "id": "910GNEWXGTE",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GNORWDJ",
+    "commonName": "Norwood Junction Rail Station",
+    "id": "910GNORWDJ",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GNWCRELL",
+    "commonName": "New Cross ELL Rail Station",
+    "id": "910GNWCRELL",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GNWEMBLY",
+    "commonName": "North Wembley Rail Station",
+    "id": "910GNWEMBLY",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GPCKHMQD",
+    "commonName": "Queens Road Peckham Rail Station",
+    "id": "910GPCKHMQD",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GPCKHMRY",
+    "commonName": "Peckham Rye Rail Station",
+    "id": "910GPCKHMRY",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GPENEW",
+    "commonName": "Penge West Rail Station",
+    "id": "910GPENEW",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GQPRK",
+    "commonName": "Queens Park (London) Rail Station",
+    "id": "910GQPRK",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GRCTRYRD",
+    "commonName": "Rectory Road Rail Station",
+    "id": "910GRCTRYRD",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GRICHMND",
+    "commonName": "Richmond (London) Rail Station",
+    "id": "910GRICHMND",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GROMFORD",
+    "commonName": "Romford Rail Station",
+    "id": "910GROMFORD",
+    "lines": [
+      "elizabeth-line",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GRTHERHI",
+    "commonName": "Rotherhithe Rail Station",
+    "id": "910GRTHERHI",
+    "lines": [
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "910GSACTON",
+    "commonName": "South Acton Rail Station",
+    "id": "910GSACTON",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSBURY",
+    "commonName": "Southbury Rail Station",
+    "id": "910GSBURY",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSEVNSIS",
+    "commonName": "Seven Sisters Rail Station",
+    "id": "910GSEVNSIS",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSHADWEL",
+    "commonName": "Shadwell Rail Station",
+    "id": "910GSHADWEL",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSHMPSTD",
+    "commonName": "South Hampstead Rail Station",
+    "id": "910GSHMPSTD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSHPDSB",
+    "commonName": "Shepherds Bush Rail Station",
+    "id": "910GSHPDSB",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSHRDHST",
+    "commonName": "Shoreditch High Street Rail Station",
+    "id": "910GSHRDHST",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSIVRST",
+    "commonName": "Silver Street Rail Station",
+    "id": "910GSIVRST",
+    "lines": [
+      "national-rail",
+      "overground",
+      "bus"
+    ]
+  },
+  {
+    "naptanId": "910GSKENTON",
+    "commonName": "South Kenton Rail Station",
+    "id": "910GSKENTON",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSTFD",
+    "commonName": "Stratford (London) Rail Station",
+    "id": "910GSTFD",
+    "lines": [
+      "elizabeth-line",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSTJMSST",
+    "commonName": "St James Street (London) Rail Station",
+    "id": "910GSTJMSST",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSTKNWNG",
+    "commonName": "Stoke Newington Rail Station",
+    "id": "910GSTKNWNG",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GSTMFDHL",
+    "commonName": "Stamford Hill Rail Station",
+    "id": "910GSTMFDHL",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSTNBGPK",
+    "commonName": "Stonebridge Park Rail Station",
+    "id": "910GSTNBGPK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSTOTNHM",
+    "commonName": "South Tottenham Rail Station",
+    "id": "910GSTOTNHM",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSURREYQ",
+    "commonName": "Surrey Quays Rail Station",
+    "id": "910GSURREYQ",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GSYDENHM",
+    "commonName": "Sydenham Rail Station",
+    "id": "910GSYDENHM",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GTHBLDSG",
+    "commonName": "Theobalds Grove Rail Station",
+    "id": "910GTHBLDSG",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GTURKYST",
+    "commonName": "Turkey Street Rail Station",
+    "id": "910GTURKYST",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GUPMNSTR",
+    "commonName": "Upminster Rail Station",
+    "id": "910GUPMNSTR",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GUPRHLWY",
+    "commonName": "Upper Holloway Rail Station",
+    "id": "910GUPRHLWY",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWAPPING",
+    "commonName": "Wapping Rail Station",
+    "id": "910GWAPPING",
+    "lines": [
+      "bus",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWATFDHS",
+    "commonName": "Watford High Street Rail Station",
+    "id": "910GWATFDHS",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWATFDJ",
+    "commonName": "Watford Junction Rail Station",
+    "id": "910GWATFDJ",
+    "lines": [
+      "overground",
+      "national-rail"
+    ]
+  },
+  {
+    "naptanId": "910GWATFJDC",
+    "commonName": "Watford Junction Rail Station",
+    "id": "910GWATFJDC",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWBRMPTN",
+    "commonName": "West Brompton Rail Station",
+    "id": "910GWBRMPTN",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWCHAPEL",
+    "commonName": "Whitechapel Rail Station",
+    "id": "910GWCHAPEL",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWCROYDN",
+    "commonName": "West Croydon Rail Station",
+    "id": "910GWCROYDN",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWDGRNPK",
+    "commonName": "Woodgrange Park Rail Station",
+    "id": "910GWDGRNPK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWDST",
+    "commonName": "Wood Street Rail Station",
+    "id": "910GWDST",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWHHRTLA",
+    "commonName": "White Hart Lane Rail Station",
+    "id": "910GWHHRTLA",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWHMDSTD",
+    "commonName": "West Hampstead Rail Station",
+    "id": "910GWHMDSTD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWLSDJHL",
+    "commonName": "Willesden Junction Rail Station",
+    "id": "910GWLSDJHL",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWLTHQRD",
+    "commonName": "Walthamstow Queens Road Rail Station",
+    "id": "910GWLTHQRD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWLTWCEN",
+    "commonName": "Walthamstow Central Rail Station",
+    "id": "910GWLTWCEN",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWMBY",
+    "commonName": "Wembley Central Rail Station",
+    "id": "910GWMBY",
+    "lines": [
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWNDSWRD",
+    "commonName": "Wandsworth Road Rail Station",
+    "id": "910GWNDSWRD",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "910GWNSTDPK",
+    "commonName": "Wanstead Park Rail Station",
+    "id": "910GWNSTDPK",
+    "lines": [
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBBHO",
+    "commonName": "Blackhorse Road",
+    "id": "HUBBHO",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBBKG",
+    "commonName": "Barking",
+    "id": "HUBBKG",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBBSH",
+    "commonName": "Bushey",
+    "id": "HUBBSH",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBCLJ",
+    "commonName": "Clapham Junction",
+    "id": "HUBCLJ",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBCYP",
+    "commonName": "Crystal Palace",
+    "id": "HUBCYP",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBEUS",
+    "commonName": "Euston",
+    "id": "HUBEUS",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBGUN",
+    "commonName": "Gunnersbury",
+    "id": "HUBGUN",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBHDN",
+    "commonName": "Harlesden",
+    "id": "HUBHDN",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBHHY",
+    "commonName": "Highbury & Islington",
+    "id": "HUBHHY",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBHRW",
+    "commonName": "Harrow & Wealdstone",
+    "id": "HUBHRW",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBIMP",
+    "commonName": "Imperial Wharf",
+    "id": "HUBIMP",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBKNL",
+    "commonName": "Kensal Green",
+    "id": "HUBKNL",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBKNT",
+    "commonName": "Kenton",
+    "id": "HUBKNT",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBKPA",
+    "commonName": "Kensington (Olympia)",
+    "id": "HUBKPA",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBKWG",
+    "commonName": "Kew Gardens",
+    "id": "HUBKWG",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBLST",
+    "commonName": "Liverpool Street",
+    "id": "HUBLST",
+    "lines": [
+      "bus",
+      "elizabeth-line",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBNWB",
+    "commonName": "North Wembley",
+    "id": "HUBNWB",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBNWD",
+    "commonName": "Norwood Junction",
+    "id": "HUBNWD",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBNWX",
+    "commonName": "New Cross",
+    "id": "HUBNWX",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBNXG",
+    "commonName": "New Cross Gate",
+    "id": "HUBNXG",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBQPW",
+    "commonName": "Queen's Park",
+    "id": "HUBQPW",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBRMD",
+    "commonName": "Richmond",
+    "id": "HUBRMD",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSBP",
+    "commonName": "Stonebridge Park",
+    "id": "HUBSBP",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSDE",
+    "commonName": "Shadwell",
+    "id": "HUBSDE",
+    "lines": [
+      "bus",
+      "dlr",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBSOK",
+    "commonName": "South Kenton",
+    "id": "HUBSOK",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSPB",
+    "commonName": "Shepherd's Bush",
+    "id": "HUBSPB",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSRA",
+    "commonName": "Stratford",
+    "id": "HUBSRA",
+    "lines": [
+      "bus",
+      "dlr",
+      "elizabeth-line",
+      "international-rail",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSVS",
+    "commonName": "Seven Sisters",
+    "id": "HUBSVS",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBSYD",
+    "commonName": "Sydenham",
+    "id": "HUBSYD",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBUPM",
+    "commonName": "Upminster",
+    "id": "HUBUPM",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWBP",
+    "commonName": "West Brompton",
+    "id": "HUBWBP",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWCY",
+    "commonName": "West Croydon",
+    "id": "HUBWCY",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tram"
+    ]
+  },
+  {
+    "naptanId": "HUBWFJ",
+    "commonName": "Watford Junction",
+    "id": "HUBWFJ",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground"
+    ]
+  },
+  {
+    "naptanId": "HUBWHC",
+    "commonName": "Walthamstow Central",
+    "id": "HUBWHC",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWHD",
+    "commonName": "West Hampstead",
+    "id": "HUBWHD",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWIJ",
+    "commonName": "Willesden Junction",
+    "id": "HUBWIJ",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBWMB",
+    "commonName": "Wembley Central",
+    "id": "HUBWMB",
+    "lines": [
+      "bus",
+      "national-rail",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBZCW",
+    "commonName": "Canada Water",
+    "id": "HUBZCW",
+    "lines": [
+      "bus",
+      "overground",
+      "tube"
+    ]
+  },
+  {
+    "naptanId": "HUBZWL",
+    "commonName": "Whitechapel",
+    "id": "HUBZWL",
+    "lines": [
+      "bus",
+      "elizabeth-line",
+      "overground",
+      "tube"
+    ]
   }
 ]
