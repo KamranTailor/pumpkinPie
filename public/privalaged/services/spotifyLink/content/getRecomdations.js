@@ -18,7 +18,11 @@ async function setHomepage() {
 
         populateArtists(spotifyData.topArtists.items);
         populatePlaylists(spotifyData.playlists.items);
-        //populateTracks(spotifyData.recommendations.tracks);
+        if (spotifyData.recommendations != null) {
+            populateTracks(spotifyData.recommendations.tracks);
+        } else {
+            
+        }
         
     } catch (error) {
         console.error(error);

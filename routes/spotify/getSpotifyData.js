@@ -32,7 +32,11 @@ router.post('/', async (request, response) => {
                 }
             });
 
-            return await res.json();
+            if (!res.ok) {
+                return null;
+            } else {
+                return await res.json();
+            }
         }
 
         // Fetch data from all endpoints
@@ -48,14 +52,15 @@ router.post('/', async (request, response) => {
         let recommendationsUrl = `
         https://api.spotify.com/v1/recommendations?seed_artists=${seedArtists.join(',')}&seed_tracks=${seedTracks.join(',')}`;
 
-        //const recommendations = await fetchData(recommendationsUrl);
+        const recommendations = await fetchData(recommendationsUrl);
 
         // Return all fetched data
         response.json({
             status: true,
             playlists,
             topTracks,
-            topArtists
+            topArtists,
+            recommendations
         });
     } catch (error) {
         console.error('Error fetching Spotify data:', error.message);

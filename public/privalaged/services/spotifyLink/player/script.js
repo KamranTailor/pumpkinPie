@@ -79,9 +79,10 @@ async function onStart() {
   
   if (userData && userData.linkedAccounts && userData.linkedAccounts.length > 0) {
     const spotifyAccount = userData.linkedAccounts[0].spotify;
+    console.log(spotifyAccount)
 
     // Ensure spotifyAccount is defined
-    if (spotifyAccount) {
+    if (spotifyAccount.accessToken) {
         const currentTime = Date.now();
         const accessTokenExpiration = spotifyAccount.accessTokenExpiration;
 
@@ -125,3 +126,56 @@ async function onStart() {
     window.location = "/spotify/login";
   }
 }
+
+async function onStartOld() {
+    document.getElementById("loading-content").innerHTML = "Loaded User Data!";
+    
+    if (userData && userData.linkedAccounts && userData.linkedAccounts.length > 0) {
+      const spotifyAccount = userData.linkedAccounts[0].spotify;
+  
+      // Ensure spotifyAccount is defined
+      if (spotifyAccount) {
+          const currentTime = Date.now();
+          const accessTokenExpiration = spotifyAccount.accessTokenExpiration;
+  
+          // Refresh token if expired
+          if (accessTokenExpiration && currentTime >= accessTokenExpiration) {
+              try {
+                  const refreshTokenRes = await fetch('/spotify/refreshToken', {
+                      method: 'POST',
+                      headers: {
+                          'Content-Type': 'application/json'
+                      },
+                      body: JSON.stringify({
+                          email: localStorage.getItem('email'),
+                      })
+                  });
+  
+                  const refreshData = await refreshTokenRes.json();
+  
+                  // Update access token if successfully refreshed
+                  if (refreshData && refreshData.accessToken) {
+                      userData.linkedAccounts[0].spotify.accessToken = refreshData.accessToken;
+                      console.log('Token refreshed successfully:', refreshData.accessToken);
+                  } else {
+                      console.error('Failed to refresh token.');
+                      window.location = "/spotify/login";
+                  }
+  
+              } catch (error) {
+                  console.error('Error refreshing token:', error);
+                  window.location = "/spotify/login";
+              }
+          }
+  
+          document.getElementById("loading-content").innerHTML = "Waiting for Spotify Player...";
+          window.onSpotifyWebPlaybackSDKReady();
+  
+      } else {
+          window.location = "/spotify/login";
+      }
+    } else {
+      window.location = "/spotify/login";
+    }
+  }
+  
