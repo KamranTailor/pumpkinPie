@@ -1,3 +1,4 @@
+
 document.getElementById("loading-content").innerHTML = "Loading User...";
 
 window.onSpotifyWebPlaybackSDKReady = () => {
