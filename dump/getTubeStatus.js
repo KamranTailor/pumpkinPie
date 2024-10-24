@@ -8,6 +8,23 @@ const tflKey = process.env.TFL;
 const databaseId = "7750a3bc-1372-4485-9581-8516193b3f6e";
 
 export async function setData() {
+    function compairData(oldData, newData) {
+        delete oldData[0].timestampISO;
+        delete newData[0].timestampISO;
+
+        for (let mode in newData[0]) {
+            for (let line in newData[0][mode]) {
+                let lineName = newData[0][mode][line].name;
+                let oldStatusCode = oldData[0][mode][line].lineStatuses[0].statusSeverity;
+                let newStatusCode = newData[0][mode][line].lineStatuses[0].statusSeverity;
+
+                if (oldStatusCode != newStatusCode) {
+                    console.log(`Line ${lineName} has changed status from ${oldStatusCode} to ${newStatusCode}`);
+                }
+            }
+        }
+    }
+
     const fetchTFLData = async (mode, tflKey) => {
         const url = `${TFL_API_BASE_URL}${mode}/status?app_id=${tflKey}`;
         const response = await fetch(url);
@@ -34,7 +51,9 @@ export async function setData() {
         }
         ];
         
+        const oldData = await kamran.database.getDatabase(databaseId);
         const cash = await kamran.database.cash(databaseId, result);
+        compairData(oldData.data, result);
 
         let msg = '';
         if(cash.status == true) {

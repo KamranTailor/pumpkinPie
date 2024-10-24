@@ -1,20 +1,24 @@
-// index.js
-
 import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
-import { createServer } from 'http'; // ESM-compatible import for http
-import { Server as socketIo } from 'socket.io'; // ESM import for socket.io
+import { createServer } from 'http';
+import { Server as socketIo } from 'socket.io';
 import { writeFile } from 'fs/promises';
+import axios from 'axios';
 
 dotenv.config();
 
-const port = 8080;
+const isDev = process.env.NODE_ENV === 'development'; // Check the environment
+
+const port = isDev ? 8080 : process.env.PORT || 8080; // Use different ports for dev and prod
 import app from './routes/main.js'; // Your API routes are here
 import kamran from './functions/main.js';
 
 import { initializePeriodicTasks } from './dump/main.js'; 
-initializePeriodicTasks();
+
+if (isDev == false) {
+    initializePeriodicTasks();
+}
 
 import initializeSocket from './sockets/spotifySockets.js'; 
 const server = createServer(app);
@@ -27,9 +31,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 app.get('/version', (req, res) => {
-    res.json({ version: "V1" });
+    res.json({ version: "V1", environment: isDev ? 'development' : 'production' });
 });
 
 server.listen(port, () => {
-    console.log(`Listening on port ${port}`);
+    console.log(`Listening on port ${port} in ${isDev ? 'development' : 'production'} mode`);
 });
