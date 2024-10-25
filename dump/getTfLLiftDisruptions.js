@@ -37,10 +37,11 @@ export async function setData() {
         const stationDataResponce = await fetch(`https://api.tfl.gov.uk/StopPoint/${id}`)
         const stationData = await stationDataResponce.json();
 
-        const stationName = stationData.name
-        
+        const stationName = stationData.commonName
+
         //Loop Through Lines and Push Station ID to the Result
         for (let line in stationData.lines) {
+
             let lineName = stationData.lines[line].id
             
             // Check if lineName is a valid line
