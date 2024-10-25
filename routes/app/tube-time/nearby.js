@@ -80,7 +80,7 @@ async function getBus(lat, lon) {
 // Function to load tube stoppoints data from a JSON file
 async function loadTubeStoppoints() {
     try {
-        const data = await fsPromises.readFile('../database/tfl/stoppoint/stations.json', 'utf-8');
+        const data = await fsPromises.readFile('./dataset/tfl-stations/stations.json', 'utf-8');
         return JSON.parse(data);
     } catch (error) {
         console.error('Error loading tube stoppoints:', error);

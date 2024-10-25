@@ -44,8 +44,15 @@ router.get('/tfl-status-line', async (request, response) => {
         const dataStations = await fs.readFile(`./dataset/tfl-lines/${id}.json`, 'utf8');
         const dataStationsJSON = JSON.parse(dataStations);
 
+        const liftDisruptionData = await kamran.database.getDatabase("4e5aeaf3-acb8-4dc5-b208-2c13ce5b26dd")
         if (lineStatus) {
-            response.json({ lineStatus, name: lineStatus.name, stations: dataStationsJSON, amoutOfStations: dataStationsJSON.length});
+            response.json({ 
+                lineStatus, 
+                name: lineStatus.name, 
+                stations: dataStationsJSON, 
+                amoutOfStations: dataStationsJSON.length,
+                liftDisruptions: liftDisruptionData
+            });
         } else {
             response.status(404).json({ error: "Line status not found" });
         }

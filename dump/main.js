@@ -2,9 +2,10 @@
 
 import { setTflData } from './getTubeStatus.js'; 
 import { setPlaneData } from './getPlaneData.js'; 
-
+import { getTfLLiftDisruptions } from './getTfLLiftDisruptions.js';
 // Initialize and start periodic tasks
 export function initializePeriodicTasks() {
     setTflData();
     setPlaneData();
+    getTfLLiftDisruptions();
 }
