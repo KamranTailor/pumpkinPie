@@ -14,21 +14,21 @@ export async function setData() {
 
     //Set Data Format
     const result = {
-        "Bakerloo": [],
-        "Central": [],
-        "Circle": [],
-        "District": [],
-        "Hammersmith & City": [],
-        "Jubilee": [],
-        "Metropolitan": [],
-        "Northern": [],
-        "Piccadilly": [],
-        "Victoria": [],
-        "Waterloo & City": [],
-        "London Overground": [],
-        "Elizabeth line": [],
-        "DLR": [],
-        "Tram": [],
+        "bakerloo": [],
+        "central": [],
+        "circle": [],
+        "district": [],
+        "hammersmith-city": [],
+        "jubilee": [],
+        "metropolitan": [],
+        "northern": [],
+        "piccadilly": [],
+        "victoria": [],
+        "waterloo-city": [],
+        "london-overground": [],
+        "elizabeth": [],
+        "dlr": [],
+        "tram": [],
         "timestampISO": timestampISO
     }
 
@@ -37,11 +37,11 @@ export async function setData() {
         const stationDataResponce = await fetch(`https://api.tfl.gov.uk/StopPoint/${id}`)
         const stationData = await stationDataResponce.json();
 
-        const stationName = stationData.commonName
+        const stationName = stationData.name
         
         //Loop Through Lines and Push Station ID to the Result
         for (let line in stationData.lines) {
-            let lineName = stationData.lines[line].name
+            let lineName = stationData.lines[line].id
             
             // Check if lineName is a valid line
             if (result.hasOwnProperty(lineName)) {
