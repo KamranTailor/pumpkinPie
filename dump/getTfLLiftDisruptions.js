@@ -85,5 +85,5 @@ export async function setData() {
 
 export function getTfLLiftDisruptions() {
     setData(); // Run the task initially
-    setInterval(setData, 90 * 1000); // 1 minute 30 seconds in milliseconds
+    setInterval(setData, 10 * 60 * 1000); // 10 minutes in milliseconds
 }
