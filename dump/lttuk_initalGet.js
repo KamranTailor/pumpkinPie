@@ -211,5 +211,5 @@ export function cashLttukData() {
     setData(); // Run the task initially
 
     // Set interval to run every 90 seconds (90000 ms)
-    setInterval(setData, 30000);
+    setInterval(setData, 35000);
 }
