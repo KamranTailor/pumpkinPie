@@ -4,10 +4,10 @@ import express from 'express';
 import kamran from '../../../functions/main.js';
 const router = express.Router();
 
-router.get('/shop', async (request, response) => {
+router.get('/', async (request, response) => {
     try {
 
-        const responce = await kamran.database.getDatabase("7750a3bc-1372-4485-9581-8516193b3f6e");
+        const responce = await kamran.database.getDatabase("d0663c45-efb8-4149-8ef6-ef2273e47f45");
         const data = responce.data;
 
         response.json(data);

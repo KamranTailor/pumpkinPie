@@ -74,4 +74,8 @@ app.use('/app-tfl', stoppointRouter);
 import lineDataRouter from './app/tube-time/line.js';
 app.use('/app-tfl', lineDataRouter);
 
+//MY FN APP ROUTES 
+import shopRouter from './app/my-fn/shop.js';
+app.use('/app-my-fn/shop', shopRouter);
+
 export default app;
