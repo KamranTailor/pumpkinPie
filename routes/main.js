@@ -73,6 +73,8 @@ import stoppointRouter from './app/tube-time/stoppoint.js';
 app.use('/app-tfl', stoppointRouter);
 import lineDataRouter from './app/tube-time/line.js';
 app.use('/app-tfl', lineDataRouter);
+import directionsRouter from './app/tube-time/directions.js';
+app.use('/app-tfl', directionsRouter);
 
 //MY FN APP ROUTES 
 import shopRouter from './app/my-fn/shop.js';
