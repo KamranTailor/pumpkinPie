@@ -1,5 +1,6 @@
 import express from 'express';
 import fetch from 'node-fetch';
+import { promises as fs } from 'fs';
 
 const router = express.Router();
 
@@ -25,10 +26,12 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 
 router.get('/nearby', async (request, response) => {
     try {
-        // Get lon and lat from the params
         const { lon, lat } = request.query;
 
-        // Check if user is in London
+        if (!lon || !lat) {
+            return response.status(400).json({ error: 'Longitude and latitude are required' });
+        }
+
         const distanceFromLondon = calculateDistance(
             parseFloat(lat),
             parseFloat(lon),
@@ -36,51 +39,64 @@ router.get('/nearby', async (request, response) => {
             londonCoordinates.longitude
         );
 
-        // Define a threshold for considering if the user is in London
         const londonThreshold = 33; // in kilometers
-
-        // Check if the user is within the threshold distance of London
         const isNearLondon = distanceFromLondon <= londonThreshold;
 
         if (isNearLondon) {
-            // If user is in London, find the 3 closest tube stations
             const userLocation = { lat: parseFloat(lat), lon: parseFloat(lon) };
-            const tubeStoppoints = await loadTubeStoppoints(); // Load tube stoppoints data
-            const closestStations = findClosestStations(userLocation, tubeStoppoints, 3);
+            const tubeStoppoints = await loadTubeStoppoints();
 
-            const busStops = await getBus(lat, lon) 
+            if (!tubeStoppoints.length) {
+                return response.status(500).json({ error: 'Unable to load tube stoppoints data' });
+            }
+
+            const closestStations = findClosestStations(userLocation, tubeStoppoints, 3);
+            const busStops = await getBus(lat, lon);
 
             response.json({ nearLondon: isNearLondon, closestStations, busStops });
         } else {
-            response.status(500).json({ error: 'Internal Server Error' });
+            response.status(404).json({ message: 'Location is not near London' });
         }
     } catch (error) {
-        console.error(error);
+        console.error('Error processing nearby request:', error);
         response.status(500).json({ error: 'Internal Server Error' });
     }
 });
 
 async function getBus(lat, lon) {
-    const tflKey = process.env.TFL
-    const url = `https://api.tfl.gov.uk/StopPoint?lat=${lat}&lon=${lon}&stopTypes=NaptanPublicBusCoachTram&radius=700&app_id=${tflKey}`;
-    const tflResponse = await fetch(url);
-    const resData = await tflResponse.json();
+    try {
+        const tflKey = process.env.TFL;
+        if (!tflKey) {
+            throw new Error('Missing TFL API key');
+        }
 
-    for (let i in resData.stopPoints) {
-        delete resData.stopPoints[i].modes
-        delete resData.stopPoints[i].lines
-        delete resData.stopPoints[i].lineGroup
-        delete resData.stopPoints[i].lineModeGroups
-        delete resData.stopPoints[i].additionalProperties
+        const url = `https://api.tfl.gov.uk/StopPoint?lat=${lat}&lon=${lon}&stopTypes=NaptanPublicBusCoachTram&radius=700&app_id=${tflKey}`;
+        const tflResponse = await fetch(url);
+
+        if (!tflResponse.ok) {
+            throw new Error(`Failed to fetch bus stops: ${tflResponse.statusText}`);
+        }
+
+        const resData = await tflResponse.json();
+
+        resData.stopPoints.forEach(stop => {
+            delete stop.modes;
+            delete stop.lines;
+            delete stop.lineGroup;
+            delete stop.lineModeGroups;
+            delete stop.additionalProperties;
+        });
+
+        return resData.stopPoints;
+    } catch (error) {
+        console.error('Error fetching bus stops:', error);
+        return [];
     }
-
-    return await resData.stopPoints;
 }
 
-// Function to load tube stoppoints data from a JSON file
 async function loadTubeStoppoints() {
     try {
-        const data = await fsPromises.readFile('./dataset/tfl-stations/stations.json', 'utf-8');
+        const data = await fs.readFile('./dataset/tfl-stations/stations.json', 'utf-8');
         return JSON.parse(data);
     } catch (error) {
         console.error('Error loading tube stoppoints:', error);
@@ -88,18 +104,14 @@ async function loadTubeStoppoints() {
     }
 }
 
-// Function to find the closest stations to a given location
 function findClosestStations(userLocation, tubeStoppoints, numStations) {
-    // Calculate distances to all stations
     const stationsWithDistance = tubeStoppoints.map(station => ({
         ...station,
         distance: calculateDistance(userLocation.lat, userLocation.lon, station.lat, station.lon)
     }));
 
-    // Sort stations by distance
     stationsWithDistance.sort((a, b) => a.distance - b.distance);
 
-    // Return the closest stations up to the specified number
     return stationsWithDistance.slice(0, numStations);
 }
 
