@@ -1,5 +1,5 @@
 import kamran from "../functions/main.js";
-c
+
 import dotenv from 'dotenv';
 dotenv.config();
 
