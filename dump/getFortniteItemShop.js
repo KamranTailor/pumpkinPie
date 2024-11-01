@@ -66,9 +66,10 @@ async function setData() {
 export function fetchForniteShop() {
     setData(); // Run the task initially
     const task = cron.schedule('5 0 * * *', () => {
-        setData()
+        console.log("Scheduled task triggered at:", new Date().toLocaleString());
+        setData();
     }, {
         scheduled: true,
-        timezone: "GMT" // Set your timezone here
-    });
+        timezone: "GMT"
+    });    
 }
