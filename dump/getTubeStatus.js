@@ -19,7 +19,7 @@ export async function setData() {
                 let newStatusCode = newData[0][mode][line].lineStatuses[0].statusSeverity;
 
                 if (oldStatusCode != newStatusCode) {
-                    console.log(`Line ${lineName} has changed status from ${oldStatusCode} to ${newStatusCode}`);
+                    //console.log(`Line ${lineName} has changed status from ${oldStatusCode} to ${newStatusCode}`);
                 }
             }
         }

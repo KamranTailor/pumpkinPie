@@ -11,6 +11,8 @@ dotenv.config();
 const isDev = process.env.NODE_ENV === 'development'; // Check the environment
 
 const port = isDev ? 8080 : process.env.PORT || 8080; // Use different ports for dev and prod
+const rainbowLogicPort = 1000;
+
 import app from './routes/main.js'; // Your API routes are here
 import kamran from './functions/main.js';
 
@@ -27,11 +29,20 @@ initializeSocket(io);
 import initializeFlightSocket from './sockets/flights.js';
 initializeFlightSocket(io); 
 
+import rainbowLogicApp from "./rainbowLogic/main.js"
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
+rainbowLogicApp.use(bodyParser.urlencoded({ extended: true }));
+rainbowLogicApp.use(express.static('rainbowLogic/public'));
+
 app.get('/version', (req, res) => {
     res.json({ version: "V1", environment: isDev ? 'development' : 'production' });
+});
+
+rainbowLogicApp.listen(rainbowLogicPort, () => {
+    console.log(`Listening on port ${rainbowLogicPort} in ${isDev ? 'development' : 'production'} mode`);
 });
 
 server.listen(port, () => {
