@@ -1,0 +1,119 @@
+/* Hero Section */
+.hero-section {
+    height: 350px;
+    background-image: url('Banner.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;  /* Text color white */
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Reduced opacity for better text visibility */
+    z-index: 1;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* This ensures the content stays on top of the overlay */
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff7eb3;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-button:hover {
+    background: #ff758c;
+    transform: translateY(-2px);
+}
+
+/* Section Styles */
+section {
+    padding: 3rem 0;
+}
+
+.about-section, .features-section {
+    text-align: center;
+}
+
+.features-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 300px;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    background-color: #ff7eb3;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-top: 5px solid #ff758c;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.submit-button {
+    background-color: #fff;
+    color: #ff758c;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #ff758c;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

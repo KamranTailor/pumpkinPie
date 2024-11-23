@@ -1,17 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rainbow Logic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
 
 <body>
 
+    <!-- Navigation Header -->
     <header>
-        <span class="header-text">Rainbow Logic</span>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">🌈 Rainbow Logic</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to Rainbow Logic</h1>
+                <p>Where creativity meets innovation in a colorful world.</p>
+                <a href="#about" class="hero-button">Discover More</a>
+            </div>
+        </div>
     </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Rainbow Logic is all about making logic fun, accessible, and exciting. Join us in exploring a world of vibrant solutions and endless creativity!</p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3>🎨 Creative Tools</h3>
+                        <p>Enhance your imagination with tools designed to spark creativity.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>✨ Innovative Design</h3>
+                        <p>Enjoy interfaces that are both colorful and user-friendly.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🌟 Community Support</h3>
+                        <p>Connect with a vibrant community that shares your passion for creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Rainbow Logic. Made with ❤️ for creativity.</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

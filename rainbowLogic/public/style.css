@@ -1,66 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset and base styles */
+body, html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(180deg, #ffffff, #f0f9ff);
+    color: #333;
 }
 
-.menu-container {
-    position: relative;
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.hamburger {
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffce73);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Align logo to the left and nav links to the right */
+    align-items: center; /* Vertically align items */
+}
+
+.navbar .container {
+    width: 100%; /* Ensure the container takes full width */
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
-    padding: 5px;
+    justify-content: space-between; /* Spread logo and nav links apart */
+    align-items: center; /* Align items vertically */
 }
 
-.bar {
-    height: 4px;
-    background-color: #333;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.menu {
-    display: none;
-    background-color: #333;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    width: 200px;
-    padding: 10px;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.menu li {
-    margin: 10px 0;
-}
-
-.menu a {
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    margin-left: 20px; /* Optional margin for better spacing */
 }
 
-.menu a:hover {
-    color: #ddd;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    margin-left: auto; /* Push the nav links to the right */
 }
 
-@media (min-width: 768px) {
-    .hamburger {
-        display: none;
-    }
-    .menu {
-        display: block;
-        position: static;
-        width: auto;
-    }
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #333;
 }
