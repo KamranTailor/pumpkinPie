@@ -66,3 +66,120 @@ body, html {
 .nav-links a:hover {
     color: #333;
 }
+
+
+/* Hamburger Menu */
+.hamburger {
+    display: none; /* Hidden on larger screens */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: white;
+    z-index: 101;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+    transform: scale(1.1); /* Subtle hover effect */
+}
+
+.hamburger:focus {
+    outline: none; /* Removes default focus outline */
+}
+
+
+/* Mobile Nav Links */
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show the icon on smaller screens */
+    }
+
+    .nav-links {
+        display: none; /* Initially hide the nav links */
+    }
+
+    .nav-links.show {
+        display: flex; /* Show links when toggled */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffce73);
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+}
+
+
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none; /* Ensures no border */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 8px rgba(255, 118, 179, 0.4);
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 0 12px rgba(255, 118, 179, 0.6);
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 118, 179, 0.5);
+}
+
+.headerButton {
+    padding: 0.5rem 1.25rem;
+    background: white;
+    color: #ff758c;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerButton:hover {
+    background: #ff758c;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.headerButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
