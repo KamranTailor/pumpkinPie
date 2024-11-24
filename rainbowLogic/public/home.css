@@ -73,6 +73,7 @@ section {
 .feature-item {
     flex: 1;
     max-width: 300px;
+    min-width: 300px;
     background: linear-gradient(135deg, #fdfbfb, #ebedee);
     border-radius: 10px;
     padding: 1.5rem;
