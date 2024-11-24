@@ -78,7 +78,16 @@ section {
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer; /* Indicates interactivity */
 }
+
+.feature-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Subtle color change */
+}
+
 
 .contact-section {
     background-color: #ff7eb3;
@@ -137,11 +146,6 @@ section {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
-}
-
-.about-text .highlight {
-    color: #ff758c;
-    font-weight: bold;
 }
 
 /* Responsive Design */

@@ -7,8 +7,23 @@ body, html {
     scroll-behavior: smooth;
     background: linear-gradient(180deg, #ffffff, #f0f9ff);
     color: #333;
+    min-height: 100vh;
 }
 
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 100px; /* Reserve space for the footer */
+    height: 70vh;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
 .container {
     width: 90%;
     max-width: 1200px;
@@ -97,13 +112,6 @@ body, html {
     margin-left: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-
 @media (max-width: 768px) {
     .hamburger {
         display: block; /* Show the icon on smaller screens */
@@ -181,5 +189,37 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.highlight {
+    color: #ff758c;
+    font-weight: bold;
+}
 
+.notice {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
+.notice-blue {
+    background: linear-gradient(45deg, #6a85b6, #bac8e0);
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.notice-green {
+    background: linear-gradient(45deg, #56ab2f, #a8e063);
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

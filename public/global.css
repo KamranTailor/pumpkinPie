@@ -331,7 +331,7 @@ hr {
     background-color: var(--red-button-active-color);
 }
 
-.green-button {
+.green-button { 
     background-color: var(--green-button-color);
 }
 

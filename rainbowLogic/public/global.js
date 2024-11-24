@@ -40,7 +40,7 @@ async function insertHeader() {
 async function insertFooter() {
     const data = `    <footer>
         <div class="container">
-            <p>© 2024 Kamran Tailor. Made with ❤️ for creativity.</p>
+            <p>© 2024 <a href="https://kamrantailor.com" class="highlight" >Kamran Tailor</a>. Made with ❤️ for creativity.</p>
         </div>
     </footer>
 `
@@ -51,4 +51,9 @@ async function insertFooter() {
 
     // Insert the new element at the beginning of the body
     body.appendChild(footer);
+}
+
+
+function goTo(place) {
+    window.location = place;
 }
