@@ -9,6 +9,16 @@ let leftScore = 0, rightScore = 0;
 let paddleSpeed = 5;
 
 let display = "inline-block";
+
+
+document.addEventListener('keydown', function(event) {
+    // Check if the pressed key is one of the arrow keys
+    if (event.key === "ArrowUp" || event.key === "ArrowDown" || 
+        event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault(); // Prevent the default scrolling behavior
+    }
+});
+
 function setup() {
     createCanvas(400, 400);
 
@@ -129,6 +139,8 @@ function play() {
     playing = true;
     paused = false;
 
+    ballSpeedX = 4;
+    ballSpeedY = random(-3, 3);
 
     leftScore = 0, 
     rightScore = 0;
