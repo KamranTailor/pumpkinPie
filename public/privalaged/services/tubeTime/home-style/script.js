@@ -25,16 +25,19 @@ async function getLines() {
       </div>`
     }
     
-    let r = data.overgroundData[0]
-    toDisplay += `<br> <h2>Overground</h2> <hr>
-    <div class="line">
-        <div class="line-info">
-          <div class="line-name" id="${r.id}-FG">${r.name}</div>
-          <div class="line-status">${setStatus(r.lineStatuses[0])}</div>
+    toDisplay += "<br> <h2>Overground</h2> <hr>";
+    for (i in data.overgroundData) {
+      let r = data.overgroundData[i]
+      toDisplay += `
+      <div class="line">
+          <div class="line-info">
+            <div class="line-name" id="${r.id}-FG">${r.name}</div>
+            <div class="line-status">${setStatus(r.lineStatuses[0])}</div>
+          </div>
+          <button class="button-line" id="${r.id}-BG" onclick="seeMore('${r.id}')">See More</button>
         </div>
-        <button class="button-line" id="${r.id}-BG" onclick="seeMore('${r.id}')">See More</button>
-      </div>
-    `;
+      `;
+    }
 
     delete data.tubeData;
     delete data.overgroundData;

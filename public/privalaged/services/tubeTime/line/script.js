@@ -44,6 +44,11 @@ async function getStatus() {
                 dataRel = dataRes.data[0].tubeData[i];
             }
         }
+        for (let i in dataRes.data[0].overgroundData) {
+            if (dataRes.data[0].overgroundData[i].id == line_id) {
+                dataRel = dataRes.data[0].overgroundData[i];
+            }
+        }
     }
 
     console.log(dataRel);

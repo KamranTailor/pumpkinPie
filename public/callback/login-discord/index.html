@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    
+    <main>
+    <div class="login-wrapper">
+        <div class="login-container">
+            <div class="login-form">
+                <h2>Login</h2>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <span id="error-message" class="error"></span>
+                    <button onclick="login()" class="login-btn">Login</button>
+                    <div class="links">
+                        <a href="#">Forgot Password?</a> | <a href="/signUp">Sign Up</a>
+                    </div>
+            </div>
+            <div class="divider"></div>
+            <div class="social-login-section">
+                <button type="button" class="social-btn spotify-btn" onclick="signInService()">
+                    <img src="/src/icons/spotify-icon.png" alt="Spotify" class="social-icon">
+                    Sign in with Spotify
+                </button>
+                <button type="button" class="social-btn discord-btn" onclick="signInService()">
+                    <img src="/src/icons/discord-icon.png" alt="Discord" class="social-icon">
+                    Sign in with Discord
+                </button>
+                <button type="button" class="social-btn google-btn" onclick="signInService()">
+                    <img src="/src/icons/google-icon.png" alt="Google" class="social-icon">
+                    Sign in with Google
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+
+<script src="script.js"></script>
+<script src="../global.js"></script>
+</html>
