@@ -2,6 +2,7 @@
 
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
+import querystring from 'querystring';
 
 dotenv.config();
 
@@ -21,11 +22,13 @@ export function initilaizeDiscordBot() {
     
     // Event: Respond to messages
     client.on('messageCreate', (message) => {
-        if (message.content.toLowerCase() === '!ping') {
+        if (message.content.toLowerCase() === '$ping') {
             message.channel.send('Pong!');
-        } else if (message.content.toLowerCase() === '!hello') {
+        } else if (message.content.toLowerCase() === '$hello') {
             message.channel.send(`Hello, ${message.author.username}!`);
         }
+
+        
     });
     
     // Log in to Discord

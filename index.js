@@ -22,7 +22,7 @@ import { initializePeriodicTasks } from './dump/main.js';
 
 if (isDev == false) {
     initializePeriodicTasks();
-    //initilaizeDiscordBot();
+    initilaizeDiscordBot();
 }
 
 import initializeSocket from './sockets/spotifySockets.js'; 
