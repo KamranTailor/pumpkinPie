@@ -72,10 +72,40 @@ async function getOporatingTrains(lineId) {
             url: "https://api.tfl.gov.uk/Line/waterloo-city/Arrivals"
         },
         {
-            lineId: "london-overground",
+            lineId: "liberty",
             trackernetId: null,
-            databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
-            url: "https://api.tfl.gov.uk/Line/london-overground/Arrivals"
+            databaseId: "0ff6c5de-b9d3-4746-9392-d676bc3a53b2",
+            url: "https://api.tfl.gov.uk/Line/liberty/Arrivals"
+        },
+        {
+            lineId: "lioness",
+            trackernetId: null,
+            databaseId: "f21bc3d5-c3d4-473d-ba34-b88dec64c9d6",
+            url: "https://api.tfl.gov.uk/Line/lioness/Arrivals"
+        },
+        {
+            lineId: "mildmay",
+            trackernetId: null,
+            databaseId: "327562e3-1276-45be-9d7b-998001573d46",
+            url: "https://api.tfl.gov.uk/Line/mildmay/Arrivals"
+        },
+        {
+            lineId: "suffragette",
+            trackernetId: null,
+            databaseId: "3a2869a4-6ba8-4bb3-89ce-de6d37d00fb6",
+            url: "https://api.tfl.gov.uk/Line/suffragette/Arrivals"
+        },
+        {
+            lineId: "weaver",
+            trackernetId: null,
+            databaseId: "a450f3f7-23ae-4770-8f3b-0a7abe10df6f",
+            url: "https://api.tfl.gov.uk/Line/weaver/Arrivals"
+        },
+        {
+            lineId: "windrush",
+            trackernetId: null,
+            databaseId: "4e9aff57-f8f5-4c36-aa14-ffed689beef9",
+            url: "https://api.tfl.gov.uk/Line/windrush/Arrivals"
         },
         {
             lineId: "elizabeth",

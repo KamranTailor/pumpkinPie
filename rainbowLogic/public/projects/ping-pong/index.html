@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Rainbow Logic</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,25 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../style.css">
-    <meta charset="utf-8" />
+</head>
 
-  </head>
-  <body>
+<body>
     <main>
-        <h1><center>Ping-Pong</center></h1>
-        <div class="notice ">Are you on mobile? This game wont work as you need a keyboard to play this game!</div>
-        <div >
+        <h1>Ping-Pong</h1>
+        <div class="notice">Are you on mobile? This game won't work as you need a keyboard to play this game!</div>
+        <div>
             <span class="highlight">Player one:</span> W = Up, S = Down <br>
             <span class="highlight">Player two:</span> Arrow Up = Up, Down = Down Arrow
         </div>
-        <center>
+        <div class="gameSection">
             <button class="button" id="play" onclick="play()">Play!</button>
             <button class="button" id="pause" onclick="pause()">Pause</button>
-            <button class="button" id="unPause" onclick="unPause()">Un Pause</button>
+            <button class="button" id="unPause" onclick="unPause()">Unpause</button>
             <button class="button" id="reset" onclick="reset()">Reset</button>
-        </center> <br>
+        </div>
+        <div id="canvas-container"></div>
     </main>
     <script src="sketch.js"></script>
     <script src="../../global.js"></script>
-  </body>
+</body>
+
 </html>

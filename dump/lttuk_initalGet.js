@@ -20,7 +20,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 // Data Constants
-const api_urls = [
+const setOne = [
     {
         lineId: "bakerloo",
         trackernetId: "B",
@@ -89,41 +89,41 @@ const api_urls = [
     }
 ];
 
-const api_urls_2 = [
+const setTwo = [
     {
         lineId: "liberty",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "0ff6c5de-b9d3-4746-9392-d676bc3a53b2",
         url: "https://api.tfl.gov.uk/Line/liberty/Arrivals"
     },
     {
         lineId: "lioness",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "f21bc3d5-c3d4-473d-ba34-b88dec64c9d6",
         url: "https://api.tfl.gov.uk/Line/lioness/Arrivals"
     },
     {
         lineId: "mildmay",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "327562e3-1276-45be-9d7b-998001573d46",
         url: "https://api.tfl.gov.uk/Line/mildmay/Arrivals"
     },
     {
         lineId: "suffragette",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "3a2869a4-6ba8-4bb3-89ce-de6d37d00fb6",
         url: "https://api.tfl.gov.uk/Line/suffragette/Arrivals"
     },
     {
         lineId: "weaver",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "a450f3f7-23ae-4770-8f3b-0a7abe10df6f",
         url: "https://api.tfl.gov.uk/Line/weaver/Arrivals"
     },
     {
         lineId: "windrush",
         trackernetId: null,
-        databaseId: "7f9d7ac7-27ac-425a-81f5-54914b71e311",
+        databaseId: "4e9aff57-f8f5-4c36-aa14-ffed689beef9",
         url: "https://api.tfl.gov.uk/Line/windrush/Arrivals"
     },
     {
@@ -189,7 +189,15 @@ async function fetchData(url) {
 }
 
 // Set data in Firestore for each line
-async function setData() {
+async function setData(url_set) {
+    
+    let api_urls;
+    if (url_set === "one") {
+        api_urls = setOne;
+    } else {
+        api_urls = setTwo;
+    }
+
     for (const line of api_urls) {
         // Clear existing documents in the collectio
 
@@ -238,10 +246,14 @@ async function setData() {
     }
 }
 
-// Exported function to cache data
-export function cashLttukData() {
-    setData(); // Run the task initially
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-    // Set interval to run every 90 seconds (90000 ms)
-    setInterval(setData, 35000);
+// Exported function to cache data
+export async function cashLttukData() {
+    await setData("one"); // Ensure "one" completes first
+    setInterval(() => setData("one"), 240000);
+
+    await delay(120000); // Wait before starting the next set
+    await setData("two");
+    setInterval(() => setData("two"),  240000);
 }

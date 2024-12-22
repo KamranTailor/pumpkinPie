@@ -20,7 +20,8 @@ document.addEventListener('keydown', function(event) {
 });
 
 function setup() {
-    createCanvas(400, 400);
+    let canvas = createCanvas(400, 400);
+    canvas.parent('canvas-container');
 
     // Initialize positions
     leftPaddleY = height / 2 - paddleHeight / 2;
@@ -31,6 +32,7 @@ function setup() {
     ballSpeedX = 4;
     ballSpeedY = random(-3, 3);
 }
+
 
 function draw() {
     if (leftScore >= 5) {
