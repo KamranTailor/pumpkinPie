@@ -1,0 +1,2045 @@
+[
+    {
+      "naptanId": "910GACTNCTL",
+      "commonName": "Acton Central Rail Station",
+      "id": "910GACTNCTL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GANERLEY",
+      "commonName": "Anerley Rail Station",
+      "id": "910GANERLEY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBARKING",
+      "commonName": "Barking Rail Station",
+      "id": "910GBARKING",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBHILLPK",
+      "commonName": "Bush Hill Park Rail Station",
+      "id": "910GBHILLPK",
+      "lines": [
+        {
+          "id": "217",
+          "name": "217"
+        },
+        {
+          "id": "231",
+          "name": "231"
+        },
+        {
+          "id": "377",
+          "name": "377"
+        },
+        {
+          "id": "617",
+          "name": "617"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBKRVS",
+      "commonName": "Barking Riverside",
+      "id": "910GBKRVS",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBLCHSRD",
+      "commonName": "Blackhorse Road Rail Station",
+      "id": "910GBLCHSRD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBRBY",
+      "commonName": "Brondesbury Rail Station",
+      "id": "910GBRBY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBRBYPK",
+      "commonName": "Brondesbury Park Rail Station",
+      "id": "910GBRBYPK",
+      "lines": [
+        {
+          "id": "206",
+          "name": "206"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBROCKLY",
+      "commonName": "Brockley Rail Station",
+      "id": "910GBROCKLY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBRUCGRV",
+      "commonName": "Bruce Grove Rail Station",
+      "id": "910GBRUCGRV",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBTHNLGR",
+      "commonName": "Bethnal Green Rail Station",
+      "id": "910GBTHNLGR",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GBUSHYDC",
+      "commonName": "Bushey Rail Station",
+      "id": "910GBUSHYDC",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCAMHTH",
+      "commonName": "Cambridge Heath (London) Rail Station",
+      "id": "910GCAMHTH",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCHESHNT",
+      "commonName": "Cheshunt Rail Station",
+      "id": "910GCHESHNT",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCHINGFD",
+      "commonName": "Chingford Rail Station",
+      "id": "910GCHINGFD",
+      "lines": [
+        {
+          "id": "179",
+          "name": "179"
+        },
+        {
+          "id": "212",
+          "name": "212"
+        },
+        {
+          "id": "313",
+          "name": "313"
+        },
+        {
+          "id": "379",
+          "name": "379"
+        },
+        {
+          "id": "385",
+          "name": "385"
+        },
+        {
+          "id": "397",
+          "name": "397"
+        },
+        {
+          "id": "444",
+          "name": "444"
+        },
+        {
+          "id": "97",
+          "name": "97"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n26",
+          "name": "N26"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCLAPTON",
+      "commonName": "Clapton Rail Station",
+      "id": "910GCLAPTON",
+      "lines": [
+        {
+          "id": "106",
+          "name": "106"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCLDNNRB",
+      "commonName": "Caledonian Road & Barnsbury Rail Station",
+      "id": "910GCLDNNRB",
+      "lines": [
+        {
+          "id": "153",
+          "name": "153"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCLPHHS",
+      "commonName": "Clapham High Street Rail Station",
+      "id": "910GCLPHHS",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCLPHMJ1",
+      "commonName": "Clapham Junction Rail Station",
+      "id": "910GCLPHMJ1",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCLPHMJC",
+      "commonName": "Clapham Junction Rail Station",
+      "id": "910GCLPHMJC",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "south-western-railway",
+          "name": "South Western Railway"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCMDNRD",
+      "commonName": "Camden Road Rail Station",
+      "id": "910GCMDNRD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCNDAW",
+      "commonName": "Canada Water Rail Station",
+      "id": "910GCNDAW",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCNNB",
+      "commonName": "Canonbury Rail Station",
+      "id": "910GCNNB",
+      "lines": [
+        {
+          "id": "236",
+          "name": "236"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCROUCHH",
+      "commonName": "Crouch Hill Rail Station",
+      "id": "910GCROUCHH",
+      "lines": [
+        {
+          "id": "210",
+          "name": "210"
+        },
+        {
+          "id": "310",
+          "name": "310"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "w3",
+          "name": "W3"
+        },
+        {
+          "id": "w7",
+          "name": "W7"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCRPNDPK",
+      "commonName": "Carpenders Park Rail Station",
+      "id": "910GCRPNDPK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCRYSTLP",
+      "commonName": "Crystal Palace Rail Station",
+      "id": "910GCRYSTLP",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GCSEAH",
+      "commonName": "Imperial Wharf Rail Station",
+      "id": "910GCSEAH",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GDALS",
+      "commonName": "Dalston Junction Rail Station",
+      "id": "910GDALS",
+      "lines": [
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "242",
+          "name": "242"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "488",
+          "name": "488"
+        },
+        {
+          "id": "67",
+          "name": "67"
+        },
+        {
+          "id": "76",
+          "name": "76"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n242",
+          "name": "N242"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GDALSKLD",
+      "commonName": "Dalston Kingsland Rail Station",
+      "id": "910GDALSKLD",
+      "lines": [
+        {
+          "id": "236",
+          "name": "236"
+        },
+        {
+          "id": "242",
+          "name": "242"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "38",
+          "name": "38"
+        },
+        {
+          "id": "56",
+          "name": "56"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n242",
+          "name": "N242"
+        },
+        {
+          "id": "n38",
+          "name": "N38"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GDENMRKH",
+      "commonName": "Denmark Hill Rail Station",
+      "id": "910GDENMRKH",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GEDMNGRN",
+      "commonName": "Edmonton Green Rail Station",
+      "id": "910GEDMNGRN",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GEMRSPKH",
+      "commonName": "Emerson Park Rail Station",
+      "id": "910GEMRSPKH",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GENFLDTN",
+      "commonName": "Enfield Town Rail Station",
+      "id": "910GENFLDTN",
+      "lines": [
+        {
+          "id": "329",
+          "name": "329"
+        },
+        {
+          "id": "377",
+          "name": "377"
+        },
+        {
+          "id": "629",
+          "name": "629"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n29",
+          "name": "N29"
+        },
+        {
+          "id": "w8",
+          "name": "W8"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GEUSTON",
+      "commonName": "London Euston Rail Station",
+      "id": "910GEUSTON",
+      "lines": [
+        {
+          "id": "avanti-west-coast",
+          "name": "Avanti West Coast"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GFNCHLYR",
+      "commonName": "Finchley Road & Frognal Rail Station",
+      "id": "910GFNCHLYR",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GFORESTH",
+      "commonName": "Forest Hill Rail Station",
+      "id": "910GFORESTH",
+      "lines": [
+        {
+          "id": "122",
+          "name": "122"
+        },
+        {
+          "id": "176",
+          "name": "176"
+        },
+        {
+          "id": "185",
+          "name": "185"
+        },
+        {
+          "id": "197",
+          "name": "197"
+        },
+        {
+          "id": "356",
+          "name": "356"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GGNRSBRY",
+      "commonName": "Gunnersbury Rail Station",
+      "id": "910GGNRSBRY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GGOSPLOK",
+      "commonName": "Gospel Oak Rail Station",
+      "id": "910GGOSPLOK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHACKNYC",
+      "commonName": "Hackney Central Rail Station",
+      "id": "910GHACKNYC",
+      "lines": [
+        {
+          "id": "106",
+          "name": "106"
+        },
+        {
+          "id": "236",
+          "name": "236"
+        },
+        {
+          "id": "242",
+          "name": "242"
+        },
+        {
+          "id": "254",
+          "name": "254"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "38",
+          "name": "38"
+        },
+        {
+          "id": "394",
+          "name": "394"
+        },
+        {
+          "id": "55",
+          "name": "55"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n242",
+          "name": "N242"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n38",
+          "name": "N38"
+        },
+        {
+          "id": "n55",
+          "name": "N55"
+        },
+        {
+          "id": "w15",
+          "name": "W15"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHACKNYW",
+      "commonName": "Hackney Wick Rail Station",
+      "id": "910GHACKNYW",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHAGGERS",
+      "commonName": "Haggerston Rail Station",
+      "id": "910GHAGGERS",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHAKNYNM",
+      "commonName": "Hackney Downs Rail Station",
+      "id": "910GHAKNYNM",
+      "lines": [
+        {
+          "id": "106",
+          "name": "106"
+        },
+        {
+          "id": "242",
+          "name": "242"
+        },
+        {
+          "id": "253",
+          "name": "253"
+        },
+        {
+          "id": "254",
+          "name": "254"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "30",
+          "name": "30"
+        },
+        {
+          "id": "38",
+          "name": "38"
+        },
+        {
+          "id": "55",
+          "name": "55"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n242",
+          "name": "N242"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n38",
+          "name": "N38"
+        },
+        {
+          "id": "n55",
+          "name": "N55"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHARLSDN",
+      "commonName": "Harlesden Rail Station",
+      "id": "910GHARLSDN",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHEDSTNL",
+      "commonName": "Headstone Lane Rail Station",
+      "id": "910GHEDSTNL",
+      "lines": [
+        {
+          "id": "h12",
+          "name": "H12"
+        },
+        {
+          "id": "h14",
+          "name": "H14"
+        },
+        {
+          "id": "h18",
+          "name": "H18"
+        },
+        {
+          "id": "h19",
+          "name": "H19"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHGHI",
+      "commonName": "Highbury & Islington Rail Station",
+      "id": "910GHGHI",
+      "lines": [
+        {
+          "id": "great-northern",
+          "name": "Great Northern"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHGHMSPK",
+      "commonName": "Highams Park Rail Station",
+      "id": "910GHGHMSPK",
+      "lines": [
+        {
+          "id": "275",
+          "name": "275"
+        },
+        {
+          "id": "675",
+          "name": "675"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHMPSTDH",
+      "commonName": "Hampstead Heath Rail Station",
+      "id": "910GHMPSTDH",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "24",
+          "name": "24"
+        },
+        {
+          "id": "46",
+          "name": "46"
+        },
+        {
+          "id": "c11",
+          "name": "C11"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHOMRTON",
+      "commonName": "Homerton Rail Station",
+      "id": "910GHOMRTON",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHONROPK",
+      "commonName": "Honor Oak Park Rail Station",
+      "id": "910GHONROPK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHOXTON",
+      "commonName": "Hoxton Rail Station",
+      "id": "910GHOXTON",
+      "lines": [
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "242",
+          "name": "242"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "394",
+          "name": "394"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n242",
+          "name": "N242"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHRGYGL",
+      "commonName": "Harringay Green Lanes Rail Station",
+      "id": "910GHRGYGL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "w5",
+          "name": "W5"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHROW",
+      "commonName": "Harrow & Wealdstone Rail Station",
+      "id": "910GHROW",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GHTCHEND",
+      "commonName": "Hatch End Rail Station",
+      "id": "910GHTCHEND",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKENOLYM",
+      "commonName": "Kensington (Olympia) Rail Station",
+      "id": "910GKENOLYM",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKENR",
+      "commonName": "Kensal Rise Rail Station",
+      "id": "910GKENR",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKENSLG",
+      "commonName": "Kensal Green Rail Station",
+      "id": "910GKENSLG",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKEWGRDN",
+      "commonName": "Kew Gardens Rail Station",
+      "id": "910GKEWGRDN",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKLBRNHR",
+      "commonName": "Kilburn High Road Rail Station",
+      "id": "910GKLBRNHR",
+      "lines": [
+        {
+          "id": "206",
+          "name": "206"
+        },
+        {
+          "id": "31",
+          "name": "31"
+        },
+        {
+          "id": "316",
+          "name": "316"
+        },
+        {
+          "id": "32",
+          "name": "32"
+        },
+        {
+          "id": "328",
+          "name": "328"
+        },
+        {
+          "id": "632",
+          "name": "632"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n28",
+          "name": "N28"
+        },
+        {
+          "id": "n31",
+          "name": "N31"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKNTSHTW",
+      "commonName": "Kentish Town West Rail Station",
+      "id": "910GKNTSHTW",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GKTON",
+      "commonName": "Kenton Rail Station",
+      "id": "910GKTON",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GLEYTNMR",
+      "commonName": "Leyton Midland Road Rail Station",
+      "id": "910GLEYTNMR",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "w16",
+          "name": "W16"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GLIVST",
+      "commonName": "London Liverpool Street Rail Station",
+      "id": "910GLIVST",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GLONFLDS",
+      "commonName": "London Fields Rail Station",
+      "id": "910GLONFLDS",
+      "lines": [
+        {
+          "id": "106",
+          "name": "106"
+        },
+        {
+          "id": "236",
+          "name": "236"
+        },
+        {
+          "id": "254",
+          "name": "254"
+        },
+        {
+          "id": "277",
+          "name": "277"
+        },
+        {
+          "id": "55",
+          "name": "55"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n253",
+          "name": "N253"
+        },
+        {
+          "id": "n55",
+          "name": "N55"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GLYTNSHR",
+      "commonName": "Leytonstone High Road Rail Station",
+      "id": "910GLYTNSHR",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GNEWXGTE",
+      "commonName": "New Cross Gate Rail Station",
+      "id": "910GNEWXGTE",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GNORWDJ",
+      "commonName": "Norwood Junction Rail Station",
+      "id": "910GNORWDJ",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GNWCRELL",
+      "commonName": "New Cross ELL Rail Station",
+      "id": "910GNWCRELL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GNWEMBLY",
+      "commonName": "North Wembley Rail Station",
+      "id": "910GNWEMBLY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GPCKHMQD",
+      "commonName": "Queens Road Peckham Rail Station",
+      "id": "910GPCKHMQD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GPCKHMRY",
+      "commonName": "Peckham Rye Rail Station",
+      "id": "910GPCKHMRY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "p13",
+          "name": "P13"
+        },
+        {
+          "id": "southeastern",
+          "name": "Southeastern"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        },
+        {
+          "id": "thameslink",
+          "name": "Thameslink"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GPENEW",
+      "commonName": "Penge West Rail Station",
+      "id": "910GPENEW",
+      "lines": [
+        {
+          "id": "176",
+          "name": "176"
+        },
+        {
+          "id": "197",
+          "name": "197"
+        },
+        {
+          "id": "227",
+          "name": "227"
+        },
+        {
+          "id": "354",
+          "name": "354"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GQPRK",
+      "commonName": "Queens Park (London) Rail Station",
+      "id": "910GQPRK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GRCTRYRD",
+      "commonName": "Rectory Road Rail Station",
+      "id": "910GRCTRYRD",
+      "lines": [
+        {
+          "id": "149",
+          "name": "149"
+        },
+        {
+          "id": "243",
+          "name": "243"
+        },
+        {
+          "id": "276",
+          "name": "276"
+        },
+        {
+          "id": "67",
+          "name": "67"
+        },
+        {
+          "id": "76",
+          "name": "76"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GRICHMND",
+      "commonName": "Richmond (London) Rail Station",
+      "id": "910GRICHMND",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "south-western-railway",
+          "name": "South Western Railway"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GROMFORD",
+      "commonName": "Romford Rail Station",
+      "id": "910GROMFORD",
+      "lines": [
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GRTHERHI",
+      "commonName": "Rotherhithe Rail Station",
+      "id": "910GRTHERHI",
+      "lines": [
+        {
+          "id": "381",
+          "name": "381"
+        },
+        {
+          "id": "c10",
+          "name": "C10"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSACTON",
+      "commonName": "South Acton Rail Station",
+      "id": "910GSACTON",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSBURY",
+      "commonName": "Southbury Rail Station",
+      "id": "910GSBURY",
+      "lines": [
+        {
+          "id": "121",
+          "name": "121"
+        },
+        {
+          "id": "191",
+          "name": "191"
+        },
+        {
+          "id": "307",
+          "name": "307"
+        },
+        {
+          "id": "313",
+          "name": "313"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSEVNSIS",
+      "commonName": "Seven Sisters Rail Station",
+      "id": "910GSEVNSIS",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSHADWEL",
+      "commonName": "Shadwell Rail Station",
+      "id": "910GSHADWEL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSHMPSTD",
+      "commonName": "South Hampstead Rail Station",
+      "id": "910GSHMPSTD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSHPDSB",
+      "commonName": "Shepherds Bush Rail Station",
+      "id": "910GSHPDSB",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSHRDHST",
+      "commonName": "Shoreditch High Street Rail Station",
+      "id": "910GSHRDHST",
+      "lines": [
+        {
+          "id": "35",
+          "name": "35"
+        },
+        {
+          "id": "388",
+          "name": "388"
+        },
+        {
+          "id": "47",
+          "name": "47"
+        },
+        {
+          "id": "8",
+          "name": "8"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n8",
+          "name": "N8"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSIVRST",
+      "commonName": "Silver Street Rail Station",
+      "id": "910GSIVRST",
+      "lines": [
+        {
+          "id": "102",
+          "name": "102"
+        },
+        {
+          "id": "144",
+          "name": "144"
+        },
+        {
+          "id": "34",
+          "name": "34"
+        },
+        {
+          "id": "444",
+          "name": "444"
+        },
+        {
+          "id": "491",
+          "name": "491"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "sl1",
+          "name": "SL1"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSKENTON",
+      "commonName": "South Kenton Rail Station",
+      "id": "910GSKENTON",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTFD",
+      "commonName": "Stratford (London) Rail Station",
+      "id": "910GSTFD",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "elizabeth",
+          "name": "Elizabeth line"
+        },
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTJMSST",
+      "commonName": "St James Street (London) Rail Station",
+      "id": "910GSTJMSST",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTKNWNG",
+      "commonName": "Stoke Newington Rail Station",
+      "id": "910GSTKNWNG",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTMFDHL",
+      "commonName": "Stamford Hill Rail Station",
+      "id": "910GSTMFDHL",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTNBGPK",
+      "commonName": "Stonebridge Park Rail Station",
+      "id": "910GSTNBGPK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSTOTNHM",
+      "commonName": "South Tottenham Rail Station",
+      "id": "910GSTOTNHM",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSURREYQ",
+      "commonName": "Surrey Quays Rail Station",
+      "id": "910GSURREYQ",
+      "lines": [
+        {
+          "id": "1",
+          "name": "1"
+        },
+        {
+          "id": "188",
+          "name": "188"
+        },
+        {
+          "id": "199",
+          "name": "199"
+        },
+        {
+          "id": "225",
+          "name": "225"
+        },
+        {
+          "id": "381",
+          "name": "381"
+        },
+        {
+          "id": "47",
+          "name": "47"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "n1",
+          "name": "N1"
+        },
+        {
+          "id": "n199",
+          "name": "N199"
+        },
+        {
+          "id": "n381",
+          "name": "N381"
+        },
+        {
+          "id": "p12",
+          "name": "P12"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GSYDENHM",
+      "commonName": "Sydenham Rail Station",
+      "id": "910GSYDENHM",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GTHBLDSG",
+      "commonName": "Theobalds Grove Rail Station",
+      "id": "910GTHBLDSG",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GTURKYST",
+      "commonName": "Turkey Street Rail Station",
+      "id": "910GTURKYST",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GUPMNSTR",
+      "commonName": "Upminster Rail Station",
+      "id": "910GUPMNSTR",
+      "lines": [
+        {
+          "id": "c2c",
+          "name": "c2c"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GUPRHLWY",
+      "commonName": "Upper Holloway Rail Station",
+      "id": "910GUPRHLWY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWAPPING",
+      "commonName": "Wapping Rail Station",
+      "id": "910GWAPPING",
+      "lines": [
+        {
+          "id": "100",
+          "name": "100"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWATFDHS",
+      "commonName": "Watford High Street Rail Station",
+      "id": "910GWATFDHS",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWATFJDC",
+      "commonName": "Watford Junction Rail Station",
+      "id": "910GWATFJDC",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWBRMPTN",
+      "commonName": "West Brompton Rail Station",
+      "id": "910GWBRMPTN",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWCHAPEL",
+      "commonName": "Whitechapel Rail Station",
+      "id": "910GWCHAPEL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWCROYDN",
+      "commonName": "West Croydon Rail Station",
+      "id": "910GWCROYDN",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "southern",
+          "name": "Southern"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWDGRNPK",
+      "commonName": "Woodgrange Park Rail Station",
+      "id": "910GWDGRNPK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWDST",
+      "commonName": "Wood Street Rail Station",
+      "id": "910GWDST",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWHHRTLA",
+      "commonName": "White Hart Lane Rail Station",
+      "id": "910GWHHRTLA",
+      "lines": [
+        {
+          "id": "greater-anglia",
+          "name": "Greater Anglia"
+        },
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWHMDSTD",
+      "commonName": "West Hampstead Rail Station",
+      "id": "910GWHMDSTD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWLSDJHL",
+      "commonName": "Willesden Junction Rail Station",
+      "id": "910GWLSDJHL",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWLTHQRD",
+      "commonName": "Walthamstow Queens Road Rail Station",
+      "id": "910GWLTHQRD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWLTWCEN",
+      "commonName": "Walthamstow Central Rail Station",
+      "id": "910GWLTWCEN",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWMBY",
+      "commonName": "Wembley Central Rail Station",
+      "id": "910GWMBY",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        },
+        {
+          "id": "west-midlands-trains",
+          "name": "West Midlands Trains"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWNDSWRD",
+      "commonName": "Wandsworth Road Rail Station",
+      "id": "910GWNDSWRD",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    },
+    {
+      "naptanId": "910GWNSTDPK",
+      "commonName": "Wanstead Park Rail Station",
+      "id": "910GWNSTDPK",
+      "lines": [
+        {
+          "id": "london-overground",
+          "name": "London Overground"
+        }
+      ]
+    }
+  ]
