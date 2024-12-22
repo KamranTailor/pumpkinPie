@@ -166,10 +166,18 @@ router.get('/tfl-status-line', async (request, response) => {
                 for (let i in data[0].tubeData) {
                     if (data[0].tubeData[i].id === id) {
                         lineStatus = data[0].tubeData[i];
+                        stopPointUrl = "https://api.tfl.gov.uk/StopPoint/Mode/tube";
+                        break;
+                    }
+                } 
+
+                for (let i in data[0].overgroundData) {
+                    if (data[0].overgroundData[i].id === id) {
+                        lineStatus = data[0].overgroundData[i];
+                        stopPointUrl = "https://api.tfl.gov.uk/StopPoint/Mode/london-overground";
+                        break;
                     }
                 }
-                stopPointUrl = "https://api.tfl.gov.uk/StopPoint/Mode/tube";
-                break;
         }
 
 
