@@ -107,7 +107,7 @@ h1 {
 }
 
 /* Last Updated */
-#lastUpdated {
+.lastUpdated {
     font-size: 1rem;
     color: #888;
     margin-top: 15px;

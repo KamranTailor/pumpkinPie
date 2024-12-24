@@ -1,6 +1,14 @@
 let santaTraverling = true;
 let nextLocation;
 let data;
+
+let countdownTimer = null;
+
+let currentSleighMarker = null;
+let currentSleighPolyline = null;
+let previousSantaTraverling = null;
+let currentDelivering = null;
+
 var treeIcon = L.icon({
     iconUrl: './icons/tree-marker-icon.png',
     iconRetinaUrl: './icons/tree-marker-icon-2x.png',
@@ -15,7 +23,6 @@ var giftIcon = L.icon({
 
 var santaIcon = L.icon({
     iconUrl: './icons/santa-marker-icon.png',
-    iconRetinaUrl: './icons/santa-marker-icon-2x.png',
     iconSize: [60, 60], // Increase the size of the Santa icon
     iconAnchor: [30, 60], // Adjust anchor to center the icon properly (optional)
 });
@@ -46,12 +53,10 @@ async function onStart() {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    //fetchData(new Date(Date.now()));
-    //setInterval(() => {
-    //    if (santaTraverling) {
-    //        fetchData(new Date(Date.now()));
-    //    }
-    //}, 10000); // 10 seconds
+    fetchData(new Date(Date.now()));
+    setInterval(() => {
+        fetchData(new Date(Date.now()));
+    }, 5000); // 10 seconds
 
 
     //fetchData(new Date('2024-12-25T01:34:30.115Z'));
@@ -79,6 +84,11 @@ async function fetchData(currentDate) {
     });
 
     // Add markers to the map
+    santaTraverling = true;
+    if (currentDelivering) {
+        map.removeLayer(currentDelivering);
+    }
+    currentDelivering = null
     destinations.map(destination => {
         const arrivalDate = new Date(destination.arrival);
         const arrivalHours = arrivalDate.getUTCHours();  // Use UTC hours
@@ -97,23 +107,36 @@ async function fetchData(currentDate) {
         let marker;
         if (santaIsHere) {
             santaTraverling = false;
-            marker = L.marker([destination.location.lat, destination.location.lng], {
+            currentDelivering = L.marker([destination.location.lat, destination.location.lng], {
                 icon: santaIcon,
                 zIndexOffset: 200 // Set higher z-index for prominence
             }).addTo(map);
             nextLocation = destination;
+            currentDelivering.bindPopup(
+                `<b>${destination.city}</b><br>
+                Arrival: ${arrivalDate.toUTCString()} @ ${arrivalTime}<br>
+                Departure: ${departureDate.toUTCString()} @ ${departureTime}`,
+                popupOptions
+            );
+
         } else if (santaWasHere) {
             marker = L.marker([destination.location.lat, destination.location.lng], { icon: giftIcon }).addTo(map);
+            marker.bindPopup(
+                `<b>${destination.city}</b><br>
+                Arrival: ${arrivalDate.toUTCString()} @ ${arrivalTime}<br>
+                Departure: ${departureDate.toUTCString()} @ ${departureTime}`,
+                popupOptions
+            );
+
         } else {
             marker = L.marker([destination.location.lat, destination.location.lng], { icon: treeIcon }).addTo(map);
+            marker.bindPopup(
+                `<b>${destination.city}</b><br>
+                Arrival: ${arrivalDate.toUTCString()} @ ${arrivalTime}<br>
+                Departure: ${departureDate.toUTCString()} @ ${departureTime}`,
+                popupOptions
+            );
         }
-
-        marker.bindPopup(
-            `<b>${destination.city}</b><br>
-            Arrival: ${arrivalDate.toUTCString()} @ ${arrivalTime}<br>
-            Departure: ${departureDate.toUTCString()} @ ${departureTime}`,
-            popupOptions
-        );
     });
 
     console.log("santa is traverling", santaTraverling);
@@ -160,22 +183,43 @@ async function fetchData(currentDate) {
             currentDate.getTime()
         );
 
-        var point1 = [lastDeparture.location.lat, lastDeparture.location.lng];  // Point 1: London
-        var point2 = [nextArrival.location.lat, nextArrival.location.lng];   // Point 2: Close to London
+        // Remove the existing sleigh marker if it exists
+        if (currentSleighMarker) {
+            map.removeLayer(currentSleighMarker);
+        }
 
-        // Draw a line between the two points
-        var latlngs = [point1, point2];
-        var polyline = L.polyline(latlngs, { color: 'blue', weight: 4 }).addTo(map);
+        // Remove the existing polyline if it exists
+        if (currentSleighPolyline) {
+            map.removeLayer(currentSleighPolyline);
+        }
 
-        marker = L.marker([currentLocation.lat, currentLocation.lon], {
+        // Draw a new polyline between the two points
+        const latlngs = [
+            [lastDeparture.location.lat, lastDeparture.location.lng],
+            [nextArrival.location.lat, nextArrival.location.lng]
+        ];
+        currentSleighPolyline = L.polyline(latlngs, { color: 'blue', weight: 4 }).addTo(map);
+
+        // Add a new sleigh marker
+        currentSleighMarker = L.marker([currentLocation.lat, currentLocation.lon], {
             icon: santaSleighIcon,
             zIndexOffset: 200 // Set higher z-index for prominence
         }).addTo(map);
 
-        marker.bindPopup(`<b>Next Stop: ${nextArrival.city}</b>`);
+        currentSleighMarker.bindPopup(`<b>Next Stop: ${nextArrival.city}</b>`);
 
         console.log(`Current location: Lat = ${currentLocation.lat}, Lon = ${currentLocation.lon}`);
-        nextLocation = nextArrival
+        nextLocation = nextArrival;
+    } else {
+        // Remove sleigh and line if Santa is delivering presents
+        if (currentSleighMarker) {
+            map.removeLayer(currentSleighMarker);
+            currentSleighMarker = null;
+        }
+        if (currentSleighPolyline) {
+            map.removeLayer(currentSleighPolyline);
+            currentSleighPolyline = null;
+        }
     }
 
     console.log(nextLocation)
@@ -222,32 +266,37 @@ async function fetchData(currentDate) {
 }
 
 function countdown() {
+    // Cache references to the HTML elements
     const minutesElement = document.getElementById("arrival-time-m");
     const secondsElement = document.getElementById("arrival-time-s");
-  
+
+    // Parse the initial countdown values
     let minutes = parseInt(minutesElement.textContent, 10);
     let seconds = parseInt(secondsElement.textContent, 10);
-  
-    const timer = setInterval(() => {
-      if (seconds === 0) {
-        if (minutes === 0) {
-          clearInterval(timer); // Stop the timer
-          fetchData(new Date(Date.now())); // Run the function when the timer reaches 0
-          return;
+
+    countdownTimer = setInterval(() => {
+        // Dynamically access the current values from the HTML
+        minutes = parseInt(minutesElement.textContent, 10);
+        seconds = parseInt(secondsElement.textContent, 10);
+
+        if (seconds === 0) {
+            if (minutes <= 0) {
+                fetchData(new Date(Date.now())); // Fetch new data
+            } else {
+                minutes -= 1;
+                seconds = 59;
+            }
         } else {
-          minutes -= 1;
-          seconds = 59;
+            seconds -= 1;
         }
-      } else {
-        seconds -= 1;
-      }
-  
-      // Update the HTML elements
-      minutesElement.textContent = minutes;
-      secondsElement.textContent = seconds.toString().padStart(2, "0");
+
+        // Update the HTML elements
+        minutesElement.textContent = minutes;
+        secondsElement.textContent = seconds.toString().padStart(2, "0");
     }, 1000);
-  }
-  
+}
+
+
 
 
 onStart()
