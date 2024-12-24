@@ -46,15 +46,15 @@ async function onStart() {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    fetchData(new Date(Date.now()));
-    setInterval(() => {
-        if (santaTraverling) {
-            fetchData(new Date(Date.now()));
-        }
-    }, 10000); // 10 seconds
+    //fetchData(new Date(Date.now()));
+    //setInterval(() => {
+    //    if (santaTraverling) {
+    //        fetchData(new Date(Date.now()));
+    //    }
+    //}, 10000); // 10 seconds
 
 
-    //fetchData(new Date('2024-12-25T01:02:30.115Z'));
+    //fetchData(new Date('2024-12-25T01:34:30.115Z'));
     countdown()
 }
 
