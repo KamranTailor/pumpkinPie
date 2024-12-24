@@ -1,0 +1,186 @@
+/* Base Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(180deg, #ffffff, #f0f9ff);
+    color: #333;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Main Container */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Highlight */
+.highlight {
+    color: #ff758c;
+    font-weight: bold;
+}
+
+/* Current Status */
+#locationNow {
+    color: #ff758c;
+}
+
+/* Last Stop Section */
+#lastStop {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Arrival Section */
+#arrival {
+    margin-top: 15px;
+    font-size: 1.8rem;
+}
+
+/* Photo Gallery */
+#photopGallary {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#photopGallary img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#photopGallary img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Map Container */
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.button {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+/* Last Updated */
+#lastUpdated {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 15px;
+}
+
+/* Custom Popup */
+.custom-popup {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 8px rgba(255, 118, 179, 0.4);
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-popup:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 0 12px rgba(255, 118, 179, 0.6);
+}
+
+.custom-popup b {
+    color: #ff758c;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #photopGallary img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    .button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+/* Key Section */
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between each key item */
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.key-item img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.key-item img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

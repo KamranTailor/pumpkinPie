@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rainbow Logic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css"> <!-- New CSS file -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script>const noFooter = false; </script>
+    <style>
+        /* Set map container size */
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <h1>Santa is currently <span id="type">delivering presents</span> <span id="locationNow">New York</span></h1>
+        
+        <div id="lastStop">
+            Population of <span id="population" class="highlight"></span>
+        </div>
+
+        <div id="arrival">
+            <span id="arrival-icon"></span>
+            <span id="arrival-time-m" class="highlight"></span>m
+            <span id="arrival-time-s" class="highlight"></span>s
+        </div>
+
+        Total of <span id="deliverd" class="highlight"></span> Presents Deliverd
+        
+        <!-- Mock Data: Photo Gallery -->
+        <div id="photopGallary">
+        </div>
+        
+        <br> <button class="button" onclick="opd()">Open map in full screen</button>
+        <div id="lastUpdated">Last Updated: <span id="lastUpdated"></span></div>
+
+        <div class="key">
+            <div class="key-item">
+                <img src="./icons/gift-marker-icon.png" alt="Santa Sleigh" class="icon">
+                <span>Present Delivered</span>
+            </div>
+            <div class="key-item">
+                <img src="./icons/tree-marker-icon.png" alt="Santa Sleigh" class="icon">
+                <span>To Be Delivered</span>
+            </div>
+        </div>
+        <!-- Map -->
+        <div id="map"></div>
+    </main>
+    <script>
+        function opd() {
+            window.location = './full.html';
+        }
+    </script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js" nonce="xyz123"></script>
+    <script src="traverlingSanta.js"></script>
+    <script src="../../global.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+.features-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 300px;
+    min-width: 300px;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+/* Optional: Style for each feature container */
+#map-container, #stops-container, #feature-container {
+    height: 100%;  /* Ensure content fills the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom Popup Styling */
+.custom-popup {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-popup b {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.custom-popup br {
+    line-height: 1.5;
+}
+
