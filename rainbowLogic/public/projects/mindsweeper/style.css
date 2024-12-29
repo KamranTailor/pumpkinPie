@@ -1,0 +1,36 @@
+#grid-container {
+    display: grid;
+    gap: 1px;
+    width: fit-content;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .cell.revealed {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .cell.marked {
+    background-image: url("./flag.png");
+    background-size: cover; /* Ensures the image covers the entire cell */
+    background-position: center; /* Centers the image */
+    text-indent: -9999px; /* Hides any text in the cell */
+    background-color: lightgray;
+  }
+  
+
+  .cell.clicked {
+    background-color: lightgray;
+    color: #333;
+  }
+  

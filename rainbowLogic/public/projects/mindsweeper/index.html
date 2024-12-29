@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rainbow Logic</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>
+      <center>Mindsweeper</center>
+    </h1>
+    <div class="notice ">Are you on mobile? You might want to play on easy or with less then 10x10 cell grid.</div>
+    <h2>Quick Play</h2>
+    <center>
+        <button id="easy" class="button">Easy</button>
+        <button id="medium" class="button">Medium</button>
+        <button id="hard" class="button">Hard</button>
+    </center>
+    <h2>Custom</h2>
+    <center>
+        <input type="number" id="size" placeholder="Size" class="input">
+        <input type="number" id="mines" placeholder="Mines" class="input"> <br>
+        <button id="custom" class="button">Custom</button>
+    </center>
+  </main>
+  <script>
+    document.getElementById("easy").addEventListener("click", () => {
+      window.location.href = "play.html?size=9&mines=10";
+    });
+    document.getElementById("medium").addEventListener("click", () => {
+      window.location.href = "play.html?size=16&mines=20";
+    });
+    document.getElementById("hard").addEventListener("click", () => {
+      window.location.href = "play.html?size=16&mines=40";
+    });
+    document.getElementById("custom").addEventListener("click", () => {
+      const size = document.getElementById("size").value;
+      const mines = document.getElementById("mines").value;
+
+      if (size < 1 || mines < 1) {
+        alert("Size and mines must be greater than 0");
+        return;
+      }
+      window.location.href = `play.html?size=${size}&mines=${mines}`;
+    });
+  </script>
+  <script src="../../global.js"></script>
+</body>
+
+</html>

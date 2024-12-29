@@ -223,3 +223,10 @@ footer {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
