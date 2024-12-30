@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css"> <!-- New CSS file -->
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script>const noFooter = false; </script>
+    <script> const showFooter = true; </script>
     <style>
         /* Set map container size */
         #map {
@@ -23,6 +23,9 @@
     <main>
         <h1>Santa is currently <span id="type">delivering presents</span> <span id="locationNow">New York</span></h1>
         
+        <div class="notice ">This is simulated data simulateing what santas path is if he was traverling today. For live data you will need to come back 
+            on the 24th of December.</div>
+
         <div id="lastStop">
             Population of <span id="population" class="highlight"></span>
         </div>

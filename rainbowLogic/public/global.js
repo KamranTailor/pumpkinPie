@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     insertHeader()
 
-    insertFooter()
+    if (typeof showFooter !== 'undefined') {
+        if (!showFooter) { insertFooter() }
+    } else {
+        insertFooter()
+    }
 
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('nav-links');

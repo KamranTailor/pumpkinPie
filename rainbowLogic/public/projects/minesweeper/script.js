@@ -39,7 +39,7 @@ function createGrid() {
         for (let j = 0; j < gridSize; j++) {
             grid[i].push({
                 bomb: 0,
-                id: Math.floor(1000 + Math.random() * 9000),
+                id: Math.floor(100000 + Math.random() * 900000),
                 x: i,
                 y: j,
                 marker: false,
@@ -270,7 +270,6 @@ function endGame(won) {
     } else {
         alert('Game Over');
     }
-    window.location.reload();
 }
 
 onStart();

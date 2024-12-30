@@ -42,7 +42,20 @@ var popupOptions = {
 
 var map = L.map('map').setView([0, 0], 1); // [latitude, longitude], zoom level
 
+function getCustomDate() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const currentDay = now.getDate();
 
+    // Check if the current day is even or odd
+    if (currentDay % 2 === 0) {
+        // Even day - return December 24th of the current year
+        return new Date(year, 11, 24, now.getHours(), now.getMinutes(), now.getSeconds());
+    } else {
+        // Odd day - return December 25th of the current year
+        return new Date(year, 11, 25, now.getHours(), now.getMinutes(), now.getSeconds());
+    }
+}
 
 async function onStart() {
     const response = await fetch('https://firebasestorage.googleapis.com/v0/b/santa-tracker-firebase.appspot.com/o/route%2Fsanta_en.json?alt=media&2018b');
@@ -53,9 +66,9 @@ async function onStart() {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    fetchData(new Date(Date.now()));
+    fetchData(getCustomDate());
     setInterval(() => {
-        fetchData(new Date(Date.now()));
+        fetchData(getCustomDate());
     }, 5000); // 10 seconds
 
 
@@ -281,7 +294,7 @@ function countdown() {
 
         if (seconds === 0) {
             if (minutes <= 0) {
-                fetchData(new Date(Date.now())); // Fetch new data
+                fetchData(getCustomDate()); 
             } else {
                 minutes -= 1;
                 seconds = 59;
