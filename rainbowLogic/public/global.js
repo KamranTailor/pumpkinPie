@@ -43,9 +43,22 @@ async function insertHeader() {
 }
 
 async function insertFooter() {
+    const res = await fetch('/version');
+    const dataServer = await res.json();
+    console.log(dataServer);
+
+    const date = new Date(dataServer.date);
+    const formattedDate = date.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "2-digit",
+    });
+    const formattedTime = date.toLocaleTimeString("en-GB");
+
     const data = `    <footer>
         <div class="container">
-            <p>© 2024 <a href="https://kamrantailor.com" class="highlight" >Kamran Tailor</a>. Made with ❤️ for creativity.</p>
+            <p>© 2024 <a href="https://kamrantailor.com" class="highlight" >Kamran Tailor</a>. Made with ❤️ for creativity.</p> <br>
+            [Conected to ${dataServer.version} - ${dataServer.environment} server ${formattedDate} ${formattedTime}] 
         </div>
     </footer>
 `

@@ -43,6 +43,18 @@ async function insertHeader() {
 }
 
 async function insertFooter() {
+    const res = await fetch('/version');
+    const dataServer = await res.json();
+    console.log(dataServer);
+
+    const date = new Date(dataServer.date);
+    const formattedDate = date.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "2-digit",
+    });
+    const formattedTime = date.toLocaleTimeString("en-GB");
+
     const data = `<footer>
     <div class="footer-container">
         <div class="left-section">
@@ -68,6 +80,8 @@ async function insertFooter() {
     <hr>
     <div class="disclaimer">
         <p>Made By Tailored Technology Inc, Maintained by Kamran Industries London</p>
+            [Conected to ${dataServer.version} - ${dataServer.environment} server ${formattedDate} ${formattedTime}] 
+
     </div>
     <div class="copyright-terms">
         <p>&copy; 2024 Kamran Tailor</p>

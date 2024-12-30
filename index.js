@@ -1,3 +1,6 @@
+let version = "V11.52";
+let versionDate = new Date();;
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
@@ -42,7 +45,11 @@ rainbowLogicApp.use(express.static('rainbowLogic/public'));
 
 
 app.get('/version', (req, res) => {
-    res.json({ version: "V1", environment: isDev ? 'development' : 'production' });
+    res.json({ version: version, environment: isDev ? 'development' : 'production', date: versionDate });
+});
+
+rainbowLogicApp.get('/version', (req, res) => {
+    res.json({ version: version, environment: isDev ? 'development' : 'production', date: versionDate});
 });
 
 rainbowLogicApp.listen(rainbowLogicPort, () => {
