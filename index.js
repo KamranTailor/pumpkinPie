@@ -1,4 +1,4 @@
-let version = "V11.55";
+let version = "V11.56";
 let versionDate = new Date();;
 
 import express from 'express';
@@ -48,17 +48,17 @@ rainbowLogicApp.use(express.static('rainbowLogic/public'));
 
 
 app.get('/version', (req, res) => {
-    res.json({ version: version, environment: isDev ? 'development' : 'production', date: versionDate });
+    res.json({ version: version, environment: isDev ? 'Development' : 'Production', date: versionDate });
 });
 
 rainbowLogicApp.get('/version', (req, res) => {
-    res.json({ version: version, environment: isDev ? 'development' : 'production', date: versionDate});
+    res.json({ version: version, environment: isDev ? 'Development' : 'Production', date: versionDate});
 });
 
 rainbowLogicApp.listen(rainbowLogicPort, () => {
-    console.log(`Listening on port ${rainbowLogicPort} in ${isDev ? 'development' : 'production'} mode`);
+    console.log(`Listening on port ${rainbowLogicPort} in ${isDev ? 'Development' : 'Production'} mode`);
 });
 
 server.listen(port, () => {
-    console.log(`Listening on port ${port} in ${isDev ? 'development' : 'production'} mode`);
+    console.log(`Listening on port ${port} in ${isDev ? 'Development' : 'Production'} mode`);
 });

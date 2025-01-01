@@ -8,15 +8,19 @@ body, html {
     background: linear-gradient(180deg, #ffffff, #f0f9ff);
     color: #333;
     min-height: 100vh;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
 }
 
+/* Main Content */
 main {
+    flex: 1; /* Allow main content to grow and take available space */
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 100px; /* Reserve space for the footer */
-    height: 70vh;
+    padding-bottom: 20px; /* Extra spacing for visual balance */
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -24,6 +28,7 @@ footer {
     padding: 1rem 0;
     width: 100%;
 }
+
 .container {
     width: 90%;
     max-width: 1200px;
