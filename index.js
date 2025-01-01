@@ -1,4 +1,4 @@
-let version = "V11.53";
+let version = "V11.54";
 let versionDate = new Date();;
 
 import express from 'express';
@@ -23,9 +23,12 @@ import kamran from './functions/main.js';
 import { initilaizeDiscordBot } from './discord/main.js'
 import { initializePeriodicTasks } from './dump/main.js'; 
 
+
 if (isDev == false) {
+    initilaizeDiscordBot(process.env.DISCORDBOT);
     initializePeriodicTasks();
-    initilaizeDiscordBot();
+} else {
+    initilaizeDiscordBot(process.env.DISCORDBOTDEV);
 }
 
 import initializeSocket from './sockets/spotifySockets.js'; 
