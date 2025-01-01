@@ -21,10 +21,13 @@
   </head>
   <body>
     <main>
-        <h1>Santa is currently <span id="type">delivering presents</span> <span id="locationNow">New York</span></h1>
-        
         <div class="notice ">This is simulated data simulateing what santas path is if he was traverling today. For live data you will need to come back 
             on the 24th of December.</div>
+
+        <span class="change-text">Showing <span id="date-change">24</span>th December </span> 
+        <button class="button change" onclick="changeDaySim()">Change Date</button>
+
+        <h1>Santa is currently <span id="type">delivering presents</span> <span id="locationNow">New York</span></h1>
 
         <div id="lastStop">
             Population of <span id="population" class="highlight"></span>

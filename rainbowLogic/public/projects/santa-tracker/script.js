@@ -3,6 +3,7 @@ let nextLocation;
 let data;
 
 let countdownTimer = null;
+let christmasEve = true;
 
 let currentSleighMarker = null;
 let currentSleighPolyline = null;
@@ -47,12 +48,9 @@ function getCustomDate() {
     const year = now.getFullYear();
     const currentDay = now.getDate();
 
-    // Check if the current day is even or odd
-    if (currentDay % 2 === 0) {
-        // Even day - return December 24th of the current year
+    if (christmasEve) {
         return new Date(year, 11, 24, now.getHours(), now.getMinutes(), now.getSeconds());
     } else {
-        // Odd day - return December 25th of the current year
         return new Date(year, 11, 25, now.getHours(), now.getMinutes(), now.getSeconds());
     }
 }
@@ -86,8 +84,8 @@ async function fetchData(currentDate) {
         const departureDate = new Date(departure);
 
         // Convert to UTC
-        arrivalDate.setUTCFullYear(2024);
-        departureDate.setUTCFullYear(2024);
+        arrivalDate.setUTCFullYear(2025);
+        departureDate.setUTCFullYear(2025);
 
         return {
             ...destination,
@@ -309,7 +307,21 @@ function countdown() {
     }, 1000);
 }
 
-
-
+function changeDaySim() {
+    if (christmasEve) {
+        const now = new Date();
+        if (now.getHours() < 11) {
+            christmasEve = false;
+            document.getElementById('date-change').innerHTML = "25";
+            getCustomDate()
+        } else {
+            alert("It's too late to change the date");
+        }
+    } else {
+        christmasEve = true;
+        document.getElementById('date-change').innerHTML = "24";
+        getCustomDate()
+    }
+}
 
 onStart()

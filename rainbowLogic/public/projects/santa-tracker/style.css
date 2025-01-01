@@ -184,3 +184,11 @@ h1 {
     transform: scale(1.1); /* Slightly enlarge on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
+
+.change {
+    padding: 10px;
+}
+
+.change-text {
+    font-size: 1.2rem;
+}
