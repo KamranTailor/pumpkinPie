@@ -57,7 +57,7 @@ async function insertFooter() {
 
     const data = `    <footer>
         <div class="container">
-            <p>© 2024 <a href="https://kamrantailor.com" class="highlight" >Kamran Tailor</a>. Made with ❤️ for creativity.</p> <br>
+            <p>© 2024 <a href="https://kamrantailor.com" class="highlight" >Kamran Tailor</a>. Made with ❤️ for creativity.</p>
             [Conected to ${dataServer.version} - ${dataServer.environment} server ${formattedDate} ${formattedTime}] 
         </div>
     </footer>
